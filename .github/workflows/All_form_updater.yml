@@ -39,6 +39,9 @@ on:
         required: false
         type: string
 
+permissions:
+  contents: write
+
 jobs:
   scrape-racing-data:
     runs-on: ubuntu-latest
@@ -103,7 +106,7 @@ jobs:
           cat > run_scraper.py << 'EOFPYTHON'
           import os
           import sys
-          from ladbrokes_racing_scraper_enhanced import LadbrokesRacingScraper
+          from ladbrokes_racing_scraper import LadbrokesRacingScraper
           
           # Get configuration from environment
           email = os.getenv('SCRAPER_EMAIL')
