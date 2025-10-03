@@ -85,17 +85,10 @@ jobs:
           
           if [ -f "racing_data/${{ steps.date.outputs.today }}/summary.json" ]; then
             echo "### Summary" >> $GITHUB_STEP_SUMMARY
-            python -c "
-import json
-with open('racing_data/${{ steps.date.outputs.today }}/summary.json') as f:
-    data = json.load(f)
-    print(f\"- **Total Meetings**: {data['total_meetings']}\")
-    print(f\"- **Total Races**: {data['total_races']}\")
-    if 'countries' in data:
-        print('\n### By Country')
-        for country, count in data['countries'].items():
-            print(f\"- {country}: {count} meetings\")
-" >> $GITHUB_STEP_SUMMARY
+            MEETINGS=$(python -c "import json; f=open('racing_data/${{ steps.date.outputs.today }}/summary.json'); d=json.load(f); print(d['total_meetings'])")
+            RACES=$(python -c "import json; f=open('racing_data/${{ steps.date.outputs.today }}/summary.json'); d=json.load(f); print(d['total_races'])")
+            echo "- **Total Meetings**: $MEETINGS" >> $GITHUB_STEP_SUMMARY
+            echo "- **Total Races**: $RACES" >> $GITHUB_STEP_SUMMARY
           fi
 
       - name: Notify on failure
