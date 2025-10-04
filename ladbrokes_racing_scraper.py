@@ -358,12 +358,10 @@ class LadbrokesRacingScraper:
         Returns:
             List of country codes selected by user
         """
-        print("
-" + "="*70)
+        print("\n" + "="*70)
         print("SELECT COUNTRIES TO SCRAPE")
         print("="*70)
-        print("
-Available countries:")
+        print("\nAvailable countries:")
         print("-" * 70)
         
         # Display countries in a nice format
@@ -371,26 +369,21 @@ Available countries:")
         for idx, (code, name) in enumerate(sorted_countries, 1):
             print(f"{idx:2}. {code:3} - {name}")
         
-        print("
-" + "-" * 70)
-        print("
-Options:")
+        print("\n" + "-" * 70)
+        print("\nOptions:")
         print(" • Enter country codes separated by commas (e.g., AUS,HKG,NZL)")
         print(" • Enter numbers separated by commas (e.g., 1,3,4)")
         print(" • Press ENTER for Australia only (default)")
         print(" • Type 'ALL' for all countries")
         
-        user_input = input("
-Your selection: ").strip().upper()
+        user_input = input("\nYour selection: ").strip().upper()
         
         if not user_input:
-            print("
-✓ Selected: Australia only")
+            print("\n✓ Selected: Australia only")
             return ['AUS']
         
         if user_input == 'ALL':
-            print(f"
-✓ Selected: All {len(self.country_codes)} countries")
+            print(f"\n✓ Selected: All {len(self.country_codes)} countries")
             return list(self.country_codes.keys())
         
         # Parse input
@@ -408,13 +401,11 @@ Your selection: ").strip().upper()
                 selected_countries.append(inp)
         
         if not selected_countries:
-            print("
-⚠ No valid countries selected. Using Australia as default.")
+            print("\n⚠ No valid countries selected. Using Australia as default.")
             return ['AUS']
         
         # Display selected countries
-        print("
-✓ Selected countries:")
+        print("\n✓ Selected countries:")
         for code in selected_countries:
             print(f" • {code} - {self.country_codes.get(code, code)}")
         
@@ -427,32 +418,26 @@ Your selection: ").strip().upper()
         Returns:
             List of category codes selected by user
         """
-        print("
-" + "="*70)
+        print("\n" + "="*70)
         print("SELECT RACE CATEGORIES")
         print("="*70)
-        print("
-1. T - Thoroughbred (Horses)")
+        print("\n1. T - Thoroughbred (Horses)")
         print("2. G - Greyhound (Dogs)")
         print("3. H - Harness (Trotters/Pacers)")
-        print("
-Options:")
+        print("\nOptions:")
         print(" • Enter category codes separated by commas (e.g., T,G)")
         print(" • Enter numbers separated by commas (e.g., 1,2)")
         print(" • Press ENTER for Thoroughbred & Greyhound (default)")
         print(" • Type 'ALL' for all categories")
         
-        user_input = input("
-Your selection: ").strip().upper()
+        user_input = input("\nYour selection: ").strip().upper()
         
         if not user_input:
-            print("
-✓ Selected: Thoroughbred & Greyhound")
+            print("\n✓ Selected: Thoroughbred & Greyhound")
             return ['T', 'G']
         
         if user_input == 'ALL':
-            print("
-✓ Selected: All categories")
+            print("\n✓ Selected: All categories")
             return ['T', 'G', 'H']
         
         # Parse input
@@ -467,14 +452,12 @@ Your selection: ").strip().upper()
                     selected_categories.append(cat)
         
         if not selected_categories:
-            print("
-⚠ No valid categories selected. Using T & G as default.")
+            print("\n⚠ No valid categories selected. Using T & G as default.")
             return ['T', 'G']
         
         # Display selected categories
         cat_names = {'T': 'Thoroughbred', 'G': 'Greyhound', 'H': 'Harness'}
-        print("
-✓ Selected categories:")
+        print("\n✓ Selected categories:")
         for cat in selected_categories:
             print(f" • {cat} - {cat_names[cat]}")
         
@@ -503,11 +486,9 @@ Your selection: ").strip().upper()
             if categories is None:
                 categories = ['T', 'G']
         
-        print(f"
-{'='*70}")
+        print(f"\n{'='*70}")
         print(f"STARTING SCRAPE FOR {date}")
-        print(f"{'='*70}
-")
+        print(f"{'='*70}\n")
         
         # Create base directory structure
         date_dir = Path(self.base_dir) / date
@@ -519,15 +500,12 @@ Your selection: ").strip().upper()
         meetings = self.get_meetings(date=date, categories=categories, countries=countries)
         
         if not meetings:
-            print("
-⚠ No meetings found for this date and selection.")
+            print("\n⚠ No meetings found for this date and selection.")
             return
         
-        print(f"
-{'='*70}")
+        print(f"\n{'='*70}")
         print(f"FOUND {len(meetings)} TOTAL MEETINGS")
-        print(f"{'='*70}
-")
+        print(f"{'='*70}\n")
         
         # Process each meeting
         for idx, meeting in enumerate(meetings, 1):
@@ -548,4 +526,143 @@ Your selection: ").strip().upper()
                 f"{meeting_name}_{category_name.split()[0]}_{country}_{state}".replace("__", "_").rstrip("_")
             )
             meeting_dir = date_dir / folder_name
-            meeting_dir.mkd
+            meeting_dir.mkdir(exist_ok=True)
+            
+            # Save meeting overview
+            meeting_overview_path = meeting_dir / "meeting_info.json"
+            with open(meeting_overview_path, 'w', encoding='utf-8') as f:
+                json.dump(meeting, f, indent=2, ensure_ascii=False)
+            
+            # Process each race in the meeting
+            races = meeting.get("races", [])
+            print(f"   Found {len(races)} races")
+            
+            for race in races:
+                race_id = race.get("id", "")
+                race_number = race.get("race_number", 0)
+                race_name = race.get("name", "Unknown Race")
+                
+                if not race_id:
+                    continue
+                
+                print(f"   Fetching Race {race_number}: {race_name}...")
+                
+                # Fetch detailed race information with enhanced form data
+                race_details = self.get_race_details(race_id, country=country)
+                
+                if race_details:
+                    # Save race details to file
+                    race_filename = self.sanitize_filename(
+                        f"Race_{race_number:02d}_{race_name}.json"
+                    )
+                    race_path = meeting_dir / race_filename
+                    
+                    with open(race_path, 'w', encoding='utf-8') as f:
+                        json.dump(race_details, f, indent=2, ensure_ascii=False)
+                    
+                    print(f"   ✓ Saved to {race_filename}")
+                else:
+                    print(f"   ✗ Failed to fetch race details")
+                
+                time.sleep(0.5)  # Be polite to the API
+            
+            print()  # Blank line between meetings
+        
+        print(f"{'='*70}")
+        print(f"SCRAPING COMPLETE!")
+        print(f"{'='*70}")
+        print(f"Data saved to: {date_dir}\n")
+        
+        # Generate summary
+        self.generate_summary(date_dir)
+
+    def generate_summary(self, date_dir):
+        """
+        Generate a summary file of all meetings and races.
+        
+        Args:
+            date_dir: Path to the date directory
+        """
+        summary = {
+            "date": date_dir.name,
+            "total_meetings": 0,
+            "total_races": 0,
+            "meetings": [],
+            "countries": {}
+        }
+        
+        for meeting_dir in sorted(date_dir.iterdir()):
+            if meeting_dir.is_dir():
+                summary["total_meetings"] += 1
+                
+                # Count race files
+                race_files = list(meeting_dir.glob("Race_*.json"))
+                summary["total_races"] += len(race_files)
+                
+                # Extract country from folder name
+                parts = meeting_dir.name.split('_')
+                country = parts[-2] if len(parts) >= 2 else "Unknown"
+                
+                if country not in summary["countries"]:
+                    summary["countries"][country] = 0
+                summary["countries"][country] += 1
+                
+                summary["meetings"].append({
+                    "folder": meeting_dir.name,
+                    "race_count": len(race_files),
+                    "country": country
+                })
+        
+        summary_path = date_dir / "summary.json"
+        with open(summary_path, 'w', encoding='utf-8') as f:
+            json.dump(summary, f, indent=2)
+        
+        print(f"\n{'='*70}")
+        print("SUMMARY")
+        print(f"{'='*70}")
+        print(f"Total Meetings: {summary['total_meetings']}")
+        print(f"Total Races: {summary['total_races']}")
+        print(f"\nBy Country:")
+        for country, count in sorted(summary['countries'].items()):
+            print(f" • {country}: {count} meetings")
+        print(f"{'='*70}\n")
+
+
+def main():
+    """
+    Main function to run the scraper with interactive mode.
+    Update the email and partner_name with your credentials.
+    """
+    # ===== CONFIGURE YOUR CREDENTIALS HERE =====
+    EMAIL = "your.email@example.com"  # Replace with your email
+    PARTNER_NAME = "Your Partner Name"  # Replace with your partner name
+    # ============================================
+    
+    # Create scraper instance
+    scraper = LadbrokesRacingScraper(
+        email=EMAIL,
+        partner_name=PARTNER_NAME,
+        base_dir="racing_data"
+    )
+    
+    print("\n" + "="*70)
+    print("LADBROKES RACING DATA SCRAPER - ENHANCED INTERNATIONAL SUPPORT")
+    print("="*70)
+    print("\nFeatures:")
+    print(" • Full form data for ALL international races")
+    print(" • Comprehensive support for NZ, HK, JP, KR, EU races")
+    print(" • Enhanced runner details and past performances")
+    print(" • Automatic form data enhancement for international races")
+    print("="*70)
+    
+    # Scrape today's races with interactive prompts
+    scraper.scrape_and_save(interactive=True)
+    
+    # Non-interactive examples (uncomment to use):
+    # scraper.scrape_and_save(interactive=False, countries=['AUS'], categories=['T', 'G'])
+    # scraper.scrape_and_save(interactive=False, countries=['AUS', 'NZL', 'HKG'], categories=['T'])
+    # scraper.scrape_and_save(date="2025-10-04", interactive=False, countries=['NZL', 'HKG', 'JPN'])
+
+
+if __name__ == "__main__":
+    main()
