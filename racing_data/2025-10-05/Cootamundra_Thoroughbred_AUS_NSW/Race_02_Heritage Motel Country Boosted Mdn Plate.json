@@ -1,7 +1,7 @@
 {
   "header": {
     "title": "Event Details: 86e6575b-6a46-4794-b38d-25168ef298cf",
-    "generated_time": "2025-10-05T05:30:53.547615066Z",
+    "generated_time": "2025-10-05T23:32:55.321791585Z",
     "url": "/affiliates/v1/racing/events/86e6575b-6a46-4794-b38d-25168ef298cf?enc=json&include_form=true&include_odds=true&include_flucs=true&include_speedmap=true&include_past_performances=true&include_form_indicators=true&include_jockey_stats=true&include_trainer_stats=true"
   },
   "params": {
@@ -35,7 +35,7 @@
       "country": "AUS",
       "state": "NSW",
       "distance": 1400,
-      "weather": "FINE",
+      "weather": "Fine",
       "form_guide": "",
       "comment": "BRUTAL BELLE (5) keeps finding one better but went down narrowly at Moruya last time. Deserves a change of luck and only needs to hold form to strike here. DOUBTFREE (2) is in the same boat, stringing together four straight placings including Wagga last start. Gets another golden chance to shed the maiden tag. SHOOTING FIRM (9) has had plenty of tries but Cahill knows him well and the claim is a good help. Capable of being in the finish again. REEF ROAD (4) has been inconsistent but at his best can match these and looks a live hope in a thin race. MISS EADIE (8) was fair on debut but flat at Canberra second-up. Keeping safe third-up.",
       "silk_base_url": "drr38safykj6s.cloudfront.net",
@@ -94,7 +94,7 @@
         "name": "Doubtfree",
         "barrier": 9,
         "runner_number": 2,
-        "margin_length": 0,
+        "margin_length": 1.5,
         "entrant_id": "1ec0f126-550c-40cf-986a-728ca1a76a57"
       },
       {
@@ -172,28 +172,32 @@
     ],
     "dividends": [
       {
-        "id": "d6a000f0-73b0-5a69-8afa-c01717cfb4da",
+        "id": "6c8462b2-f228-5bda-be29-108acbff0b1c",
         "tote": "VIC",
-        "product_name": "Tote Place",
+        "product_name": "Quinella",
         "status": "Final",
-        "dividend": 9.3,
-        "pool_size": 6106,
+        "dividend": 14.1,
+        "pool_size": 5714,
         "jackpot_size": 0,
         "positions": [
           {
-            "runner_number": 7,
+            "runner_number": 2,
             "position": 1
+          },
+          {
+            "runner_number": 6,
+            "position": 2
           }
         ],
         "description": ""
       },
       {
-        "id": "5eaa5048-afb2-5c33-8c5b-203709a0a311",
-        "tote": "QLD",
+        "id": "146486d5-ca6c-5dba-8a75-0dce254b4e50",
+        "tote": "VIC",
         "product_name": "Tote Place",
         "status": "Final",
-        "dividend": 1.7,
-        "pool_size": 1882,
+        "dividend": 1.4,
+        "pool_size": 6106,
         "jackpot_size": 0,
         "positions": [
           {
@@ -204,12 +208,68 @@
         "description": ""
       },
       {
-        "id": "1147fdc8-c444-5305-8fef-9e13e8ccc8e2",
+        "id": "76338fec-6be3-5f6d-b262-b1a86c2ae008",
         "tote": "QLD",
+        "product_name": "Quinella",
+        "status": "Final",
+        "dividend": 15.2,
+        "pool_size": 1565,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 1
+          },
+          {
+            "runner_number": 6,
+            "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "f4934a3a-8309-5f9a-bf27-9c6fe3de9867",
+        "tote": "QLD",
+        "product_name": "Tote Place",
+        "status": "Final",
+        "dividend": 10.5,
+        "pool_size": 1882,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 7,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "b6d19915-66a8-53a1-bcb4-4cf27b89a314",
+        "tote": "VIC",
+        "product_name": "Running Double",
+        "status": "Final",
+        "dividend": 15.2,
+        "pool_size": 1276,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 3,
+            "position": 1
+          },
+          {
+            "runner_number": 2,
+            "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "a4fb0c05-79a2-5a4b-a74d-d1b29e349032",
+        "tote": "VIC",
         "product_name": "First Four",
         "status": "Final",
-        "dividend": 1450.3,
-        "pool_size": 941,
+        "dividend": 6284.3,
+        "pool_size": 10460,
         "jackpot_size": 0,
         "positions": [
           {
@@ -252,12 +312,12 @@
         "description": ""
       },
       {
-        "id": "3b0dc45d-35b2-52fb-a0fd-01bc285c5f32",
-        "tote": "NSW",
-        "product_name": "Trifecta",
+        "id": "1147fdc8-c444-5305-8fef-9e13e8ccc8e2",
+        "tote": "QLD",
+        "product_name": "First Four",
         "status": "Final",
-        "dividend": 605.1,
-        "pool_size": 9874,
+        "dividend": 1450.3,
+        "pool_size": 941,
         "jackpot_size": 0,
         "positions": [
           {
@@ -271,21 +331,25 @@
           {
             "runner_number": 7,
             "position": 3
+          },
+          {
+            "runner_number": 4,
+            "position": 4
           }
         ],
         "description": ""
       },
       {
-        "id": "b2e73ebe-17ff-5c02-833e-c3907372ff57",
-        "tote": "NSW",
-        "product_name": "Tote Place",
+        "id": "1f127039-feb6-5be9-9098-3c90b368dd23",
+        "tote": "VIC",
+        "product_name": "Tote Win",
         "status": "Final",
-        "dividend": 8.7,
-        "pool_size": 6617,
+        "dividend": 3.1,
+        "pool_size": 15789,
         "jackpot_size": 0,
         "positions": [
           {
-            "runner_number": 7,
+            "runner_number": 2,
             "position": 1
           }
         ],
@@ -312,22 +376,6 @@
         "description": ""
       },
       {
-        "id": "4885528d-6663-5912-8a6d-79de976e3ccf",
-        "tote": "VIC",
-        "product_name": "Tote Place",
-        "status": "Final",
-        "dividend": 2.2,
-        "pool_size": 6106,
-        "jackpot_size": 0,
-        "positions": [
-          {
-            "runner_number": 6,
-            "position": 1
-          }
-        ],
-        "description": ""
-      },
-      {
         "id": "c3ce1e43-f15e-5239-9211-16695933a385",
         "tote": "QLD",
         "product_name": "Tote Place",
@@ -339,6 +387,26 @@
           {
             "runner_number": 6,
             "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "77e1c1ab-132f-592b-9253-e05ff18c2f5e",
+        "tote": "NSW",
+        "product_name": "Exacta",
+        "status": "Final",
+        "dividend": 19.9,
+        "pool_size": 2335,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 1
+          },
+          {
+            "runner_number": 6,
+            "position": 2
           }
         ],
         "description": ""
@@ -384,6 +452,70 @@
         "description": ""
       },
       {
+        "id": "d49f5e69-a75d-545b-b9ae-455ac136202d",
+        "tote": "NSW",
+        "product_name": "Tote Win",
+        "status": "Final",
+        "dividend": 3.6,
+        "pool_size": 18642,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "ad32d4cd-592a-563b-a9da-437bcca6e84d",
+        "tote": "NSW",
+        "product_name": "Tote Place",
+        "status": "Final",
+        "dividend": 1.7,
+        "pool_size": 6617,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "b2e73ebe-17ff-5c02-833e-c3907372ff57",
+        "tote": "NSW",
+        "product_name": "Tote Place",
+        "status": "Final",
+        "dividend": 8.7,
+        "pool_size": 6617,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 7,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "5eaa5048-afb2-5c33-8c5b-203709a0a311",
+        "tote": "QLD",
+        "product_name": "Tote Place",
+        "status": "Final",
+        "dividend": 1.7,
+        "pool_size": 1882,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
         "id": "b4bf2fb2-345c-505f-b5f9-84cbb39c35ef",
         "tote": "NSW",
         "product_name": "First Four",
@@ -407,58 +539,6 @@
           {
             "runner_number": 4,
             "position": 4
-          }
-        ],
-        "description": ""
-      },
-      {
-        "id": "d49f5e69-a75d-545b-b9ae-455ac136202d",
-        "tote": "NSW",
-        "product_name": "Tote Win",
-        "status": "Final",
-        "dividend": 3.6,
-        "pool_size": 18642,
-        "jackpot_size": 0,
-        "positions": [
-          {
-            "runner_number": 2,
-            "position": 1
-          }
-        ],
-        "description": ""
-      },
-      {
-        "id": "1f127039-feb6-5be9-9098-3c90b368dd23",
-        "tote": "VIC",
-        "product_name": "Tote Win",
-        "status": "Final",
-        "dividend": 3.1,
-        "pool_size": 15789,
-        "jackpot_size": 0,
-        "positions": [
-          {
-            "runner_number": 2,
-            "position": 1
-          }
-        ],
-        "description": ""
-      },
-      {
-        "id": "b6d19915-66a8-53a1-bcb4-4cf27b89a314",
-        "tote": "VIC",
-        "product_name": "Running Double",
-        "status": "Final",
-        "dividend": 15.2,
-        "pool_size": 1276,
-        "jackpot_size": 0,
-        "positions": [
-          {
-            "runner_number": 3,
-            "position": 1
-          },
-          {
-            "runner_number": 2,
-            "position": 2
           }
         ],
         "description": ""
@@ -488,49 +568,21 @@
         "description": ""
       },
       {
-        "id": "146486d5-ca6c-5dba-8a75-0dce254b4e50",
+        "id": "39b9dc55-178b-5fcb-9ff8-21a1718968f8",
         "tote": "VIC",
-        "product_name": "Tote Place",
+        "product_name": "Exacta",
         "status": "Final",
-        "dividend": 1.4,
-        "pool_size": 6106,
+        "dividend": 25.6,
+        "pool_size": 2697,
         "jackpot_size": 0,
         "positions": [
           {
             "runner_number": 2,
             "position": 1
-          }
-        ],
-        "description": ""
-      },
-      {
-        "id": "50776d39-3e12-5f69-bdef-5e6566fa5977",
-        "tote": "NSW",
-        "product_name": "Tote Place",
-        "status": "Final",
-        "dividend": 2.4,
-        "pool_size": 6617,
-        "jackpot_size": 0,
-        "positions": [
+          },
           {
             "runner_number": 6,
-            "position": 1
-          }
-        ],
-        "description": ""
-      },
-      {
-        "id": "f4934a3a-8309-5f9a-bf27-9c6fe3de9867",
-        "tote": "QLD",
-        "product_name": "Tote Place",
-        "status": "Final",
-        "dividend": 10.5,
-        "pool_size": 1882,
-        "jackpot_size": 0,
-        "positions": [
-          {
-            "runner_number": 7,
-            "position": 1
+            "position": 2
           }
         ],
         "description": ""
@@ -556,16 +608,72 @@
         "description": ""
       },
       {
-        "id": "ad32d4cd-592a-563b-a9da-437bcca6e84d",
-        "tote": "NSW",
+        "id": "d6a000f0-73b0-5a69-8afa-c01717cfb4da",
+        "tote": "VIC",
         "product_name": "Tote Place",
         "status": "Final",
-        "dividend": 1.7,
-        "pool_size": 6617,
+        "dividend": 9.3,
+        "pool_size": 6106,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 7,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "3b0dc45d-35b2-52fb-a0fd-01bc285c5f32",
+        "tote": "NSW",
+        "product_name": "Trifecta",
+        "status": "Final",
+        "dividend": 605.1,
+        "pool_size": 9874,
         "jackpot_size": 0,
         "positions": [
           {
             "runner_number": 2,
+            "position": 1
+          },
+          {
+            "runner_number": 6,
+            "position": 2
+          },
+          {
+            "runner_number": 7,
+            "position": 3
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "50776d39-3e12-5f69-bdef-5e6566fa5977",
+        "tote": "NSW",
+        "product_name": "Tote Place",
+        "status": "Final",
+        "dividend": 2.4,
+        "pool_size": 6617,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "4885528d-6663-5912-8a6d-79de976e3ccf",
+        "tote": "VIC",
+        "product_name": "Tote Place",
+        "status": "Final",
+        "dividend": 2.2,
+        "pool_size": 6106,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
             "position": 1
           }
         ],
@@ -587,114 +695,6 @@
           {
             "runner_number": 6,
             "position": 2
-          }
-        ],
-        "description": ""
-      },
-      {
-        "id": "77e1c1ab-132f-592b-9253-e05ff18c2f5e",
-        "tote": "NSW",
-        "product_name": "Exacta",
-        "status": "Final",
-        "dividend": 19.9,
-        "pool_size": 2335,
-        "jackpot_size": 0,
-        "positions": [
-          {
-            "runner_number": 2,
-            "position": 1
-          },
-          {
-            "runner_number": 6,
-            "position": 2
-          }
-        ],
-        "description": ""
-      },
-      {
-        "id": "39b9dc55-178b-5fcb-9ff8-21a1718968f8",
-        "tote": "VIC",
-        "product_name": "Exacta",
-        "status": "Final",
-        "dividend": 25.6,
-        "pool_size": 2697,
-        "jackpot_size": 0,
-        "positions": [
-          {
-            "runner_number": 2,
-            "position": 1
-          },
-          {
-            "runner_number": 6,
-            "position": 2
-          }
-        ],
-        "description": ""
-      },
-      {
-        "id": "6c8462b2-f228-5bda-be29-108acbff0b1c",
-        "tote": "VIC",
-        "product_name": "Quinella",
-        "status": "Final",
-        "dividend": 14.1,
-        "pool_size": 5714,
-        "jackpot_size": 0,
-        "positions": [
-          {
-            "runner_number": 2,
-            "position": 1
-          },
-          {
-            "runner_number": 6,
-            "position": 2
-          }
-        ],
-        "description": ""
-      },
-      {
-        "id": "76338fec-6be3-5f6d-b262-b1a86c2ae008",
-        "tote": "QLD",
-        "product_name": "Quinella",
-        "status": "Final",
-        "dividend": 15.2,
-        "pool_size": 1565,
-        "jackpot_size": 0,
-        "positions": [
-          {
-            "runner_number": 2,
-            "position": 1
-          },
-          {
-            "runner_number": 6,
-            "position": 2
-          }
-        ],
-        "description": ""
-      },
-      {
-        "id": "a4fb0c05-79a2-5a4b-a74d-d1b29e349032",
-        "tote": "VIC",
-        "product_name": "First Four",
-        "status": "Final",
-        "dividend": 6284.3,
-        "pool_size": 10460,
-        "jackpot_size": 0,
-        "positions": [
-          {
-            "runner_number": 2,
-            "position": 1
-          },
-          {
-            "runner_number": 6,
-            "position": 2
-          },
-          {
-            "runner_number": 7,
-            "position": 3
-          },
-          {
-            "runner_number": 4,
-            "position": 4
           }
         ],
         "description": ""
@@ -899,8 +899,8 @@
             "fluc": 16
           },
           "nine_am": {
-            "timestamp": "2025-10-02T23:08:42.387249114Z",
-            "fluc": 23
+            "timestamp": "2025-10-05T02:47:02.255389516Z",
+            "fluc": 19
           }
         }
       },
@@ -1026,8 +1026,8 @@
             "fluc": 3.5
           },
           "nine_am": {
-            "timestamp": "2025-10-02T23:08:42.38741009Z",
-            "fluc": 4.8
+            "timestamp": "2025-10-05T02:46:54.627623155Z",
+            "fluc": 3.8
           }
         }
       },
@@ -1146,8 +1146,8 @@
             "fluc": 15
           },
           "nine_am": {
-            "timestamp": "2025-10-02T23:08:42.387326059Z",
-            "fluc": 23
+            "timestamp": "2025-10-05T02:46:38.392446486Z",
+            "fluc": 19
           }
         }
       },
@@ -1268,8 +1268,8 @@
             "fluc": 9.5
           },
           "nine_am": {
-            "timestamp": "2025-10-02T23:08:42.387288846Z",
-            "fluc": 18
+            "timestamp": "2025-10-05T02:45:39.290944306Z",
+            "fluc": 13
           }
         }
       },
@@ -1383,8 +1383,8 @@
             "fluc": 2.3
           },
           "nine_am": {
-            "timestamp": "2025-10-02T23:08:42.387274629Z",
-            "fluc": 4.4
+            "timestamp": "2025-10-05T02:46:24.240243006Z",
+            "fluc": 2.5
           }
         }
       },
@@ -1503,8 +1503,8 @@
             "fluc": 5.5
           },
           "nine_am": {
-            "timestamp": "2025-10-02T23:08:42.387366183Z",
-            "fluc": 12
+            "timestamp": "2025-10-05T02:46:39.300307266Z",
+            "fluc": 6
           }
         }
       },
@@ -1625,8 +1625,8 @@
             "fluc": 31
           },
           "nine_am": {
-            "timestamp": "2025-10-02T23:08:42.387445972Z",
-            "fluc": 41
+            "timestamp": "2025-10-05T02:46:44.493593438Z",
+            "fluc": 46
           }
         }
       },
@@ -1745,8 +1745,8 @@
             "fluc": 9.5
           },
           "nine_am": {
-            "timestamp": "2025-10-02T23:08:42.38725442Z",
-            "fluc": 14
+            "timestamp": "2025-10-05T02:46:50.223399905Z",
+            "fluc": 12
           }
         }
       },
@@ -1872,8 +1872,8 @@
             "fluc": 10
           },
           "nine_am": {
-            "timestamp": "2025-10-02T23:08:42.387299426Z",
-            "fluc": 16
+            "timestamp": "2025-10-05T02:46:48.315152893Z",
+            "fluc": 11
           }
         }
       },
@@ -2119,13 +2119,84 @@
             "fluc": 26
           },
           "nine_am": {
-            "timestamp": "2025-10-02T23:08:42.387262699Z",
-            "fluc": 46
+            "timestamp": "2025-10-05T02:46:48.315142689Z",
+            "fluc": 35
           }
         }
       }
     ],
     "derivatives": [
+      {
+        "entrant_id": "978c553e-f593-4a28-bd86-79e927538dae",
+        "market_name": "",
+        "primary_market": false,
+        "name": "Caravanserai",
+        "is_scratched": false,
+        "gear": "",
+        "odds": {
+          "fixed_win": 3.9,
+          "fixed_place": 1.35
+        },
+        "scratch_time": 0,
+        "barrier": 6,
+        "runner_number": 3,
+        "prize_money": "",
+        "age": 0,
+        "sex": "",
+        "colour": "",
+        "silk_colours": "",
+        "silk_url_64x64": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODA3OTI0/caravanserai_64x64.png",
+        "silk_url_128x128": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODA3OTI0/caravanserai_128x128.png",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "",
+        "country": "",
+        "trainer_name": "",
+        "last_twenty_starts": "",
+        "sire": "",
+        "dam": "",
+        "breeding": "",
+        "weight": {
+          "allocated": "",
+          "total": ""
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {},
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "",
+        "meta": null,
+        "flucs": [],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [],
+          "open": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          },
+          "high": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          },
+          "low": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          },
+          "nine_am": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          }
+        }
+      },
       {
         "entrant_id": "c7b3ab9a-d3ee-4c83-a7b7-b8aa1e10526f",
         "market_name": "Live Racing",
@@ -2238,8 +2309,311 @@
             "fluc": 9
           },
           "nine_am": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-10-05T02:47:01.239162835Z",
+            "fluc": 10
+          }
+        }
+      },
+      {
+        "entrant_id": "d3fc73d8-e274-411c-978e-95cc46433fdb",
+        "market_name": "Live Racing",
+        "primary_market": false,
+        "name": "Brutal Belle",
+        "is_scratched": false,
+        "gear": "[Winkers]",
+        "odds": {
+          "fixed_win": 1,
+          "fixed_place": 0
+        },
+        "scratch_time": 0,
+        "barrier": 2,
+        "runner_number": 5,
+        "prize_money": "24780",
+        "age": 4,
+        "sex": "M",
+        "colour": "BR",
+        "silk_colours": "WHITE, LIME GREEN AND AQUA VARDY THOROUGHBREDS LOGO, STRIPED SLEEVES, LIME GREEN CAP",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "Jack Martin",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "Vardy Thoroughbreds(Mgr: S J Vardy), Pasadera Vardy(Mgr: S J Vardy), R King, K W Bennett, R J Griffin, P M O'Shea, Mrs D M Burdack, A C Burdack, Mrs D Young, Mrs K M Arigho, P B Arigho, Mrs J Atkinson, Mrs V Quill, M Lovell, S Morris, G R Mansfield, Mrs E J Long, D Taylor, J Ladlow & Mrs B L Cameron",
+        "country": "AUS",
+        "trainer_name": "Luke Pepper",
+        "last_twenty_starts": "3656x46222",
+        "sire": "BRUTAL (NZ)",
+        "dam": "PASADERA (AUS)",
+        "breeding": "4 m BRUTAL (NZ)-PASADERA (AUS)",
+        "weight": {
+          "allocated": "57",
+          "total": "57"
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {
+          "settling_lengths": 3,
+          "entrant_id": "d3fc73d8-e274-411c-978e-95cc46433fdb",
+          "label": "Midfield"
+        },
+        "form_indicators": null,
+        "past_performances": {
+          "jockey": {
+            "number_of_starts": 2,
+            "number_of_wins": 0,
+            "number_of_placings": 0,
+            "number_of_seconds": 2,
+            "number_of_thirds": 0
+          }
+        },
+        "jockey_past_performances": {
+          "last_50_starts": {
+            "number_of_starts": 50,
+            "number_of_wins": 1,
+            "number_of_placings": 0,
+            "number_of_seconds": 9,
+            "number_of_thirds": 9
+          },
+          "trainer": {
+            "number_of_starts": 30,
+            "number_of_wins": 2,
+            "number_of_placings": 0,
+            "number_of_seconds": 6,
+            "number_of_thirds": 2
+          }
+        },
+        "trainer_location": "Canberra",
+        "meta": null,
+        "flucs": [
+          2.45,
+          1.95
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2025-10-05T02:46:47.771711515Z",
+              "fluc": 2.45
+            },
+            {
+              "timestamp": "2025-10-05T02:47:01.239066035Z",
+              "fluc": 1.95
+            }
+          ],
+          "open": {
+            "timestamp": "2025-10-05T02:46:47.771711515Z",
+            "fluc": 2.45
+          },
+          "high": {
+            "timestamp": "2025-10-05T02:46:47.771711515Z",
+            "fluc": 2.45
+          },
+          "low": {
+            "timestamp": "2025-10-05T02:47:01.239066035Z",
+            "fluc": 1.95
+          },
+          "nine_am": {
+            "timestamp": "2025-10-05T02:47:01.239066035Z",
+            "fluc": 1.95
+          }
+        }
+      },
+      {
+        "entrant_id": "655aeb56-a786-447a-954d-f4b786bb2dd5",
+        "market_name": "Live Racing",
+        "primary_market": false,
+        "name": "All Other Runners (excludes 2, 5, 6, 9)",
+        "is_scratched": false,
+        "gear": "",
+        "odds": {
+          "fixed_win": 1,
+          "fixed_place": 0
+        },
+        "scratch_time": 0,
+        "barrier": 0,
+        "runner_number": 0,
+        "prize_money": "",
+        "age": 0,
+        "sex": "",
+        "colour": "",
+        "silk_colours": "",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "",
+        "country": "",
+        "trainer_name": "",
+        "last_twenty_starts": "",
+        "sire": "",
+        "dam": "",
+        "breeding": "",
+        "weight": {
+          "allocated": "",
+          "total": ""
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {},
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "",
+        "meta": null,
+        "flucs": [
+          3.5,
+          3.7
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2025-10-05T02:46:47.771746243Z",
+              "fluc": 3.5
+            },
+            {
+              "timestamp": "2025-10-05T02:47:01.239112399Z",
+              "fluc": 3.7
+            }
+          ],
+          "open": {
+            "timestamp": "2025-10-05T02:46:47.771746243Z",
+            "fluc": 3.5
+          },
+          "high": {
+            "timestamp": "2025-10-05T02:47:01.239112399Z",
+            "fluc": 3.7
+          },
+          "low": {
+            "timestamp": "2025-10-05T02:46:47.771746243Z",
+            "fluc": 3.5
+          },
+          "nine_am": {
+            "timestamp": "2025-10-05T02:47:01.239112399Z",
+            "fluc": 3.7
+          }
+        }
+      },
+      {
+        "entrant_id": "686cd3e3-cdaa-4f1e-a756-a0d8e15514b4",
+        "market_name": "Live Racing",
+        "primary_market": false,
+        "name": "Carry On Lizzy",
+        "is_scratched": false,
+        "gear": "Blinkers OFF, Ear Muffs ON, Ear Muffs (Pre-Race Only) OFF, Nose Roll ON",
+        "odds": {
+          "fixed_win": 1,
+          "fixed_place": 0
+        },
+        "scratch_time": 0,
+        "barrier": 4,
+        "runner_number": 6,
+        "prize_money": "8450",
+        "age": 4,
+        "sex": "M",
+        "colour": "CH",
+        "silk_colours": "BLACK AND CERISE DIAGONAL STRIPES, WHITE SLEEVES, CERISE CAP",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "Ella Bent",
+        "apprentice_indicator": "A",
+        "allowance_weight": "4",
+        "owners": "D I Walker, Mrs L C Walker, W Walker, Ms E A Carroll, O V Rayment, J A McRae, W J Mcrae, G A Simpson, Mrs A Kharoofa, A R Hockley, A Egan, M J Kelly, Mrs D Morfidis, P Morfidis, S L Webb, B Thorne, E Neindorf, J M Patching & M Garrett",
+        "country": "AUS",
+        "trainer_name": "Scott Spackman",
+        "last_twenty_starts": "44356x",
+        "sire": "SHOWTIME (AUS)",
+        "dam": "CARRY ON CUTIE (AUS)",
+        "breeding": "4 m SHOWTIME (AUS)-CARRY ON CUTIE (AUS)",
+        "weight": {
+          "allocated": "57",
+          "total": "57"
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {
+          "settling_lengths": 7,
+          "entrant_id": "686cd3e3-cdaa-4f1e-a756-a0d8e15514b4",
+          "label": "Front Runner"
+        },
+        "form_indicators": null,
+        "past_performances": {
+          "jockey": {
+            "number_of_starts": 0,
+            "number_of_wins": 0,
+            "number_of_placings": 0,
+            "number_of_seconds": 0,
+            "number_of_thirds": 0
+          }
+        },
+        "jockey_past_performances": {
+          "last_50_starts": {
+            "number_of_starts": 17,
+            "number_of_wins": 4,
+            "number_of_placings": 0,
+            "number_of_seconds": 3,
+            "number_of_thirds": 1
+          },
+          "trainer": {
+            "number_of_starts": 0,
+            "number_of_wins": 0,
+            "number_of_placings": 0,
+            "number_of_seconds": 0,
+            "number_of_thirds": 0
+          }
+        },
+        "trainer_location": "Wagga Wagga",
+        "meta": null,
+        "flucs": [
+          5,
+          6
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2025-10-05T02:46:47.771733624Z",
+              "fluc": 5
+            },
+            {
+              "timestamp": "2025-10-05T02:47:01.239133288Z",
+              "fluc": 6
+            }
+          ],
+          "open": {
+            "timestamp": "2025-10-05T02:46:47.771733624Z",
+            "fluc": 5
+          },
+          "high": {
+            "timestamp": "2025-10-05T02:47:01.239133288Z",
+            "fluc": 6
+          },
+          "low": {
+            "timestamp": "2025-10-05T02:46:47.771733624Z",
+            "fluc": 5
+          },
+          "nine_am": {
+            "timestamp": "2025-10-05T02:47:01.239133288Z",
+            "fluc": 6
           }
         }
       },
@@ -2355,382 +2729,8 @@
             "fluc": 3.5
           },
           "nine_am": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
-          }
-        }
-      },
-      {
-        "entrant_id": "655aeb56-a786-447a-954d-f4b786bb2dd5",
-        "market_name": "Live Racing",
-        "primary_market": false,
-        "name": "All Other Runners (excludes 2, 5, 6, 9)",
-        "is_scratched": false,
-        "gear": "",
-        "odds": {
-          "fixed_win": 1,
-          "fixed_place": 0
-        },
-        "scratch_time": 0,
-        "barrier": 0,
-        "runner_number": 0,
-        "prize_money": "",
-        "age": 0,
-        "sex": "",
-        "colour": "",
-        "silk_colours": "",
-        "silk_url_64x64": "",
-        "silk_url_128x128": "",
-        "form_comment": null,
-        "class_level": "",
-        "jockey": "",
-        "apprentice_indicator": "",
-        "allowance_weight": "",
-        "owners": "",
-        "country": "",
-        "trainer_name": "",
-        "last_twenty_starts": "",
-        "sire": "",
-        "dam": "",
-        "breeding": "",
-        "weight": {
-          "allocated": "",
-          "total": ""
-        },
-        "favourite": false,
-        "mover": false,
-        "speedmap": {},
-        "form_indicators": null,
-        "past_performances": null,
-        "jockey_past_performances": null,
-        "trainer_location": "",
-        "meta": null,
-        "flucs": [
-          3.5,
-          3.7
-        ],
-        "scr_time": null,
-        "competitor_id": "",
-        "ride_guide_exists": false,
-        "ride_guide_thumbnail": "",
-        "ride_guide_file": "",
-        "flucs_with_timestamp": {
-          "last_six": [
-            {
-              "timestamp": "2025-10-05T02:46:47.771746243Z",
-              "fluc": 3.5
-            },
-            {
-              "timestamp": "2025-10-05T02:47:01.239112399Z",
-              "fluc": 3.7
-            }
-          ],
-          "open": {
-            "timestamp": "2025-10-05T02:46:47.771746243Z",
-            "fluc": 3.5
-          },
-          "high": {
-            "timestamp": "2025-10-05T02:47:01.239112399Z",
+            "timestamp": "2025-10-05T02:47:01.239140942Z",
             "fluc": 3.7
-          },
-          "low": {
-            "timestamp": "2025-10-05T02:46:47.771746243Z",
-            "fluc": 3.5
-          },
-          "nine_am": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
-          }
-        }
-      },
-      {
-        "entrant_id": "d3fc73d8-e274-411c-978e-95cc46433fdb",
-        "market_name": "Live Racing",
-        "primary_market": false,
-        "name": "Brutal Belle",
-        "is_scratched": false,
-        "gear": "[Winkers]",
-        "odds": {
-          "fixed_win": 1,
-          "fixed_place": 0
-        },
-        "scratch_time": 0,
-        "barrier": 2,
-        "runner_number": 5,
-        "prize_money": "24780",
-        "age": 4,
-        "sex": "M",
-        "colour": "BR",
-        "silk_colours": "WHITE, LIME GREEN AND AQUA VARDY THOROUGHBREDS LOGO, STRIPED SLEEVES, LIME GREEN CAP",
-        "silk_url_64x64": "",
-        "silk_url_128x128": "",
-        "form_comment": null,
-        "class_level": "",
-        "jockey": "Jack Martin",
-        "apprentice_indicator": "",
-        "allowance_weight": "",
-        "owners": "Vardy Thoroughbreds(Mgr: S J Vardy), Pasadera Vardy(Mgr: S J Vardy), R King, K W Bennett, R J Griffin, P M O'Shea, Mrs D M Burdack, A C Burdack, Mrs D Young, Mrs K M Arigho, P B Arigho, Mrs J Atkinson, Mrs V Quill, M Lovell, S Morris, G R Mansfield, Mrs E J Long, D Taylor, J Ladlow & Mrs B L Cameron",
-        "country": "AUS",
-        "trainer_name": "Luke Pepper",
-        "last_twenty_starts": "3656x46222",
-        "sire": "BRUTAL (NZ)",
-        "dam": "PASADERA (AUS)",
-        "breeding": "4 m BRUTAL (NZ)-PASADERA (AUS)",
-        "weight": {
-          "allocated": "57",
-          "total": "57"
-        },
-        "favourite": false,
-        "mover": false,
-        "speedmap": {
-          "settling_lengths": 3,
-          "entrant_id": "d3fc73d8-e274-411c-978e-95cc46433fdb",
-          "label": "Midfield"
-        },
-        "form_indicators": null,
-        "past_performances": {
-          "jockey": {
-            "number_of_starts": 2,
-            "number_of_wins": 0,
-            "number_of_placings": 0,
-            "number_of_seconds": 2,
-            "number_of_thirds": 0
-          }
-        },
-        "jockey_past_performances": {
-          "last_50_starts": {
-            "number_of_starts": 50,
-            "number_of_wins": 1,
-            "number_of_placings": 0,
-            "number_of_seconds": 9,
-            "number_of_thirds": 9
-          },
-          "trainer": {
-            "number_of_starts": 30,
-            "number_of_wins": 2,
-            "number_of_placings": 0,
-            "number_of_seconds": 6,
-            "number_of_thirds": 2
-          }
-        },
-        "trainer_location": "Canberra",
-        "meta": null,
-        "flucs": [
-          2.45,
-          1.95
-        ],
-        "scr_time": null,
-        "competitor_id": "",
-        "ride_guide_exists": false,
-        "ride_guide_thumbnail": "",
-        "ride_guide_file": "",
-        "flucs_with_timestamp": {
-          "last_six": [
-            {
-              "timestamp": "2025-10-05T02:46:47.771711515Z",
-              "fluc": 2.45
-            },
-            {
-              "timestamp": "2025-10-05T02:47:01.239066035Z",
-              "fluc": 1.95
-            }
-          ],
-          "open": {
-            "timestamp": "2025-10-05T02:46:47.771711515Z",
-            "fluc": 2.45
-          },
-          "high": {
-            "timestamp": "2025-10-05T02:46:47.771711515Z",
-            "fluc": 2.45
-          },
-          "low": {
-            "timestamp": "2025-10-05T02:47:01.239066035Z",
-            "fluc": 1.95
-          },
-          "nine_am": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
-          }
-        }
-      },
-      {
-        "entrant_id": "686cd3e3-cdaa-4f1e-a756-a0d8e15514b4",
-        "market_name": "Live Racing",
-        "primary_market": false,
-        "name": "Carry On Lizzy",
-        "is_scratched": false,
-        "gear": "Blinkers OFF, Ear Muffs ON, Ear Muffs (Pre-Race Only) OFF, Nose Roll ON",
-        "odds": {
-          "fixed_win": 1,
-          "fixed_place": 0
-        },
-        "scratch_time": 0,
-        "barrier": 4,
-        "runner_number": 6,
-        "prize_money": "8450",
-        "age": 4,
-        "sex": "M",
-        "colour": "CH",
-        "silk_colours": "BLACK AND CERISE DIAGONAL STRIPES, WHITE SLEEVES, CERISE CAP",
-        "silk_url_64x64": "",
-        "silk_url_128x128": "",
-        "form_comment": null,
-        "class_level": "",
-        "jockey": "Ella Bent",
-        "apprentice_indicator": "A",
-        "allowance_weight": "4",
-        "owners": "D I Walker, Mrs L C Walker, W Walker, Ms E A Carroll, O V Rayment, J A McRae, W J Mcrae, G A Simpson, Mrs A Kharoofa, A R Hockley, A Egan, M J Kelly, Mrs D Morfidis, P Morfidis, S L Webb, B Thorne, E Neindorf, J M Patching & M Garrett",
-        "country": "AUS",
-        "trainer_name": "Scott Spackman",
-        "last_twenty_starts": "44356x",
-        "sire": "SHOWTIME (AUS)",
-        "dam": "CARRY ON CUTIE (AUS)",
-        "breeding": "4 m SHOWTIME (AUS)-CARRY ON CUTIE (AUS)",
-        "weight": {
-          "allocated": "57",
-          "total": "57"
-        },
-        "favourite": false,
-        "mover": false,
-        "speedmap": {
-          "settling_lengths": 7,
-          "entrant_id": "686cd3e3-cdaa-4f1e-a756-a0d8e15514b4",
-          "label": "Front Runner"
-        },
-        "form_indicators": null,
-        "past_performances": {
-          "jockey": {
-            "number_of_starts": 0,
-            "number_of_wins": 0,
-            "number_of_placings": 0,
-            "number_of_seconds": 0,
-            "number_of_thirds": 0
-          }
-        },
-        "jockey_past_performances": {
-          "last_50_starts": {
-            "number_of_starts": 17,
-            "number_of_wins": 4,
-            "number_of_placings": 0,
-            "number_of_seconds": 3,
-            "number_of_thirds": 1
-          },
-          "trainer": {
-            "number_of_starts": 0,
-            "number_of_wins": 0,
-            "number_of_placings": 0,
-            "number_of_seconds": 0,
-            "number_of_thirds": 0
-          }
-        },
-        "trainer_location": "Wagga Wagga",
-        "meta": null,
-        "flucs": [
-          5,
-          6
-        ],
-        "scr_time": null,
-        "competitor_id": "",
-        "ride_guide_exists": false,
-        "ride_guide_thumbnail": "",
-        "ride_guide_file": "",
-        "flucs_with_timestamp": {
-          "last_six": [
-            {
-              "timestamp": "2025-10-05T02:46:47.771733624Z",
-              "fluc": 5
-            },
-            {
-              "timestamp": "2025-10-05T02:47:01.239133288Z",
-              "fluc": 6
-            }
-          ],
-          "open": {
-            "timestamp": "2025-10-05T02:46:47.771733624Z",
-            "fluc": 5
-          },
-          "high": {
-            "timestamp": "2025-10-05T02:47:01.239133288Z",
-            "fluc": 6
-          },
-          "low": {
-            "timestamp": "2025-10-05T02:46:47.771733624Z",
-            "fluc": 5
-          },
-          "nine_am": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
-          }
-        }
-      },
-      {
-        "entrant_id": "978c553e-f593-4a28-bd86-79e927538dae",
-        "market_name": "",
-        "primary_market": false,
-        "name": "Caravanserai",
-        "is_scratched": false,
-        "gear": "",
-        "odds": {
-          "fixed_win": 3.9,
-          "fixed_place": 1.35
-        },
-        "scratch_time": 0,
-        "barrier": 6,
-        "runner_number": 3,
-        "prize_money": "",
-        "age": 0,
-        "sex": "",
-        "colour": "",
-        "silk_colours": "",
-        "silk_url_64x64": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODA3OTI0/caravanserai_64x64.png",
-        "silk_url_128x128": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODA3OTI0/caravanserai_128x128.png",
-        "form_comment": null,
-        "class_level": "",
-        "jockey": "",
-        "apprentice_indicator": "",
-        "allowance_weight": "",
-        "owners": "",
-        "country": "",
-        "trainer_name": "",
-        "last_twenty_starts": "",
-        "sire": "",
-        "dam": "",
-        "breeding": "",
-        "weight": {
-          "allocated": "",
-          "total": ""
-        },
-        "favourite": false,
-        "mover": false,
-        "speedmap": {},
-        "form_indicators": null,
-        "past_performances": null,
-        "jockey_past_performances": null,
-        "trainer_location": "",
-        "meta": null,
-        "flucs": [],
-        "scr_time": null,
-        "competitor_id": "",
-        "ride_guide_exists": false,
-        "ride_guide_thumbnail": "",
-        "ride_guide_file": "",
-        "flucs_with_timestamp": {
-          "last_six": [],
-          "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
-          },
-          "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
-          },
-          "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
-          },
-          "nine_am": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
           }
         }
       }
