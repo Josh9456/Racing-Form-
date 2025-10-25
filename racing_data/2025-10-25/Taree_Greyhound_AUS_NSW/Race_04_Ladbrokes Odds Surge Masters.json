@@ -1,7 +1,7 @@
 {
   "header": {
     "title": "Event Details: 4b850b8a-38f8-4f18-99ac-61e2048d1fc9",
-    "generated_time": "2025-10-25T01:23:02.906959728Z",
+    "generated_time": "2025-10-25T23:37:03.861043001Z",
     "url": "/affiliates/v1/racing/events/4b850b8a-38f8-4f18-99ac-61e2048d1fc9?enc=json&include_form=true&include_odds=true&include_flucs=true&include_speedmap=true&include_past_performances=true&include_form_indicators=true&include_jockey_stats=true&include_trainer_stats=true"
   },
   "params": {
@@ -105,7 +105,7 @@
         "name": "Teapot Scandal",
         "barrier": 7,
         "runner_number": 7,
-        "margin_length": 1.5,
+        "margin_length": 1.63,
         "entrant_id": "8f8554f5-b656-4f2e-8f0b-37a9308c0fdc"
       },
       {
@@ -113,7 +113,7 @@
         "name": "Eureka Remi",
         "barrier": 4,
         "runner_number": 4,
-        "margin_length": 2.75,
+        "margin_length": 2.5,
         "entrant_id": "8665e289-8e40-4421-93bc-04e4caa35bf1"
       },
       {
@@ -121,7 +121,7 @@
         "name": "Engineered Kaos",
         "barrier": 1,
         "runner_number": 1,
-        "margin_length": 0.75,
+        "margin_length": 1,
         "entrant_id": "759bda58-35bb-4091-bc15-4a331c1604f2"
       },
       {
@@ -129,7 +129,7 @@
         "name": "Tralee Paris",
         "barrier": 2,
         "runner_number": 2,
-        "margin_length": 2.75,
+        "margin_length": 2.5,
         "entrant_id": "7886eb4b-c992-4965-9c20-d566c82ce71f"
       },
       {
@@ -143,28 +143,80 @@
     ],
     "dividends": [
       {
-        "id": "c07474c4-f6c4-5866-83f3-d985ce37c50c",
+        "id": "f458b1cc-c4c5-525d-ae1e-177f2e11934f",
         "tote": "NSW",
-        "product_name": "Tote Place",
+        "product_name": "First Four",
         "status": "Final",
-        "dividend": 2.4,
-        "pool_size": 144,
+        "dividend": 1519,
+        "pool_size": 980,
         "jackpot_size": 0,
         "positions": [
           {
             "runner_number": 6,
             "position": 1
+          },
+          {
+            "runner_number": 5,
+            "position": 2
+          },
+          {
+            "runner_number": 7,
+            "position": 3
+          },
+          {
+            "runner_number": 4,
+            "position": 4
           }
         ],
         "description": ""
       },
       {
-        "id": "b8b7e64a-0b80-5e88-a358-e9663db74621",
+        "id": "142d12ae-eb5e-57aa-9f5a-d86fdebad423",
         "tote": "VIC",
+        "product_name": "Exacta",
+        "status": "Final",
+        "dividend": 73.2,
+        "pool_size": 303,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          },
+          {
+            "runner_number": 5,
+            "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "9f2c7147-549e-5257-bd32-ebae0a5c94fe",
+        "tote": "VIC",
+        "product_name": "Quinella",
+        "status": "Final",
+        "dividend": 59.9,
+        "pool_size": 700,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          },
+          {
+            "runner_number": 5,
+            "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "1117ba6e-ea83-5ca3-8a5a-716d7138abeb",
+        "tote": "NSW",
         "product_name": "Running Double",
         "status": "Final",
-        "dividend": 0,
-        "pool_size": 0,
+        "dividend": 45.8,
+        "pool_size": 2,
         "jackpot_size": 0,
         "positions": [
           {
@@ -207,12 +259,12 @@
         "description": ""
       },
       {
-        "id": "7a55e5d8-47f4-5407-b26c-d89e7ea31899",
-        "tote": "VIC",
+        "id": "62fec65f-b1ce-5dce-aa23-9c2382e9a70f",
+        "tote": "QLD",
         "product_name": "Tote Place",
         "status": "Final",
-        "dividend": 3.7,
-        "pool_size": 392,
+        "dividend": 6.5,
+        "pool_size": 44,
         "jackpot_size": 0,
         "positions": [
           {
@@ -223,12 +275,36 @@
         "description": ""
       },
       {
-        "id": "82623106-0c66-56a8-b3b0-35717c75f8ff",
+        "id": "d850e644-4665-50fc-89ef-d8e16dc05bd5",
         "tote": "VIC",
+        "product_name": "Trifecta",
+        "status": "Final",
+        "dividend": 343.6,
+        "pool_size": 1255,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          },
+          {
+            "runner_number": 5,
+            "position": 2
+          },
+          {
+            "runner_number": 7,
+            "position": 3
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "74a1e311-101c-5249-9d5e-ad724fd598a2",
+        "tote": "NSW",
         "product_name": "Tote Place",
         "status": "Final",
-        "dividend": 4,
-        "pool_size": 392,
+        "dividend": 6.1,
+        "pool_size": 144,
         "jackpot_size": 0,
         "positions": [
           {
@@ -239,8 +315,88 @@
         "description": ""
       },
       {
+        "id": "adae580c-0a98-5324-b41f-52d9a1040420",
+        "tote": "VIC",
+        "product_name": "First Four",
+        "status": "Final",
+        "dividend": 1447.9,
+        "pool_size": 1396,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          },
+          {
+            "runner_number": 5,
+            "position": 2
+          },
+          {
+            "runner_number": 7,
+            "position": 3
+          },
+          {
+            "runner_number": 4,
+            "position": 4
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "15471433-b062-512b-871d-d58f197e760b",
+        "tote": "NSW",
+        "product_name": "Tote Win",
+        "status": "Final",
+        "dividend": 8.1,
+        "pool_size": 954,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
         "id": "c375a693-a105-5e48-94ff-eef6df55d8d9",
         "tote": "QLD",
+        "product_name": "Running Double",
+        "status": "Final",
+        "dividend": 0,
+        "pool_size": 0,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 1
+          },
+          {
+            "runner_number": 6,
+            "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "8908193c-b501-5ea1-976b-6d4917fff233",
+        "tote": "VIC",
+        "product_name": "Tote Win",
+        "status": "Final",
+        "dividend": 9.7,
+        "pool_size": 689,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "b8b7e64a-0b80-5e88-a358-e9663db74621",
+        "tote": "VIC",
         "product_name": "Running Double",
         "status": "Final",
         "dividend": 0,
@@ -287,130 +443,6 @@
         "description": ""
       },
       {
-        "id": "a10a3c50-134d-5923-b422-e54bdcc017ca",
-        "tote": "QLD",
-        "product_name": "Tote Win",
-        "status": "Final",
-        "dividend": 9.8,
-        "pool_size": 124,
-        "jackpot_size": 0,
-        "positions": [
-          {
-            "runner_number": 6,
-            "position": 1
-          }
-        ],
-        "description": ""
-      },
-      {
-        "id": "7d7b55a4-965f-5ee7-a047-f9d2bd0ad34e",
-        "tote": "QLD",
-        "product_name": "Exacta",
-        "status": "Final",
-        "dividend": 135.5,
-        "pool_size": 199,
-        "jackpot_size": 0,
-        "positions": [
-          {
-            "runner_number": 6,
-            "position": 1
-          },
-          {
-            "runner_number": 5,
-            "position": 2
-          }
-        ],
-        "description": ""
-      },
-      {
-        "id": "62fec65f-b1ce-5dce-aa23-9c2382e9a70f",
-        "tote": "QLD",
-        "product_name": "Tote Place",
-        "status": "Final",
-        "dividend": 6.5,
-        "pool_size": 44,
-        "jackpot_size": 0,
-        "positions": [
-          {
-            "runner_number": 6,
-            "position": 1
-          }
-        ],
-        "description": ""
-      },
-      {
-        "id": "74a1e311-101c-5249-9d5e-ad724fd598a2",
-        "tote": "NSW",
-        "product_name": "Tote Place",
-        "status": "Final",
-        "dividend": 6.1,
-        "pool_size": 144,
-        "jackpot_size": 0,
-        "positions": [
-          {
-            "runner_number": 5,
-            "position": 1
-          }
-        ],
-        "description": ""
-      },
-      {
-        "id": "1117ba6e-ea83-5ca3-8a5a-716d7138abeb",
-        "tote": "NSW",
-        "product_name": "Running Double",
-        "status": "Final",
-        "dividend": 45.8,
-        "pool_size": 2,
-        "jackpot_size": 0,
-        "positions": [
-          {
-            "runner_number": 2,
-            "position": 1
-          },
-          {
-            "runner_number": 6,
-            "position": 2
-          }
-        ],
-        "description": ""
-      },
-      {
-        "id": "9f2c7147-549e-5257-bd32-ebae0a5c94fe",
-        "tote": "VIC",
-        "product_name": "Quinella",
-        "status": "Final",
-        "dividend": 59.9,
-        "pool_size": 700,
-        "jackpot_size": 0,
-        "positions": [
-          {
-            "runner_number": 6,
-            "position": 1
-          },
-          {
-            "runner_number": 5,
-            "position": 2
-          }
-        ],
-        "description": ""
-      },
-      {
-        "id": "8908193c-b501-5ea1-976b-6d4917fff233",
-        "tote": "VIC",
-        "product_name": "Tote Win",
-        "status": "Final",
-        "dividend": 9.7,
-        "pool_size": 689,
-        "jackpot_size": 0,
-        "positions": [
-          {
-            "runner_number": 6,
-            "position": 1
-          }
-        ],
-        "description": ""
-      },
-      {
         "id": "443e3f9a-d3d6-5e16-a9dd-98fff438b5c7",
         "tote": "NSW",
         "product_name": "Quinella",
@@ -426,94 +458,6 @@
           {
             "runner_number": 5,
             "position": 2
-          }
-        ],
-        "description": ""
-      },
-      {
-        "id": "cb8f8d60-68d1-5f82-a72e-57c8bd62cc3b",
-        "tote": "NSW",
-        "product_name": "Exacta",
-        "status": "Final",
-        "dividend": 168.7,
-        "pool_size": 324,
-        "jackpot_size": 0,
-        "positions": [
-          {
-            "runner_number": 6,
-            "position": 1
-          },
-          {
-            "runner_number": 5,
-            "position": 2
-          }
-        ],
-        "description": ""
-      },
-      {
-        "id": "f458b1cc-c4c5-525d-ae1e-177f2e11934f",
-        "tote": "NSW",
-        "product_name": "First Four",
-        "status": "Final",
-        "dividend": 1519,
-        "pool_size": 980,
-        "jackpot_size": 0,
-        "positions": [
-          {
-            "runner_number": 6,
-            "position": 1
-          },
-          {
-            "runner_number": 5,
-            "position": 2
-          },
-          {
-            "runner_number": 7,
-            "position": 3
-          },
-          {
-            "runner_number": 4,
-            "position": 4
-          }
-        ],
-        "description": ""
-      },
-      {
-        "id": "d850e644-4665-50fc-89ef-d8e16dc05bd5",
-        "tote": "VIC",
-        "product_name": "Trifecta",
-        "status": "Final",
-        "dividend": 343.6,
-        "pool_size": 1255,
-        "jackpot_size": 0,
-        "positions": [
-          {
-            "runner_number": 6,
-            "position": 1
-          },
-          {
-            "runner_number": 5,
-            "position": 2
-          },
-          {
-            "runner_number": 7,
-            "position": 3
-          }
-        ],
-        "description": ""
-      },
-      {
-        "id": "15471433-b062-512b-871d-d58f197e760b",
-        "tote": "NSW",
-        "product_name": "Tote Win",
-        "status": "Final",
-        "dividend": 8.1,
-        "pool_size": 954,
-        "jackpot_size": 0,
-        "positions": [
-          {
-            "runner_number": 6,
-            "position": 1
           }
         ],
         "description": ""
@@ -547,6 +491,30 @@
         "description": ""
       },
       {
+        "id": "b0553e22-c59d-57a1-bd53-61385ebb9bec",
+        "tote": "NSW",
+        "product_name": "Trifecta",
+        "status": "Final",
+        "dividend": 435.9,
+        "pool_size": 2739,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          },
+          {
+            "runner_number": 5,
+            "position": 2
+          },
+          {
+            "runner_number": 7,
+            "position": 3
+          }
+        ],
+        "description": ""
+      },
+      {
         "id": "b84d2185-ba15-5fae-bd68-3d20b2cab19e",
         "tote": "QLD",
         "product_name": "Trifecta",
@@ -571,12 +539,28 @@
         "description": ""
       },
       {
-        "id": "142d12ae-eb5e-57aa-9f5a-d86fdebad423",
-        "tote": "VIC",
+        "id": "a10a3c50-134d-5923-b422-e54bdcc017ca",
+        "tote": "QLD",
+        "product_name": "Tote Win",
+        "status": "Final",
+        "dividend": 9.8,
+        "pool_size": 124,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "cb8f8d60-68d1-5f82-a72e-57c8bd62cc3b",
+        "tote": "NSW",
         "product_name": "Exacta",
         "status": "Final",
-        "dividend": 73.2,
-        "pool_size": 303,
+        "dividend": 168.7,
+        "pool_size": 324,
         "jackpot_size": 0,
         "positions": [
           {
@@ -586,6 +570,110 @@
           {
             "runner_number": 5,
             "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "7d7b55a4-965f-5ee7-a047-f9d2bd0ad34e",
+        "tote": "QLD",
+        "product_name": "Exacta",
+        "status": "Final",
+        "dividend": 135.5,
+        "pool_size": 199,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          },
+          {
+            "runner_number": 5,
+            "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "c0373ef6-8953-5ba3-b085-617a4b594856",
+        "tote": "QLD",
+        "product_name": "Tote Place",
+        "status": "Final",
+        "dividend": 0,
+        "pool_size": 44,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 5,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "eeb9c825-610c-5fbf-851d-e9e6596a4cc6",
+        "tote": "QLD",
+        "product_name": "Quinella",
+        "status": "Final",
+        "dividend": 111.1,
+        "pool_size": 67,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          },
+          {
+            "runner_number": 5,
+            "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "82623106-0c66-56a8-b3b0-35717c75f8ff",
+        "tote": "VIC",
+        "product_name": "Tote Place",
+        "status": "Final",
+        "dividend": 4,
+        "pool_size": 392,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 5,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "7a55e5d8-47f4-5407-b26c-d89e7ea31899",
+        "tote": "VIC",
+        "product_name": "Tote Place",
+        "status": "Final",
+        "dividend": 3.7,
+        "pool_size": 392,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "c07474c4-f6c4-5866-83f3-d985ce37c50c",
+        "tote": "NSW",
+        "product_name": "Tote Place",
+        "status": "Final",
+        "dividend": 2.4,
+        "pool_size": 144,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
           }
         ],
         "description": ""
@@ -614,94 +702,6 @@
           {
             "runner_number": 6,
             "position": 4
-          }
-        ],
-        "description": ""
-      },
-      {
-        "id": "eeb9c825-610c-5fbf-851d-e9e6596a4cc6",
-        "tote": "QLD",
-        "product_name": "Quinella",
-        "status": "Final",
-        "dividend": 111.1,
-        "pool_size": 67,
-        "jackpot_size": 0,
-        "positions": [
-          {
-            "runner_number": 6,
-            "position": 1
-          },
-          {
-            "runner_number": 5,
-            "position": 2
-          }
-        ],
-        "description": ""
-      },
-      {
-        "id": "adae580c-0a98-5324-b41f-52d9a1040420",
-        "tote": "VIC",
-        "product_name": "First Four",
-        "status": "Final",
-        "dividend": 1447.9,
-        "pool_size": 1396,
-        "jackpot_size": 0,
-        "positions": [
-          {
-            "runner_number": 6,
-            "position": 1
-          },
-          {
-            "runner_number": 5,
-            "position": 2
-          },
-          {
-            "runner_number": 7,
-            "position": 3
-          },
-          {
-            "runner_number": 4,
-            "position": 4
-          }
-        ],
-        "description": ""
-      },
-      {
-        "id": "c0373ef6-8953-5ba3-b085-617a4b594856",
-        "tote": "QLD",
-        "product_name": "Tote Place",
-        "status": "Final",
-        "dividend": 0,
-        "pool_size": 44,
-        "jackpot_size": 0,
-        "positions": [
-          {
-            "runner_number": 5,
-            "position": 1
-          }
-        ],
-        "description": ""
-      },
-      {
-        "id": "b0553e22-c59d-57a1-bd53-61385ebb9bec",
-        "tote": "NSW",
-        "product_name": "Trifecta",
-        "status": "Final",
-        "dividend": 435.9,
-        "pool_size": 2739,
-        "jackpot_size": 0,
-        "positions": [
-          {
-            "runner_number": 6,
-            "position": 1
-          },
-          {
-            "runner_number": 5,
-            "position": 2
-          },
-          {
-            "runner_number": 7,
-            "position": 3
           }
         ],
         "description": ""
@@ -876,8 +876,8 @@
             "fluc": 1.3
           },
           "nine_am": {
-            "timestamp": "2025-10-24T10:13:34.785178175Z",
-            "fluc": 1.75
+            "timestamp": "2025-10-24T23:01:51.477287858Z",
+            "fluc": 1.3
           }
         }
       },
@@ -964,8 +964,8 @@
             "fluc": 21
           },
           "nine_am": {
-            "timestamp": "2025-10-24T10:13:34.785592147Z",
-            "fluc": 21
+            "timestamp": "2025-10-24T23:01:51.477303169Z",
+            "fluc": 35
           }
         }
       },
@@ -1133,8 +1133,8 @@
             "fluc": 12
           },
           "nine_am": {
-            "timestamp": "2025-10-24T10:13:34.785624198Z",
-            "fluc": 12
+            "timestamp": "2025-10-24T23:01:32.377513611Z",
+            "fluc": 20
           }
         }
       },
@@ -1231,8 +1231,8 @@
             "fluc": 16
           },
           "nine_am": {
-            "timestamp": "2025-10-24T10:13:34.785494975Z",
-            "fluc": 16
+            "timestamp": "2025-10-24T23:01:32.377508615Z",
+            "fluc": 20
           }
         }
       },
@@ -1324,8 +1324,8 @@
             "fluc": 3
           },
           "nine_am": {
-            "timestamp": "2025-10-24T10:13:34.78561291Z",
-            "fluc": 3
+            "timestamp": "2025-10-24T23:01:11.513057405Z",
+            "fluc": 7
           }
         }
       },
@@ -1422,8 +1422,8 @@
             "fluc": 5
           },
           "nine_am": {
-            "timestamp": "2025-10-24T10:13:34.784981121Z",
-            "fluc": 5.5
+            "timestamp": "2025-10-24T23:01:11.513154544Z",
+            "fluc": 6
           }
         }
       },
@@ -1515,8 +1515,8 @@
             "fluc": 16
           },
           "nine_am": {
-            "timestamp": "2025-10-24T10:13:34.785334134Z",
-            "fluc": 16
+            "timestamp": "2025-10-24T23:01:01.572506278Z",
+            "fluc": 20
           }
         }
       }
