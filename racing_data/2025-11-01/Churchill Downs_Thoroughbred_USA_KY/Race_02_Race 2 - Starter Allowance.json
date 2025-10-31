@@ -1,0 +1,886 @@
+{
+  "header": {
+    "title": "Event Details: f01323af-0af4-4d1c-9bdf-765fa5aaf61b",
+    "generated_time": "2025-10-31T23:29:13.431204349Z",
+    "url": "/affiliates/v1/racing/events/f01323af-0af4-4d1c-9bdf-765fa5aaf61b?enc=json&include_form=true&include_odds=true&include_flucs=true&include_speedmap=true&include_past_performances=true&include_form_indicators=true&include_jockey_stats=true&include_trainer_stats=true"
+  },
+  "params": {
+    "enc": "json",
+    "id": "f01323af-0af4-4d1c-9bdf-765fa5aaf61b",
+    "present_overlay": false,
+    "with_big_bets": false,
+    "with_live_bets": false,
+    "with_money_tracker": false,
+    "with_biggest_bet": false,
+    "will_pays": false,
+    "with_tote_trends_data": false,
+    "bet_type_filter": "",
+    "bets_limit": 10
+  },
+  "data": {
+    "race": {
+      "event_id": "f01323af-0af4-4d1c-9bdf-765fa5aaf61b",
+      "meeting_name": "Churchill Downs",
+      "display_meeting_name": "Churchill Downs",
+      "meeting_id": "0d672248-9415-4e24-9da7-3f66b305984f",
+      "status": "Final",
+      "description": "Race 2 - Starter Allowance",
+      "advertised_start": 1761931800,
+      "actual_start": 1761931904,
+      "advertised_start_string": "2025-10-31 17:30:00 +0000 UTC",
+      "actual_start_string": "2025-10-31 17:31:44 +0000 UTC",
+      "race_number": 2,
+      "type": "T",
+      "start_type": "",
+      "country": "USA",
+      "state": "KY",
+      "distance": 1609,
+      "weather": "Cloudy",
+      "form_guide": "",
+      "comment": "REVEL TOAST (5) went fast early and went on to score by 3.5 lengths last time out over 1207m at this track (Dirt). Likely improver with strong prospects. MISS CALL (6) went forward last start over 1609m in stakes class at Delaware Park (Dirt) and held on well for third, beaten 5.5 lengths. Perfectly placed and is sure to take plenty of stopping. GRAND LUXX (7) was an impressive maiden winner last time out, scoring by 1.3 lengths over 1207m at this track (Dirt). Is lightly raced and has plenty of scope for improvement. Shaping up nicely and she cannot be discounted. HIT PARADE (2) raced on the speed from the outset and went to score by 2 lengths last time over 1710m at this track (Dirt). Must be respected.",
+      "silk_base_url": "drr38safykj6s.cloudfront.net",
+      "track_condition": "Fast",
+      "track_direction": "Left",
+      "silk_url": "https://cdn.prod.pricekinetics.com/silks/sprites/cerberus/betmakers-cmFjZToxODMyMzQw_SPRITE_64x64.png",
+      "entrant_count": 7,
+      "positions_paid": 2,
+      "tips": [
+        "7aa893d8-724c-4985-8e37-31e85d2916ca",
+        "eba61757-ba0f-4f43-a07b-b8892d32d7c5",
+        "c67fbedf-368d-4d60-a921-b606815b8635",
+        "58252e5f-05d3-437e-97b9-610fda55e659"
+      ],
+      "rail_position": "",
+      "group": "",
+      "prize_monies": {
+        "1st": 79589,
+        "2nd": 25266,
+        "3rd": 12633,
+        "4th": 8843,
+        "total_value": 126332
+      },
+      "track_home_straight": 0
+    },
+    "results": [
+      {
+        "position": 1,
+        "name": "Hit Parade",
+        "barrier": 2,
+        "runner_number": 2,
+        "margin_length": 0,
+        "entrant_id": "58252e5f-05d3-437e-97b9-610fda55e659"
+      },
+      {
+        "position": 2,
+        "name": "Miss Call",
+        "barrier": 6,
+        "runner_number": 6,
+        "margin_length": 0.5,
+        "entrant_id": "eba61757-ba0f-4f43-a07b-b8892d32d7c5"
+      },
+      {
+        "position": 3,
+        "name": "Grand Luxx",
+        "barrier": 7,
+        "runner_number": 7,
+        "margin_length": 9.75,
+        "entrant_id": "c67fbedf-368d-4d60-a921-b606815b8635"
+      },
+      {
+        "position": 4,
+        "name": "Tizianna",
+        "barrier": 4,
+        "runner_number": 4,
+        "margin_length": 10.75,
+        "entrant_id": "50615ae6-caf5-4ba8-b6fb-44b81a2d4bed"
+      },
+      {
+        "position": 5,
+        "name": "Revel Toast",
+        "barrier": 5,
+        "runner_number": 5,
+        "margin_length": 11.25,
+        "entrant_id": "7aa893d8-724c-4985-8e37-31e85d2916ca"
+      },
+      {
+        "position": 6,
+        "name": "Quince",
+        "barrier": 1,
+        "runner_number": 1,
+        "margin_length": 24.25,
+        "entrant_id": "b61aba72-7df1-4aa7-8304-2b2fd344ab18"
+      },
+      {
+        "position": 7,
+        "name": "Final Shipman",
+        "barrier": 3,
+        "runner_number": 3,
+        "margin_length": 28.5,
+        "entrant_id": "8a57b561-a901-44f3-8b15-65a512f38fd8"
+      }
+    ],
+    "favourite": {
+      "entrant_id": "7aa893d8-724c-4985-8e37-31e85d2916ca",
+      "market_name": "Final Field",
+      "primary_market": true,
+      "name": "Revel Toast",
+      "is_scratched": false,
+      "gear": "",
+      "odds": {
+        "fixed_win": 3,
+        "fixed_place": 1.7
+      },
+      "scratch_time": 0,
+      "barrier": 5,
+      "runner_number": 5,
+      "prize_money": "119690",
+      "age": 2,
+      "sex": "F",
+      "colour": "B",
+      "silk_colours": "RED, WHITE CHECKS, HOOPS SLEEVES",
+      "silk_url_64x64": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODMyMzQw/revel-toast_64x64.png",
+      "silk_url_128x128": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODMyMzQw/revel-toast_128x128.png",
+      "form_comment": null,
+      "class_level": "",
+      "jockey": "Jaime Torres",
+      "apprentice_indicator": "",
+      "allowance_weight": "",
+      "owners": "JOEL POLITI",
+      "country": "USA",
+      "trainer_name": "Thomas M Amoss",
+      "last_twenty_starts": "231",
+      "sire": "MACLEAN'S MUSIC (USA)",
+      "dam": "TULANIAN (USA)",
+      "breeding": "2 f MACLEAN'S MUSIC (USA)-TULANIAN (USA)",
+      "weight": {
+        "allocated": "54.5",
+        "total": "54.5"
+      },
+      "favourite": false,
+      "mover": false,
+      "speedmap": {
+        "settling_lengths": 7,
+        "entrant_id": "7aa893d8-724c-4985-8e37-31e85d2916ca"
+      },
+      "form_indicators": null,
+      "past_performances": null,
+      "jockey_past_performances": null,
+      "trainer_location": ""
+    },
+    "runners": [
+      {
+        "entrant_id": "b61aba72-7df1-4aa7-8304-2b2fd344ab18",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Quince",
+        "is_scratched": false,
+        "gear": "",
+        "odds": {
+          "fixed_win": 21,
+          "fixed_place": 7
+        },
+        "scratch_time": 0,
+        "barrier": 1,
+        "runner_number": 1,
+        "prize_money": "26484",
+        "age": 2,
+        "sex": "F",
+        "colour": "B",
+        "silk_colours": "HOT PINK, BLACK FLEUR DE LIS",
+        "silk_url_64x64": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODMyMzQw/quince_64x64.png",
+        "silk_url_128x128": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODMyMzQw/quince_128x128.png",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "Gabriel Saez",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "SILVERTON HILL LLC",
+        "country": "USA",
+        "trainer_name": "Kelsey Danner",
+        "last_twenty_starts": "1",
+        "sire": "VINO ROSSO (USA)",
+        "dam": "UNION WAY (USA)",
+        "breeding": "2 f VINO ROSSO (USA)-UNION WAY (USA)",
+        "weight": {
+          "allocated": "54.5",
+          "total": "54.5"
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {
+          "settling_lengths": 7,
+          "entrant_id": "b61aba72-7df1-4aa7-8304-2b2fd344ab18",
+          "label": "Midfield"
+        },
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "",
+        "meta": null,
+        "flucs": [
+          19,
+          17,
+          21
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2025-10-31T17:10:35.006696556Z",
+              "fluc": 19
+            },
+            {
+              "timestamp": "2025-10-31T17:18:31.69845734Z",
+              "fluc": 17
+            },
+            {
+              "timestamp": "2025-10-31T17:31:25.149428929Z",
+              "fluc": 21
+            }
+          ],
+          "open": {
+            "timestamp": "2025-10-31T17:10:35.006696556Z",
+            "fluc": 19
+          },
+          "high": {
+            "timestamp": "2025-10-31T17:31:25.149428929Z",
+            "fluc": 21
+          },
+          "low": {
+            "timestamp": "2025-10-31T17:18:31.69845734Z",
+            "fluc": 17
+          },
+          "nine_am": {
+            "timestamp": "2025-10-31T17:31:25.149428929Z",
+            "fluc": 21
+          }
+        }
+      },
+      {
+        "entrant_id": "58252e5f-05d3-437e-97b9-610fda55e659",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Hit Parade",
+        "is_scratched": false,
+        "gear": "",
+        "odds": {
+          "fixed_win": 5.5,
+          "fixed_place": 2.6
+        },
+        "scratch_time": 0,
+        "barrier": 2,
+        "runner_number": 2,
+        "prize_money": "62863",
+        "age": 2,
+        "sex": "F",
+        "colour": "B",
+        "silk_colours": "PINK, BLACK DIAMOND BAND, COLLAR, CAP",
+        "silk_url_64x64": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODMyMzQw/hit-parade_64x64.png",
+        "silk_url_128x128": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODMyMzQw/hit-parade_128x128.png",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "Florent Geroux",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "GARY AND MARY WEST",
+        "country": "USA",
+        "trainer_name": "B H Cox",
+        "last_twenty_starts": "31",
+        "sire": "STREET SENSE (USA)",
+        "dam": "WEDDING BAND (USA)",
+        "breeding": "2 f STREET SENSE (USA)-WEDDING BAND (USA)",
+        "weight": {
+          "allocated": "54.5",
+          "total": "54.5"
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {
+          "settling_lengths": 6,
+          "entrant_id": "58252e5f-05d3-437e-97b9-610fda55e659",
+          "label": "Midfield"
+        },
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "USA",
+        "meta": null,
+        "flucs": [
+          6.5,
+          7,
+          4.8,
+          5.5
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2025-10-31T17:10:35.006506599Z",
+              "fluc": 6.5
+            },
+            {
+              "timestamp": "2025-10-31T17:13:53.75727444Z",
+              "fluc": 7
+            },
+            {
+              "timestamp": "2025-10-31T17:26:33.30193185Z",
+              "fluc": 4.8
+            },
+            {
+              "timestamp": "2025-10-31T17:28:44.1992442Z",
+              "fluc": 5.5
+            }
+          ],
+          "open": {
+            "timestamp": "2025-10-31T17:10:35.006506599Z",
+            "fluc": 6.5
+          },
+          "high": {
+            "timestamp": "2025-10-31T17:13:53.75727444Z",
+            "fluc": 7
+          },
+          "low": {
+            "timestamp": "2025-10-31T17:26:33.30193185Z",
+            "fluc": 4.8
+          },
+          "nine_am": {
+            "timestamp": "2025-10-31T17:28:44.1992442Z",
+            "fluc": 5.5
+          }
+        }
+      },
+      {
+        "entrant_id": "8a57b561-a901-44f3-8b15-65a512f38fd8",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Final Shipman",
+        "is_scratched": false,
+        "gear": "blinker on.",
+        "odds": {
+          "fixed_win": 34,
+          "fixed_place": 10
+        },
+        "scratch_time": 0,
+        "barrier": 3,
+        "runner_number": 3,
+        "prize_money": "25078",
+        "age": 2,
+        "sex": "F",
+        "colour": "B",
+        "silk_colours": "WHITE, BLACK HORSESHOE",
+        "silk_url_64x64": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODMyMzQw/final-shipman_64x64.png",
+        "silk_url_128x128": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODMyMzQw/final-shipman_128x128.png",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "Mitchell Murrill",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "JARVIS RACING STABLE",
+        "country": "USA",
+        "trainer_name": "C J Deville",
+        "last_twenty_starts": "617",
+        "sire": "MIDSHIPMAN (USA)",
+        "dam": "FINAL ADVENTURE (USA)",
+        "breeding": "2 f MIDSHIPMAN (USA)-FINAL ADVENTURE (USA)",
+        "weight": {
+          "allocated": "54.5",
+          "total": "54.5"
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {
+          "settling_lengths": 8,
+          "entrant_id": "8a57b561-a901-44f3-8b15-65a512f38fd8",
+          "label": "Front Runner"
+        },
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "USA",
+        "meta": null,
+        "flucs": [
+          34,
+          26,
+          35,
+          34
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2025-10-31T17:10:35.006517897Z",
+              "fluc": 34
+            },
+            {
+              "timestamp": "2025-10-31T17:16:34.75308246Z",
+              "fluc": 26
+            },
+            {
+              "timestamp": "2025-10-31T17:31:23.80655055Z",
+              "fluc": 35
+            },
+            {
+              "timestamp": "2025-10-31T17:31:25.149457184Z",
+              "fluc": 34
+            }
+          ],
+          "open": {
+            "timestamp": "2025-10-31T17:10:35.006517897Z",
+            "fluc": 34
+          },
+          "high": {
+            "timestamp": "2025-10-31T17:31:23.80655055Z",
+            "fluc": 35
+          },
+          "low": {
+            "timestamp": "2025-10-31T17:16:34.75308246Z",
+            "fluc": 26
+          },
+          "nine_am": {
+            "timestamp": "2025-10-31T17:31:25.149457184Z",
+            "fluc": 34
+          }
+        }
+      },
+      {
+        "entrant_id": "50615ae6-caf5-4ba8-b6fb-44b81a2d4bed",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Tizianna",
+        "is_scratched": false,
+        "gear": "",
+        "odds": {
+          "fixed_win": 9,
+          "fixed_place": 3.7
+        },
+        "scratch_time": 0,
+        "barrier": 4,
+        "runner_number": 4,
+        "prize_money": "46970",
+        "age": 2,
+        "sex": "F",
+        "colour": "B",
+        "silk_colours": "PURPLE,WHITE DISC,SLEEVES,PURPLE SPOTS",
+        "silk_url_64x64": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODMyMzQw/tizianna_64x64.png",
+        "silk_url_128x128": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODMyMzQw/tizianna_128x128.png",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "Julien R. Leparoux",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "AVEEN CAMPION",
+        "country": "USA",
+        "trainer_name": "Helen Pitts",
+        "last_twenty_starts": "15",
+        "sire": "BEAU LIAM (USA)",
+        "dam": "RADIANT RUBY (USA)",
+        "breeding": "2 f BEAU LIAM (USA)-RADIANT RUBY (USA)",
+        "weight": {
+          "allocated": "54.5",
+          "total": "54.5"
+        },
+        "favourite": false,
+        "mover": true,
+        "speedmap": {
+          "settling_lengths": 3,
+          "entrant_id": "50615ae6-caf5-4ba8-b6fb-44b81a2d4bed",
+          "label": "Back Marker"
+        },
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "USA",
+        "meta": null,
+        "flucs": [
+          13,
+          9
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2025-10-31T17:10:35.006308669Z",
+              "fluc": 13
+            },
+            {
+              "timestamp": "2025-10-31T17:30:21.500617815Z",
+              "fluc": 9
+            }
+          ],
+          "open": {
+            "timestamp": "2025-10-31T17:10:35.006308669Z",
+            "fluc": 13
+          },
+          "high": {
+            "timestamp": "2025-10-31T17:10:35.006308669Z",
+            "fluc": 13
+          },
+          "low": {
+            "timestamp": "2025-10-31T17:30:21.500617815Z",
+            "fluc": 9
+          },
+          "nine_am": {
+            "timestamp": "2025-10-31T17:30:21.500617815Z",
+            "fluc": 9
+          }
+        }
+      },
+      {
+        "entrant_id": "7aa893d8-724c-4985-8e37-31e85d2916ca",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Revel Toast",
+        "is_scratched": false,
+        "gear": "",
+        "odds": {
+          "fixed_win": 3,
+          "fixed_place": 1.7
+        },
+        "scratch_time": 0,
+        "barrier": 5,
+        "runner_number": 5,
+        "prize_money": "119690",
+        "age": 2,
+        "sex": "F",
+        "colour": "B",
+        "silk_colours": "RED, WHITE CHECKS, HOOPS SLEEVES",
+        "silk_url_64x64": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODMyMzQw/revel-toast_64x64.png",
+        "silk_url_128x128": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODMyMzQw/revel-toast_128x128.png",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "Jaime Torres",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "JOEL POLITI",
+        "country": "USA",
+        "trainer_name": "Thomas M Amoss",
+        "last_twenty_starts": "231",
+        "sire": "MACLEAN'S MUSIC (USA)",
+        "dam": "TULANIAN (USA)",
+        "breeding": "2 f MACLEAN'S MUSIC (USA)-TULANIAN (USA)",
+        "weight": {
+          "allocated": "54.5",
+          "total": "54.5"
+        },
+        "favourite": true,
+        "mover": false,
+        "speedmap": {
+          "settling_lengths": 7,
+          "entrant_id": "7aa893d8-724c-4985-8e37-31e85d2916ca",
+          "label": "Midfield"
+        },
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "",
+        "meta": null,
+        "flucs": [
+          2.5,
+          2.45,
+          3.2,
+          3
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2025-10-31T17:10:35.006766281Z",
+              "fluc": 2.5
+            },
+            {
+              "timestamp": "2025-10-31T17:11:32.351548347Z",
+              "fluc": 2.45
+            },
+            {
+              "timestamp": "2025-10-31T17:29:50.754015029Z",
+              "fluc": 3.2
+            },
+            {
+              "timestamp": "2025-10-31T17:31:09.048595813Z",
+              "fluc": 3
+            }
+          ],
+          "open": {
+            "timestamp": "2025-10-31T17:10:35.006766281Z",
+            "fluc": 2.5
+          },
+          "high": {
+            "timestamp": "2025-10-31T17:29:50.754015029Z",
+            "fluc": 3.2
+          },
+          "low": {
+            "timestamp": "2025-10-31T17:11:32.351548347Z",
+            "fluc": 2.45
+          },
+          "nine_am": {
+            "timestamp": "2025-10-31T17:31:09.048595813Z",
+            "fluc": 3
+          }
+        }
+      },
+      {
+        "entrant_id": "eba61757-ba0f-4f43-a07b-b8892d32d7c5",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Miss Call",
+        "is_scratched": false,
+        "gear": "",
+        "odds": {
+          "fixed_win": 3.5,
+          "fixed_place": 1.9
+        },
+        "scratch_time": 0,
+        "barrier": 6,
+        "runner_number": 6,
+        "prize_money": "83054",
+        "age": 2,
+        "sex": "F",
+        "colour": "DK B/BR",
+        "silk_colours": "WHITE, BLACK QUESTION MARK",
+        "silk_url_64x64": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODMyMzQw/miss-call_64x64.png",
+        "silk_url_128x128": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODMyMzQw/miss-call_128x128.png",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "Emmanuel Esquivel",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "M 5 RACING STABLE STEVE DERVENIS AND MAG",
+        "country": "USA",
+        "trainer_name": "Kenneth G McPeek",
+        "last_twenty_starts": "413",
+        "sire": "SILVER STATE (USA)",
+        "dam": "LADY LAURA (USA)",
+        "breeding": "2 f SILVER STATE (USA)-LADY LAURA (USA)",
+        "weight": {
+          "allocated": "54.5",
+          "total": "54.5"
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {
+          "settling_lengths": 5,
+          "entrant_id": "eba61757-ba0f-4f43-a07b-b8892d32d7c5",
+          "label": "Midfield"
+        },
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "USA",
+        "meta": null,
+        "flucs": [
+          3.5,
+          3.1,
+          3.7,
+          3.5
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2025-10-31T17:10:35.006885645Z",
+              "fluc": 3.5
+            },
+            {
+              "timestamp": "2025-10-31T17:27:35.548053366Z",
+              "fluc": 3.1
+            },
+            {
+              "timestamp": "2025-10-31T17:29:52.796472736Z",
+              "fluc": 3.7
+            },
+            {
+              "timestamp": "2025-10-31T17:31:09.048421471Z",
+              "fluc": 3.5
+            }
+          ],
+          "open": {
+            "timestamp": "2025-10-31T17:10:35.006885645Z",
+            "fluc": 3.5
+          },
+          "high": {
+            "timestamp": "2025-10-31T17:29:52.796472736Z",
+            "fluc": 3.7
+          },
+          "low": {
+            "timestamp": "2025-10-31T17:27:35.548053366Z",
+            "fluc": 3.1
+          },
+          "nine_am": {
+            "timestamp": "2025-10-31T17:31:09.048421471Z",
+            "fluc": 3.5
+          }
+        }
+      },
+      {
+        "entrant_id": "c67fbedf-368d-4d60-a921-b606815b8635",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Grand Luxx",
+        "is_scratched": false,
+        "gear": "",
+        "odds": {
+          "fixed_win": 4.8,
+          "fixed_place": 2.35
+        },
+        "scratch_time": 0,
+        "barrier": 7,
+        "runner_number": 7,
+        "prize_money": "81860",
+        "age": 2,
+        "sex": "F",
+        "colour": "B",
+        "silk_colours": "RED, WHITE DISC, RED 'OXO,' WHITE SLEEVES, TWO RED HOOPS, RED CAP",
+        "silk_url_64x64": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODMyMzQw/grand-luxx_64x64.png",
+        "silk_url_128x128": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODMyMzQw/grand-luxx_128x128.png",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "Axel Concepcion",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "OXO EQUINE LLC",
+        "country": "USA",
+        "trainer_name": "William Walden",
+        "last_twenty_starts": "61",
+        "sire": "INSTAGRAND (USA)",
+        "dam": "MY GIRL (USA)",
+        "breeding": "2 f INSTAGRAND (USA)-MY GIRL (USA)",
+        "weight": {
+          "allocated": "54.5",
+          "total": "54.5"
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {
+          "settling_lengths": 6,
+          "entrant_id": "c67fbedf-368d-4d60-a921-b606815b8635",
+          "label": "Midfield"
+        },
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "",
+        "meta": null,
+        "flucs": [
+          4,
+          3.9,
+          4.8
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2025-10-31T17:10:35.006067777Z",
+              "fluc": 4
+            },
+            {
+              "timestamp": "2025-10-31T17:28:44.199252099Z",
+              "fluc": 3.9
+            },
+            {
+              "timestamp": "2025-10-31T17:31:24.510017015Z",
+              "fluc": 4.8
+            }
+          ],
+          "open": {
+            "timestamp": "2025-10-31T17:10:35.006067777Z",
+            "fluc": 4
+          },
+          "high": {
+            "timestamp": "2025-10-31T17:31:24.510017015Z",
+            "fluc": 4.8
+          },
+          "low": {
+            "timestamp": "2025-10-31T17:28:44.199252099Z",
+            "fluc": 3.9
+          },
+          "nine_am": {
+            "timestamp": "2025-10-31T17:31:24.510017015Z",
+            "fluc": 4.8
+          }
+        }
+      }
+    ],
+    "derivatives": null,
+    "mover": {
+      "entrant_id": "50615ae6-caf5-4ba8-b6fb-44b81a2d4bed",
+      "market_name": "Final Field",
+      "primary_market": true,
+      "name": "Tizianna",
+      "is_scratched": false,
+      "gear": "",
+      "odds": {
+        "fixed_win": 9,
+        "fixed_place": 3.7
+      },
+      "scratch_time": 0,
+      "barrier": 4,
+      "runner_number": 4,
+      "prize_money": "46970",
+      "age": 2,
+      "sex": "F",
+      "colour": "B",
+      "silk_colours": "PURPLE,WHITE DISC,SLEEVES,PURPLE SPOTS",
+      "silk_url_64x64": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODMyMzQw/tizianna_64x64.png",
+      "silk_url_128x128": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODMyMzQw/tizianna_128x128.png",
+      "form_comment": null,
+      "class_level": "",
+      "jockey": "Julien R. Leparoux",
+      "apprentice_indicator": "",
+      "allowance_weight": "",
+      "owners": "AVEEN CAMPION",
+      "country": "USA",
+      "trainer_name": "Helen Pitts",
+      "last_twenty_starts": "15",
+      "sire": "BEAU LIAM (USA)",
+      "dam": "RADIANT RUBY (USA)",
+      "breeding": "2 f BEAU LIAM (USA)-RADIANT RUBY (USA)",
+      "weight": {
+        "allocated": "54.5",
+        "total": "54.5"
+      },
+      "favourite": false,
+      "mover": true,
+      "speedmap": {
+        "settling_lengths": 3,
+        "entrant_id": "50615ae6-caf5-4ba8-b6fb-44b81a2d4bed"
+      },
+      "form_indicators": null,
+      "past_performances": null,
+      "jockey_past_performances": null,
+      "trainer_location": "USA"
+    },
+    "big_bets": null,
+    "live_bets": null,
+    "biggest_bet": null,
+    "money_tracker": null,
+    "error": ""
+  }
+}
