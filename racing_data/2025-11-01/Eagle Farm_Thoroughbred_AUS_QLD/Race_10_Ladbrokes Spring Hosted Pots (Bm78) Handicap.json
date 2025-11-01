@@ -1,7 +1,7 @@
 {
   "header": {
     "title": "Event Details: 2647dc5a-1ce7-452a-994c-0f5991432f9a",
-    "generated_time": "2025-11-01T00:32:18.709567356Z",
+    "generated_time": "2025-11-01T23:33:49.312172185Z",
     "url": "/affiliates/v1/racing/events/2647dc5a-1ce7-452a-994c-0f5991432f9a?enc=json&include_form=true&include_odds=true&include_flucs=true&include_speedmap=true&include_past_performances=true&include_form_indicators=true&include_jockey_stats=true&include_trainer_stats=true"
   },
   "params": {
@@ -23,12 +23,12 @@
       "meeting_name": "Eagle Farm",
       "display_meeting_name": "Eagle Farm",
       "meeting_id": "cbe19360-662b-44ea-8a44-a50c61d2445a",
-      "status": "Open",
+      "status": "Abandoned",
       "description": "Ladbrokes Spring Hosted Pots (Bm78) Handicap",
-      "advertised_start": 1761981000,
-      "actual_start": 1761981000,
-      "advertised_start_string": "2025-11-01 07:10:00 +0000 UTC",
-      "actual_start_string": "2025-11-01 07:10:00 +0000 UTC",
+      "advertised_start": 1761986700,
+      "actual_start": 1761975174,
+      "advertised_start_string": "2025-11-01 08:45:00 +0000 UTC",
+      "actual_start_string": "2025-11-01 05:32:54 +0000 UTC",
       "race_number": 10,
       "type": "T",
       "start_type": "",
@@ -39,7 +39,7 @@
       "form_guide": "",
       "comment": "Open race to close out the card. COSMO CENTAURUS (10) returned in fine fashion with a dominant Doomben victory and winning rider Moor stays in the stirrups. Will have derived some confidence from that first-up effort and should be going very close again. The well-related SURPRISE HONEY (15) (full to G3 winner Bel Merci) has hit a purple patch this campaign with two wins and three placings from five outings. Hard to knock mares in form and is sure to be right there when the judge calls a halt. SER JOH (5) has a solid record over this course and distance with two wins and a placing from five attempts. Can run a race second-up. BEWS (3) can progress off a fresh placing.",
       "silk_base_url": "drr38safykj6s.cloudfront.net",
-      "track_condition": "Soft5",
+      "track_condition": "Good4",
       "track_direction": "Right",
       "silk_url": "https://cdn.prod.pricekinetics.com/silks/sprites/cerberus/betmakers-cmFjZToxODM0Njkx_SPRITE_64x64.png",
       "entrant_count": 17,
@@ -133,7 +133,20 @@
         "settling_lengths": 2,
         "entrant_id": "2c3e1567-d6f4-4131-b079-b28ab869ff76"
       },
-      "form_indicators": null,
+      "form_indicators": [
+        {
+          "name": "Form on Good",
+          "group": "Conditions",
+          "negative": false,
+          "priority": 3300
+        },
+        {
+          "name": "Strong Form on Good",
+          "group": "Conditions",
+          "negative": false,
+          "priority": 380
+        }
+      ],
       "past_performances": {
         "jockey": {
           "number_of_starts": 1,
@@ -242,11 +255,7 @@
         "trainer_location": "Toowoomba",
         "meta": null,
         "flucs": [
-          41,
-          34,
-          35,
-          41,
-          46,
+          51,
           51
         ],
         "scr_time": null,
@@ -257,27 +266,11 @@
         "flucs_with_timestamp": {
           "last_six": [
             {
-              "timestamp": "2025-10-31T19:12:17.842315023Z",
-              "fluc": 41
+              "timestamp": "2025-10-29T03:01:35Z",
+              "fluc": 51
             },
             {
-              "timestamp": "2025-10-31T21:20:20.087864038Z",
-              "fluc": 34
-            },
-            {
-              "timestamp": "2025-10-31T21:29:04.489317675Z",
-              "fluc": 35
-            },
-            {
-              "timestamp": "2025-10-31T21:58:39.695336165Z",
-              "fluc": 41
-            },
-            {
-              "timestamp": "2025-10-31T22:24:58.898407013Z",
-              "fluc": 46
-            },
-            {
-              "timestamp": "2025-11-01T00:02:40.008817119Z",
+              "timestamp": "2025-11-01T05:29:29.166115121Z",
               "fluc": 51
             }
           ],
@@ -286,16 +279,16 @@
             "fluc": 51
           },
           "high": {
-            "timestamp": "2025-10-29T03:01:35Z",
+            "timestamp": "2025-11-01T05:29:29.166115121Z",
             "fluc": 51
           },
           "low": {
-            "timestamp": "2025-10-31T21:20:20.087864038Z",
-            "fluc": 34
+            "timestamp": "2025-11-01T05:29:29.166115121Z",
+            "fluc": 51
           },
           "nine_am": {
-            "timestamp": "2025-10-31T21:58:39.695336165Z",
-            "fluc": 41
+            "timestamp": "2025-11-01T05:29:29.166115121Z",
+            "fluc": 51
           }
         }
       },
@@ -487,11 +480,7 @@
         "trainer_location": "Sunshine Coast",
         "meta": null,
         "flucs": [
-          14,
-          13,
-          12,
-          11,
-          10,
+          18,
           11
         ],
         "scr_time": null,
@@ -502,27 +491,11 @@
         "flucs_with_timestamp": {
           "last_six": [
             {
-              "timestamp": "2025-10-29T09:27:12Z",
-              "fluc": 14
+              "timestamp": "2025-10-29T03:01:35Z",
+              "fluc": 18
             },
             {
-              "timestamp": "2025-10-30T01:40:06Z",
-              "fluc": 13
-            },
-            {
-              "timestamp": "2025-10-31T04:09:20Z",
-              "fluc": 12
-            },
-            {
-              "timestamp": "2025-10-31T12:00:00.591590931Z",
-              "fluc": 11
-            },
-            {
-              "timestamp": "2025-10-31T21:20:20.087870744Z",
-              "fluc": 10
-            },
-            {
-              "timestamp": "2025-10-31T21:46:40.090764534Z",
+              "timestamp": "2025-11-01T05:29:29.166399656Z",
               "fluc": 11
             }
           ],
@@ -535,11 +508,11 @@
             "fluc": 18
           },
           "low": {
-            "timestamp": "2025-10-31T21:20:20.087870744Z",
-            "fluc": 10
+            "timestamp": "2025-11-01T05:29:29.166399656Z",
+            "fluc": 11
           },
           "nine_am": {
-            "timestamp": "2025-10-31T21:46:40.090764534Z",
+            "timestamp": "2025-11-01T05:29:29.166399656Z",
             "fluc": 11
           }
         }
@@ -621,12 +594,8 @@
         },
         "meta": null,
         "flucs": [
-          34,
           31,
-          34,
-          27,
-          31,
-          26
+          31
         ],
         "scr_time": "2025-10-29T07:49:27Z",
         "competitor_id": "",
@@ -636,28 +605,12 @@
         "flucs_with_timestamp": {
           "last_six": [
             {
-              "timestamp": "2025-10-29T03:04:28Z",
-              "fluc": 34
-            },
-            {
-              "timestamp": "2025-10-29T03:07:46Z",
-              "fluc": 31
-            },
-            {
-              "timestamp": "2025-10-29T04:23:27Z",
-              "fluc": 34
-            },
-            {
-              "timestamp": "2025-10-29T04:33:21Z",
-              "fluc": 27
-            },
-            {
-              "timestamp": "2025-10-29T05:03:26Z",
+              "timestamp": "2025-10-29T03:01:35Z",
               "fluc": 31
             },
             {
               "timestamp": "2025-10-29T05:03:26Z",
-              "fluc": 26
+              "fluc": 31
             }
           ],
           "open": {
@@ -665,12 +618,12 @@
             "fluc": 31
           },
           "high": {
-            "timestamp": "2025-10-29T03:04:28Z",
-            "fluc": 34
+            "timestamp": "2025-10-29T03:01:35Z",
+            "fluc": 31
           },
           "low": {
-            "timestamp": "2025-10-29T05:03:26Z",
-            "fluc": 26
+            "timestamp": "2025-10-29T03:01:35Z",
+            "fluc": 31
           },
           "nine_am": {
             "timestamp": "2025-10-29T05:03:26Z",
@@ -722,7 +675,14 @@
           "entrant_id": "020f1b70-6ad4-4dc6-b3b2-41c0efae2f0d",
           "label": "Midfield"
         },
-        "form_indicators": null,
+        "form_indicators": [
+          {
+            "name": "Form on Good",
+            "group": "Conditions",
+            "negative": false,
+            "priority": 3300
+          }
+        ],
         "past_performances": {
           "jockey": {
             "number_of_starts": 3,
@@ -751,11 +711,7 @@
         "trainer_location": "Eagle Farm",
         "meta": null,
         "flucs": [
-          12,
-          13,
-          11,
-          12,
-          8.5,
+          15,
           8
         ],
         "scr_time": null,
@@ -766,27 +722,11 @@
         "flucs_with_timestamp": {
           "last_six": [
             {
-              "timestamp": "2025-10-31T04:15:22Z",
-              "fluc": 12
+              "timestamp": "2025-10-29T03:01:35Z",
+              "fluc": 15
             },
             {
-              "timestamp": "2025-10-31T21:20:19.595902209Z",
-              "fluc": 13
-            },
-            {
-              "timestamp": "2025-10-31T21:20:20.087924095Z",
-              "fluc": 11
-            },
-            {
-              "timestamp": "2025-10-31T21:29:25.447835417Z",
-              "fluc": 12
-            },
-            {
-              "timestamp": "2025-10-31T21:51:20.70855537Z",
-              "fluc": 8.5
-            },
-            {
-              "timestamp": "2025-10-31T21:58:39.69534059Z",
+              "timestamp": "2025-11-01T05:29:29.166394296Z",
               "fluc": 8
             }
           ],
@@ -799,11 +739,11 @@
             "fluc": 15
           },
           "low": {
-            "timestamp": "2025-10-31T21:58:39.69534059Z",
+            "timestamp": "2025-11-01T05:29:29.166394296Z",
             "fluc": 8
           },
           "nine_am": {
-            "timestamp": "2025-10-31T21:58:39.69534059Z",
+            "timestamp": "2025-11-01T05:29:29.166394296Z",
             "fluc": 8
           }
         }
@@ -854,10 +794,16 @@
         },
         "form_indicators": [
           {
-            "name": "Distance Specialist",
-            "group": "Track_Distance",
+            "name": "Form on Good",
+            "group": "Conditions",
             "negative": false,
-            "priority": 240
+            "priority": 3300
+          },
+          {
+            "name": "Strong Form on Good",
+            "group": "Conditions",
+            "negative": false,
+            "priority": 380
           }
         ],
         "past_performances": {
@@ -1002,10 +948,6 @@
         "meta": null,
         "flucs": [
           20,
-          21,
-          20,
-          19,
-          19,
           20
         ],
         "scr_time": "2025-10-29T04:33:20Z",
@@ -1020,22 +962,6 @@
               "fluc": 20
             },
             {
-              "timestamp": "2025-10-29T03:03:44Z",
-              "fluc": 21
-            },
-            {
-              "timestamp": "2025-10-29T03:56:52Z",
-              "fluc": 20
-            },
-            {
-              "timestamp": "2025-10-29T03:56:52Z",
-              "fluc": 19
-            },
-            {
-              "timestamp": "2025-10-29T04:23:27Z",
-              "fluc": 19
-            },
-            {
               "timestamp": "2025-10-29T04:23:27Z",
               "fluc": 20
             }
@@ -1045,16 +971,16 @@
             "fluc": 20
           },
           "high": {
-            "timestamp": "2025-10-29T03:03:44Z",
-            "fluc": 21
+            "timestamp": "2025-10-29T03:01:35Z",
+            "fluc": 20
           },
           "low": {
-            "timestamp": "2025-10-29T04:23:27Z",
-            "fluc": 19
+            "timestamp": "2025-10-29T03:01:35Z",
+            "fluc": 20
           },
           "nine_am": {
             "timestamp": "2025-10-29T04:23:27Z",
-            "fluc": 19
+            "fluc": 20
           }
         }
       },
@@ -1066,8 +992,8 @@
         "is_scratched": false,
         "gear": "[Winkers]",
         "odds": {
-          "fixed_win": 17,
-          "fixed_place": 3.5
+          "fixed_win": 16,
+          "fixed_place": 3.4
         },
         "scratch_time": 0,
         "barrier": 3,
@@ -1138,12 +1064,8 @@
         "trainer_location": "Gold Coast",
         "meta": null,
         "flucs": [
-          16,
-          18,
-          17,
-          15,
-          16,
-          17
+          21,
+          16
         ],
         "scr_time": null,
         "competitor_id": "",
@@ -1153,28 +1075,12 @@
         "flucs_with_timestamp": {
           "last_six": [
             {
-              "timestamp": "2025-10-31T04:09:20Z",
-              "fluc": 18
+              "timestamp": "2025-10-29T03:01:35Z",
+              "fluc": 21
             },
             {
-              "timestamp": "2025-10-31T04:09:20Z",
+              "timestamp": "2025-11-01T05:29:29.166147538Z",
               "fluc": 16
-            },
-            {
-              "timestamp": "2025-10-31T12:04:42.048708628Z",
-              "fluc": 17
-            },
-            {
-              "timestamp": "2025-10-31T21:20:20.087943929Z",
-              "fluc": 15
-            },
-            {
-              "timestamp": "2025-10-31T21:51:20.71006997Z",
-              "fluc": 16
-            },
-            {
-              "timestamp": "2025-10-31T21:58:39.695411235Z",
-              "fluc": 17
             }
           ],
           "open": {
@@ -1186,12 +1092,12 @@
             "fluc": 21
           },
           "low": {
-            "timestamp": "2025-10-31T21:20:20.087943929Z",
-            "fluc": 15
+            "timestamp": "2025-11-01T05:29:29.166147538Z",
+            "fluc": 16
           },
           "nine_am": {
-            "timestamp": "2025-10-31T21:58:39.695411235Z",
-            "fluc": 17
+            "timestamp": "2025-11-01T05:29:29.166147538Z",
+            "fluc": 16
           }
         }
       },
@@ -1268,11 +1174,7 @@
         "trainer_location": "Gold Coast",
         "meta": null,
         "flucs": [
-          23,
-          26,
-          21,
-          20,
-          21,
+          34,
           23
         ],
         "scr_time": null,
@@ -1283,24 +1185,8 @@
         "flucs_with_timestamp": {
           "last_six": [
             {
-              "timestamp": "2025-10-31T11:59:48.694436587Z",
-              "fluc": 23
-            },
-            {
-              "timestamp": "2025-10-31T21:20:19.596100982Z",
-              "fluc": 26
-            },
-            {
-              "timestamp": "2025-10-31T21:20:20.088056224Z",
-              "fluc": 21
-            },
-            {
-              "timestamp": "2025-10-31T21:21:35.14009786Z",
-              "fluc": 20
-            },
-            {
-              "timestamp": "2025-10-31T21:22:15.637820579Z",
-              "fluc": 21
+              "timestamp": "2025-10-29T03:01:35Z",
+              "fluc": 34
             },
             {
               "timestamp": "2025-10-31T21:51:20.70957115Z",
@@ -1316,8 +1202,8 @@
             "fluc": 34
           },
           "low": {
-            "timestamp": "2025-10-31T21:21:35.14009786Z",
-            "fluc": 20
+            "timestamp": "2025-10-31T21:51:20.70957115Z",
+            "fluc": 23
           },
           "nine_am": {
             "timestamp": "2025-10-31T21:51:20.70957115Z",
@@ -1369,7 +1255,20 @@
           "entrant_id": "2c3e1567-d6f4-4131-b079-b28ab869ff76",
           "label": "Midfield"
         },
-        "form_indicators": null,
+        "form_indicators": [
+          {
+            "name": "Form on Good",
+            "group": "Conditions",
+            "negative": false,
+            "priority": 3300
+          },
+          {
+            "name": "Strong Form on Good",
+            "group": "Conditions",
+            "negative": false,
+            "priority": 380
+          }
+        ],
         "past_performances": {
           "jockey": {
             "number_of_starts": 1,
@@ -1398,11 +1297,7 @@
         "trainer_location": "Eagle Farm",
         "meta": null,
         "flucs": [
-          2.15,
-          2.1,
-          2.05,
-          2,
-          2.05,
+          2.3,
           2
         ],
         "scr_time": null,
@@ -1413,27 +1308,11 @@
         "flucs_with_timestamp": {
           "last_six": [
             {
-              "timestamp": "2025-10-31T04:57:07Z",
-              "fluc": 2.15
+              "timestamp": "2025-10-29T03:01:35Z",
+              "fluc": 2.3
             },
             {
-              "timestamp": "2025-10-31T21:20:20.087887969Z",
-              "fluc": 2.1
-            },
-            {
-              "timestamp": "2025-10-31T21:21:24.749515242Z",
-              "fluc": 2.05
-            },
-            {
-              "timestamp": "2025-10-31T21:29:04.489379703Z",
-              "fluc": 2
-            },
-            {
-              "timestamp": "2025-10-31T21:58:39.69535974Z",
-              "fluc": 2.05
-            },
-            {
-              "timestamp": "2025-10-31T22:04:03.100202172Z",
+              "timestamp": "2025-11-01T05:29:29.16613048Z",
               "fluc": 2
             }
           ],
@@ -1446,12 +1325,12 @@
             "fluc": 2.3
           },
           "low": {
-            "timestamp": "2025-10-31T21:29:04.489379703Z",
+            "timestamp": "2025-11-01T05:29:29.16613048Z",
             "fluc": 2
           },
           "nine_am": {
-            "timestamp": "2025-10-31T21:58:39.69535974Z",
-            "fluc": 2.05
+            "timestamp": "2025-11-01T05:29:29.16613048Z",
+            "fluc": 2
           }
         }
       },
@@ -1463,8 +1342,8 @@
         "is_scratched": false,
         "gear": "Blinkers OFF FIRST TIME",
         "odds": {
-          "fixed_win": 18,
-          "fixed_place": 3.7
+          "fixed_win": 20,
+          "fixed_place": 3.9
         },
         "scratch_time": 0,
         "barrier": 1,
@@ -1535,12 +1414,8 @@
         "trainer_location": "Sunshine Coast",
         "meta": null,
         "flucs": [
-          16,
-          17,
-          18,
-          16,
-          17,
-          18
+          27,
+          20
         ],
         "scr_time": null,
         "competitor_id": "",
@@ -1550,28 +1425,12 @@
         "flucs_with_timestamp": {
           "last_six": [
             {
-              "timestamp": "2025-10-31T04:09:20Z",
-              "fluc": 16
+              "timestamp": "2025-10-29T03:01:35Z",
+              "fluc": 27
             },
             {
-              "timestamp": "2025-10-31T04:10:23Z",
-              "fluc": 17
-            },
-            {
-              "timestamp": "2025-10-31T12:04:42.048678281Z",
-              "fluc": 18
-            },
-            {
-              "timestamp": "2025-10-31T21:20:20.08791036Z",
-              "fluc": 16
-            },
-            {
-              "timestamp": "2025-10-31T21:51:20.70912639Z",
-              "fluc": 17
-            },
-            {
-              "timestamp": "2025-10-31T21:58:39.695403641Z",
-              "fluc": 18
+              "timestamp": "2025-11-01T05:29:29.166817753Z",
+              "fluc": 20
             }
           ],
           "open": {
@@ -1583,12 +1442,12 @@
             "fluc": 27
           },
           "low": {
-            "timestamp": "2025-10-31T21:20:20.08791036Z",
-            "fluc": 16
+            "timestamp": "2025-11-01T05:29:29.166817753Z",
+            "fluc": 20
           },
           "nine_am": {
-            "timestamp": "2025-10-31T21:58:39.695403641Z",
-            "fluc": 18
+            "timestamp": "2025-11-01T05:29:29.166817753Z",
+            "fluc": 20
           }
         }
       },
@@ -1682,10 +1541,6 @@
         },
         "meta": null,
         "flucs": [
-          12,
-          11,
-          10,
-          11,
           10,
           11
         ],
@@ -1697,23 +1552,7 @@
         "flucs_with_timestamp": {
           "last_six": [
             {
-              "timestamp": "2025-10-29T07:49:28Z",
-              "fluc": 10
-            },
-            {
-              "timestamp": "2025-10-30T12:16:10Z",
-              "fluc": 11
-            },
-            {
-              "timestamp": "2025-10-31T04:09:20Z",
-              "fluc": 10
-            },
-            {
-              "timestamp": "2025-10-31T12:03:57.196696191Z",
-              "fluc": 11
-            },
-            {
-              "timestamp": "2025-10-31T12:04:42.048657015Z",
+              "timestamp": "2025-10-29T03:01:35Z",
               "fluc": 10
             },
             {
@@ -1726,11 +1565,11 @@
             "fluc": 10
           },
           "high": {
-            "timestamp": "2025-10-29T05:03:26Z",
-            "fluc": 12
+            "timestamp": "2025-10-31T12:17:01.389712095Z",
+            "fluc": 11
           },
           "low": {
-            "timestamp": "2025-10-29T07:49:28Z",
+            "timestamp": "2025-10-29T03:01:35Z",
             "fluc": 10
           },
           "nine_am": {
@@ -1747,8 +1586,8 @@
         "is_scratched": false,
         "gear": "",
         "odds": {
-          "fixed_win": 18,
-          "fixed_place": 3.7
+          "fixed_win": 19,
+          "fixed_place": 3.8
         },
         "scratch_time": 0,
         "barrier": 10,
@@ -1825,12 +1664,8 @@
         "trainer_location": "Murwillumbah",
         "meta": null,
         "flucs": [
-          17,
-          18,
-          15,
-          16,
-          17,
-          18
+          21,
+          19
         ],
         "scr_time": null,
         "competitor_id": "",
@@ -1840,28 +1675,12 @@
         "flucs_with_timestamp": {
           "last_six": [
             {
-              "timestamp": "2025-10-31T11:59:48.694574172Z",
-              "fluc": 17
+              "timestamp": "2025-10-29T03:01:35Z",
+              "fluc": 21
             },
             {
-              "timestamp": "2025-10-31T21:20:19.595934433Z",
-              "fluc": 18
-            },
-            {
-              "timestamp": "2025-10-31T21:20:20.087966529Z",
-              "fluc": 15
-            },
-            {
-              "timestamp": "2025-10-31T21:29:04.489338204Z",
-              "fluc": 16
-            },
-            {
-              "timestamp": "2025-10-31T21:53:17.69512968Z",
-              "fluc": 17
-            },
-            {
-              "timestamp": "2025-10-31T22:25:43.068545023Z",
-              "fluc": 18
+              "timestamp": "2025-11-01T03:39:33.045545658Z",
+              "fluc": 19
             }
           ],
           "open": {
@@ -1873,12 +1692,12 @@
             "fluc": 21
           },
           "low": {
-            "timestamp": "2025-10-31T21:20:20.087966529Z",
-            "fluc": 15
+            "timestamp": "2025-11-01T03:39:33.045545658Z",
+            "fluc": 19
           },
           "nine_am": {
-            "timestamp": "2025-10-31T21:53:17.69512968Z",
-            "fluc": 17
+            "timestamp": "2025-11-01T03:39:33.045545658Z",
+            "fluc": 19
           }
         }
       },
@@ -1888,7 +1707,7 @@
         "primary_market": true,
         "name": "Zoubaby",
         "is_scratched": true,
-        "gear": "Blinkers FIRST TIME, Cross-over Nose Band FIRST TIME, Tongue Tie AGAIN [Blinkers]",
+        "gear": "Blinkers ON, Cross-over Nose Band ON, Tongue Tie ON [Blinkers]",
         "odds": {
           "fixed_win": 20,
           "fixed_place": 4.8
@@ -1959,11 +1778,7 @@
         },
         "meta": null,
         "flucs": [
-          26,
           23,
-          21,
-          23,
-          21,
           20
         ],
         "scr_time": "2025-10-29T05:03:25Z",
@@ -1974,24 +1789,8 @@
         "flucs_with_timestamp": {
           "last_six": [
             {
-              "timestamp": "2025-10-29T03:04:28Z",
-              "fluc": 26
-            },
-            {
-              "timestamp": "2025-10-29T03:07:46Z",
+              "timestamp": "2025-10-29T03:01:35Z",
               "fluc": 23
-            },
-            {
-              "timestamp": "2025-10-29T04:23:27Z",
-              "fluc": 21
-            },
-            {
-              "timestamp": "2025-10-29T04:25:23Z",
-              "fluc": 23
-            },
-            {
-              "timestamp": "2025-10-29T04:33:21Z",
-              "fluc": 21
             },
             {
               "timestamp": "2025-10-29T04:41:45Z",
@@ -2003,8 +1802,8 @@
             "fluc": 23
           },
           "high": {
-            "timestamp": "2025-10-29T03:04:28Z",
-            "fluc": 26
+            "timestamp": "2025-10-29T03:01:35Z",
+            "fluc": 23
           },
           "low": {
             "timestamp": "2025-10-29T04:41:45Z",
@@ -2108,11 +1907,7 @@
         "trainer_location": "Eagle Farm",
         "meta": null,
         "flucs": [
-          4.2,
-          4,
-          3.8,
-          3.7,
-          3.8,
+          5.5,
           3.7
         ],
         "scr_time": null,
@@ -2123,27 +1918,11 @@
         "flucs_with_timestamp": {
           "last_six": [
             {
-              "timestamp": "2025-10-31T04:47:49Z",
-              "fluc": 4.2
+              "timestamp": "2025-10-29T03:01:35Z",
+              "fluc": 5.5
             },
             {
-              "timestamp": "2025-10-31T12:17:01.992790779Z",
-              "fluc": 4
-            },
-            {
-              "timestamp": "2025-10-31T21:20:20.087968465Z",
-              "fluc": 3.8
-            },
-            {
-              "timestamp": "2025-10-31T21:29:04.489303602Z",
-              "fluc": 3.7
-            },
-            {
-              "timestamp": "2025-10-31T21:58:39.69537399Z",
-              "fluc": 3.8
-            },
-            {
-              "timestamp": "2025-10-31T22:24:58.898396989Z",
+              "timestamp": "2025-11-01T05:29:29.166351305Z",
               "fluc": 3.7
             }
           ],
@@ -2156,12 +1935,12 @@
             "fluc": 5.5
           },
           "low": {
-            "timestamp": "2025-10-31T22:24:58.898396989Z",
+            "timestamp": "2025-11-01T05:29:29.166351305Z",
             "fluc": 3.7
           },
           "nine_am": {
-            "timestamp": "2025-10-31T21:58:39.69537399Z",
-            "fluc": 3.8
+            "timestamp": "2025-11-01T05:29:29.166351305Z",
+            "fluc": 3.7
           }
         }
       },
@@ -2242,11 +2021,7 @@
         },
         "meta": null,
         "flucs": [
-          17,
-          15,
           16,
-          14,
-          14,
           15
         ],
         "scr_time": "2025-10-31T04:09:19Z",
@@ -2257,24 +2032,8 @@
         "flucs_with_timestamp": {
           "last_six": [
             {
-              "timestamp": "2025-10-29T04:33:21Z",
-              "fluc": 17
-            },
-            {
-              "timestamp": "2025-10-29T04:33:21Z",
-              "fluc": 15
-            },
-            {
-              "timestamp": "2025-10-29T05:03:26Z",
+              "timestamp": "2025-10-29T03:01:35Z",
               "fluc": 16
-            },
-            {
-              "timestamp": "2025-10-29T05:03:26Z",
-              "fluc": 14
-            },
-            {
-              "timestamp": "2025-10-29T07:49:28Z",
-              "fluc": 14
             },
             {
               "timestamp": "2025-10-29T07:49:28Z",
@@ -2286,16 +2045,16 @@
             "fluc": 16
           },
           "high": {
-            "timestamp": "2025-10-29T04:33:21Z",
-            "fluc": 17
+            "timestamp": "2025-10-29T03:01:35Z",
+            "fluc": 16
           },
           "low": {
             "timestamp": "2025-10-29T07:49:28Z",
-            "fluc": 14
+            "fluc": 15
           },
           "nine_am": {
             "timestamp": "2025-10-29T07:49:28Z",
-            "fluc": 14
+            "fluc": 15
           }
         }
       },
@@ -2372,11 +2131,7 @@
         "trainer_location": "Beaudesert",
         "meta": null,
         "flucs": [
-          21,
           23,
-          26,
-          27,
-          26,
           27
         ],
         "scr_time": null,
@@ -2387,27 +2142,11 @@
         "flucs_with_timestamp": {
           "last_six": [
             {
-              "timestamp": "2025-10-31T21:20:20.088057883Z",
-              "fluc": 21
-            },
-            {
-              "timestamp": "2025-10-31T21:29:29.692716907Z",
+              "timestamp": "2025-10-29T03:01:35Z",
               "fluc": 23
             },
             {
-              "timestamp": "2025-10-31T21:58:39.695437012Z",
-              "fluc": 26
-            },
-            {
-              "timestamp": "2025-10-31T22:25:55.641735947Z",
-              "fluc": 27
-            },
-            {
-              "timestamp": "2025-10-31T23:39:23.450590346Z",
-              "fluc": 26
-            },
-            {
-              "timestamp": "2025-10-31T23:59:58.997649377Z",
+              "timestamp": "2025-11-01T05:15:06.001695709Z",
               "fluc": 27
             }
           ],
@@ -2416,16 +2155,16 @@
             "fluc": 23
           },
           "high": {
-            "timestamp": "2025-10-31T04:09:20Z",
+            "timestamp": "2025-11-01T05:15:06.001695709Z",
             "fluc": 27
           },
           "low": {
-            "timestamp": "2025-10-31T21:20:20.088057883Z",
-            "fluc": 21
+            "timestamp": "2025-10-29T03:01:35Z",
+            "fluc": 23
           },
           "nine_am": {
-            "timestamp": "2025-10-31T21:58:39.695437012Z",
-            "fluc": 26
+            "timestamp": "2025-11-01T05:15:06.001695709Z",
+            "fluc": 27
           }
         }
       }
