@@ -1,7 +1,7 @@
 {
   "header": {
     "title": "Event Details: 8cc3c5d6-5a27-4031-9bc8-281d315371c3",
-    "generated_time": "2025-11-03T23:50:29.094843329Z",
+    "generated_time": "2025-11-04T23:36:01.311916226Z",
     "url": "/affiliates/v1/racing/events/8cc3c5d6-5a27-4031-9bc8-281d315371c3?enc=json&include_form=true&include_odds=true&include_flucs=true&include_speedmap=true&include_past_performances=true&include_form_indicators=true&include_jockey_stats=true&include_trainer_stats=true"
   },
   "params": {
@@ -23,12 +23,12 @@
       "meeting_name": "Eagle Farm",
       "display_meeting_name": "Eagle Farm",
       "meeting_id": "c22ab360-4bff-49a9-893d-5144d22a966e",
-      "status": "Open",
+      "status": "Final",
       "description": "Moreton Hire Maiden Plate",
       "advertised_start": 1762215120,
-      "actual_start": 1762215120,
+      "actual_start": 1762215166,
       "advertised_start_string": "2025-11-04 00:12:00 +0000 UTC",
-      "actual_start_string": "2025-11-04 00:12:00 +0000 UTC",
+      "actual_start_string": "2025-11-04 00:12:46 +0000 UTC",
       "race_number": 1,
       "type": "T",
       "start_type": "",
@@ -90,73 +90,570 @@
       },
       "track_home_straight": 0
     },
+    "results": [
+      {
+        "position": 1,
+        "name": "Lady Windermere",
+        "barrier": 4,
+        "runner_number": 17,
+        "margin_length": 0.3,
+        "entrant_id": "ac4f79a7-e4d0-4655-8fba-40019bb0ae52"
+      },
+      {
+        "position": 2,
+        "name": "Extreme Taste",
+        "barrier": 1,
+        "runner_number": 14,
+        "margin_length": 0.24,
+        "entrant_id": "49fd7a7a-99be-432e-b0a1-d22e107fd150"
+      },
+      {
+        "position": 3,
+        "name": "Devine Squire",
+        "barrier": 7,
+        "runner_number": 5,
+        "margin_length": 4.23,
+        "entrant_id": "71421ba0-0f39-405a-a9eb-0dd50a65c27e"
+      },
+      {
+        "position": 4,
+        "name": "Barrelling",
+        "barrier": 3,
+        "runner_number": 16,
+        "margin_length": 4.5,
+        "entrant_id": "4cc59b32-6967-4c1b-b306-6568b1d83832"
+      },
+      {
+        "position": 5,
+        "name": "Ratenotice",
+        "barrier": 5,
+        "runner_number": 13,
+        "margin_length": 4.52,
+        "entrant_id": "bc19517f-c851-4fa4-bace-5b7e2cd991d8"
+      },
+      {
+        "position": 6,
+        "name": "Lady Milan",
+        "barrier": 6,
+        "runner_number": 10,
+        "margin_length": 6.66,
+        "entrant_id": "e5258c9a-e9ec-4256-99b6-520ce53f9989"
+      },
+      {
+        "position": 7,
+        "name": "Boomtime Now",
+        "barrier": 2,
+        "runner_number": 2,
+        "margin_length": 13.82,
+        "entrant_id": "a7551283-e9c9-4c45-baa2-5d670d755866"
+      }
+    ],
+    "dividends": [
+      {
+        "id": "6dc44e18-e693-5cbe-a6d9-59c8972277e5",
+        "tote": "NSW",
+        "product_name": "Tote Place",
+        "status": "Final",
+        "dividend": 8.6,
+        "pool_size": 3593,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 17,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "e4910e26-5e02-5f2f-bee4-88de08bf68a6",
+        "tote": "VIC",
+        "product_name": "Tote Win",
+        "status": "Final",
+        "dividend": 28.4,
+        "pool_size": 16251,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 17,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "b3af82f7-3a1e-5abe-9bca-9c3b765ca9b4",
+        "tote": "QLD",
+        "product_name": "Tote Place",
+        "status": "Final",
+        "dividend": 8.4,
+        "pool_size": 3203,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 17,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "02e1cc4c-0e6a-5b2e-8259-a263ef0b47c6",
+        "tote": "VIC",
+        "product_name": "Tote Place",
+        "status": "Final",
+        "dividend": 5.4,
+        "pool_size": 4003,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 17,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "b428be8e-766f-57b9-815d-db1ff6974855",
+        "tote": "VIC",
+        "product_name": "Exacta",
+        "status": "Final",
+        "dividend": 109.1,
+        "pool_size": 4168,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 17,
+            "position": 1
+          },
+          {
+            "runner_number": 14,
+            "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "fb8491cf-3d15-5848-831a-f8e9351f3ef5",
+        "tote": "QLD",
+        "product_name": "Trifecta",
+        "status": "Final",
+        "dividend": 1193.3,
+        "pool_size": 9975,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 17,
+            "position": 1
+          },
+          {
+            "runner_number": 14,
+            "position": 2
+          },
+          {
+            "runner_number": 5,
+            "position": 3
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "1403b233-7ef7-5b16-96e2-6896dd73759f",
+        "tote": "QLD",
+        "product_name": "Tote Place",
+        "status": "Final",
+        "dividend": 1.8,
+        "pool_size": 3203,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 14,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "226ffbc2-cb89-5f82-b01b-82bb5fb0c997",
+        "tote": "VIC",
+        "product_name": "Trifecta",
+        "status": "Final",
+        "dividend": 917.7,
+        "pool_size": 13298,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 17,
+            "position": 1
+          },
+          {
+            "runner_number": 14,
+            "position": 2
+          },
+          {
+            "runner_number": 5,
+            "position": 3
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "214ca2ef-1e4e-5dd5-9dda-5a01178d295d",
+        "tote": "NSW",
+        "product_name": "First Four",
+        "status": "Final",
+        "dividend": 4213.3,
+        "pool_size": 7219,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 17,
+            "position": 1
+          },
+          {
+            "runner_number": 14,
+            "position": 2
+          },
+          {
+            "runner_number": 5,
+            "position": 3
+          },
+          {
+            "runner_number": 16,
+            "position": 4
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "622b4e45-752f-5a23-b4f6-97786e64d5c2",
+        "tote": "VIC",
+        "product_name": "First Four",
+        "status": "Final",
+        "dividend": 3170,
+        "pool_size": 14060,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 17,
+            "position": 1
+          },
+          {
+            "runner_number": 14,
+            "position": 2
+          },
+          {
+            "runner_number": 5,
+            "position": 3
+          },
+          {
+            "runner_number": 16,
+            "position": 4
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "8873016b-4286-5444-9c25-864dc5a35f23",
+        "tote": "NSW",
+        "product_name": "Tote Win",
+        "status": "Final",
+        "dividend": 32.2,
+        "pool_size": 20205,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 17,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "e33eedb3-3502-567f-b377-9bfc6dfcccb3",
+        "tote": "QLD",
+        "product_name": "Exacta",
+        "status": "Final",
+        "dividend": 127.3,
+        "pool_size": 1531,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 17,
+            "position": 1
+          },
+          {
+            "runner_number": 14,
+            "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "e29a9acc-7b9c-5a25-abc5-2ae1bd87ddc3",
+        "tote": "VIC",
+        "product_name": "Quinella",
+        "status": "Final",
+        "dividend": 35.8,
+        "pool_size": 6164,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 17,
+            "position": 1
+          },
+          {
+            "runner_number": 14,
+            "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "bfe1edf4-43db-51c8-abea-b1a23f01fa13",
+        "tote": "NSW",
+        "product_name": "Trifecta",
+        "status": "Final",
+        "dividend": 734.5,
+        "pool_size": 10574,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 17,
+            "position": 1
+          },
+          {
+            "runner_number": 14,
+            "position": 2
+          },
+          {
+            "runner_number": 5,
+            "position": 3
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "6cec52e1-edad-5469-b616-b64c01d6ab6c",
+        "tote": "NSW",
+        "product_name": "Tote Place",
+        "status": "Final",
+        "dividend": 1.8,
+        "pool_size": 3593,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 14,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "b2a68f6a-b7a1-5ab5-acd2-d93d9b22ed8b",
+        "tote": "NSW",
+        "product_name": "Exacta",
+        "status": "Final",
+        "dividend": 112.7,
+        "pool_size": 4282,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 17,
+            "position": 1
+          },
+          {
+            "runner_number": 14,
+            "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "d383c3f9-dd8b-5e95-ba79-bbc37acad17e",
+        "tote": "QLD",
+        "product_name": "Quinella",
+        "status": "Final",
+        "dividend": 30.4,
+        "pool_size": 3476,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 17,
+            "position": 1
+          },
+          {
+            "runner_number": 14,
+            "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "49beba34-e63c-5356-a297-30b47f5c31e8",
+        "tote": "QLD",
+        "product_name": "Tote Win",
+        "status": "Final",
+        "dividend": 29.6,
+        "pool_size": 8265,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 17,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "eda4f1df-60ae-5cfa-a94e-88e75a2e8d61",
+        "tote": "NSW",
+        "product_name": "Quinella",
+        "status": "Final",
+        "dividend": 32.1,
+        "pool_size": 9161,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 17,
+            "position": 1
+          },
+          {
+            "runner_number": 14,
+            "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "eb1eaaea-9b06-52c3-af82-6222f251dba9",
+        "tote": "VIC",
+        "product_name": "Tote Place",
+        "status": "Final",
+        "dividend": 1.8,
+        "pool_size": 4003,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 14,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "93a48eb5-1b8d-5ab2-ae1d-62bd274fe492",
+        "tote": "QLD",
+        "product_name": "First Four",
+        "status": "Final",
+        "dividend": 3178.6,
+        "pool_size": 3647,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 17,
+            "position": 1
+          },
+          {
+            "runner_number": 14,
+            "position": 2
+          },
+          {
+            "runner_number": 5,
+            "position": 3
+          },
+          {
+            "runner_number": 16,
+            "position": 4
+          }
+        ],
+        "description": ""
+      }
+    ],
+    "substitutions": [
+      {
+        "entrant_id": "49fd7a7a-99be-432e-b0a1-d22e107fd150",
+        "tote": "VIC",
+        "product_name": "Tote Win"
+      },
+      {
+        "entrant_id": "49fd7a7a-99be-432e-b0a1-d22e107fd150",
+        "tote": "NSW",
+        "product_name": "Tote Win"
+      },
+      {
+        "entrant_id": "49fd7a7a-99be-432e-b0a1-d22e107fd150",
+        "tote": "QLD",
+        "product_name": "Tote Win"
+      }
+    ],
     "favourite": {
-      "entrant_id": "e5258c9a-e9ec-4256-99b6-520ce53f9989",
+      "entrant_id": "49fd7a7a-99be-432e-b0a1-d22e107fd150",
       "market_name": "Final Field",
       "primary_market": true,
-      "name": "Lady Milan",
+      "name": "Extreme Taste",
       "is_scratched": false,
       "gear": "[Ear Muffs (Pre-Race Only)]",
       "odds": {
-        "fixed_win": 2.2,
-        "fixed_place": 1.4
+        "fixed_win": 2.6,
+        "fixed_place": 1.55
       },
       "scratch_time": 0,
-      "barrier": 6,
-      "runner_number": 10,
-      "prize_money": "7200",
-      "age": 3,
-      "sex": "F",
-      "colour": "BR",
-      "silk_colours": "WHITE, ROYAL BLUE STARS, ROYAL BLUE AND WHITE STARS SLEEVES AND CAP",
-      "silk_url_64x64": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODM3MzE1/lady-milan_64x64.png",
-      "silk_url_128x128": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODM3MzE1/lady-milan_128x128.png",
+      "barrier": 1,
+      "runner_number": 14,
+      "prize_money": "2000",
+      "age": 4,
+      "sex": "M",
+      "colour": "B",
+      "silk_colours": "YELLOW, ROYAL BLUE STAR AND ARMBANDS, QUARTERED CAP",
+      "silk_url_64x64": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODM3MzE1/extreme-taste_64x64.png",
+      "silk_url_128x128": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODM3MzE1/extreme-taste_128x128.png",
       "form_comment": null,
       "class_level": "",
-      "jockey": "Ben Thompson",
-      "apprentice_indicator": "",
-      "allowance_weight": "",
-      "owners": "Wessel Thoroughbreds (Mgr: C J Wessel), M A McLean, Ridgmont (Mgr: M Cunningham), R B Gold, Mrs S B Hannon, Ms N L Zischke, D C Crane, S A Morris, H J Chambers, B F Clifford, G L Lawler, Sleek Racing (Mgr: T Sleeman), Mrs G N Gibson, D J Gibson & G T Lawler",
+      "jockey": "Jai Williams",
+      "apprentice_indicator": "A",
+      "allowance_weight": "3",
+      "owners": "J G Richards, Robert Willis Bloodstock (Mgr: R S Willis), M G Buys, B J Thynne, L Zenonos, M Palmer, S J Gloftis & Ms J V Cleary",
       "country": "AUS",
-      "trainer_name": "Tony Gollan",
-      "last_twenty_starts": "2",
-      "sire": "CAPITALIST (AUS)",
-      "dam": "VINCERE VOLARE (AUS)",
-      "breeding": "3 f CAPITALIST (AUS)-VINCERE VOLARE (AUS)",
+      "trainer_name": "Barry Lockwood & Emma-Jane Vincent",
+      "last_twenty_starts": "4",
+      "sire": "EXTREME CHOICE (AUS)",
+      "dam": "LEAMINGTON (USA)",
+      "breeding": "4 m EXTREME CHOICE (AUS)-LEAMINGTON (USA)",
       "weight": {
-        "allocated": "55",
-        "total": "55"
+        "allocated": "56.5",
+        "total": "56.5"
       },
       "favourite": false,
       "mover": false,
       "speedmap": {
-        "settling_lengths": 5,
-        "entrant_id": "e5258c9a-e9ec-4256-99b6-520ce53f9989"
+        "settling_lengths": 2,
+        "entrant_id": "49fd7a7a-99be-432e-b0a1-d22e107fd150"
       },
       "form_indicators": null,
       "past_performances": {
         "jockey": {
-          "number_of_starts": 1,
+          "number_of_starts": 0,
           "number_of_wins": 0,
           "number_of_placings": 0,
-          "number_of_seconds": 1,
+          "number_of_seconds": 0,
           "number_of_thirds": 0
         }
       },
       "jockey_past_performances": {
         "last_50_starts": {
           "number_of_starts": 50,
-          "number_of_wins": 7,
+          "number_of_wins": 5,
           "number_of_placings": 0,
-          "number_of_seconds": 10,
+          "number_of_seconds": 5,
           "number_of_thirds": 8
         },
         "trainer": {
-          "number_of_starts": 467,
-          "number_of_wins": 79,
+          "number_of_starts": 0,
+          "number_of_wins": 0,
           "number_of_placings": 0,
-          "number_of_seconds": 79,
-          "number_of_thirds": 55
+          "number_of_seconds": 0,
+          "number_of_thirds": 0
         }
       },
       "trainer_location": "Eagle Farm"
@@ -246,11 +743,7 @@
         },
         "meta": null,
         "flucs": [
-          26,
-          23,
-          26,
-          23,
-          26,
+          9,
           21
         ],
         "scr_time": "2025-11-03T20:16:15Z",
@@ -261,24 +754,8 @@
         "flucs_with_timestamp": {
           "last_six": [
             {
-              "timestamp": "2025-11-03T17:56:12.032710211Z",
-              "fluc": 26
-            },
-            {
-              "timestamp": "2025-11-03T17:56:51.136245103Z",
-              "fluc": 23
-            },
-            {
-              "timestamp": "2025-11-03T18:11:16.441514073Z",
-              "fluc": 26
-            },
-            {
-              "timestamp": "2025-11-03T18:11:37.293948001Z",
-              "fluc": 23
-            },
-            {
-              "timestamp": "2025-11-03T19:19:13.148384945Z",
-              "fluc": 26
+              "timestamp": "2025-10-31T02:46:31Z",
+              "fluc": 9
             },
             {
               "timestamp": "2025-11-03T19:19:13.489103758Z",
@@ -290,16 +767,16 @@
             "fluc": 9
           },
           "high": {
-            "timestamp": "2025-11-03T17:54:29.129024316Z",
-            "fluc": 27
+            "timestamp": "2025-11-03T19:19:13.489103758Z",
+            "fluc": 21
           },
           "low": {
             "timestamp": "2025-10-31T02:46:31Z",
             "fluc": 9
           },
           "nine_am": {
-            "timestamp": "2025-11-03T19:19:13.148384945Z",
-            "fluc": 26
+            "timestamp": "2025-11-03T19:19:13.489103758Z",
+            "fluc": 21
           }
         }
       },
@@ -312,7 +789,7 @@
         "gear": "",
         "odds": {
           "fixed_win": 20,
-          "fixed_place": 6.5
+          "fixed_place": 7
         },
         "scratch_time": 0,
         "barrier": 2,
@@ -383,11 +860,9 @@
         "trainer_location": "Toowoomba",
         "meta": null,
         "flucs": [
-          19,
-          18,
+          31,
           17,
-          18,
-          19,
+          21,
           20
         ],
         "scr_time": null,
@@ -398,27 +873,19 @@
         "flucs_with_timestamp": {
           "last_six": [
             {
-              "timestamp": "2025-11-03T22:20:35.282727163Z",
-              "fluc": 19
+              "timestamp": "2025-10-31T02:46:31Z",
+              "fluc": 31
             },
             {
-              "timestamp": "2025-11-03T22:23:49.234576433Z",
-              "fluc": 18
-            },
-            {
-              "timestamp": "2025-11-03T22:24:20.682627746Z",
+              "timestamp": "2025-11-04T00:08:05.835093993Z",
               "fluc": 17
             },
             {
-              "timestamp": "2025-11-03T23:25:15.390114465Z",
-              "fluc": 18
+              "timestamp": "2025-11-04T00:10:27.997805491Z",
+              "fluc": 21
             },
             {
-              "timestamp": "2025-11-03T23:44:35.282502206Z",
-              "fluc": 19
-            },
-            {
-              "timestamp": "2025-11-03T23:45:48.16606213Z",
+              "timestamp": "2025-11-04T00:12:23.215571956Z",
               "fluc": 20
             }
           ],
@@ -431,12 +898,12 @@
             "fluc": 31
           },
           "low": {
-            "timestamp": "2025-11-03T22:24:20.682627746Z",
+            "timestamp": "2025-11-04T00:08:05.835093993Z",
             "fluc": 17
           },
           "nine_am": {
-            "timestamp": "2025-11-03T21:41:21.888152679Z",
-            "fluc": 18
+            "timestamp": "2025-11-04T00:12:23.215571956Z",
+            "fluc": 20
           }
         }
       },
@@ -667,8 +1134,8 @@
         "is_scratched": false,
         "gear": "[Ear Muffs (Pre-Race Only), Nose Roll]",
         "odds": {
-          "fixed_win": 17,
-          "fixed_place": 6
+          "fixed_win": 23,
+          "fixed_place": 7.5
         },
         "scratch_time": 0,
         "barrier": 7,
@@ -732,12 +1199,10 @@
         "trainer_location": "Eagle Farm",
         "meta": null,
         "flucs": [
-          20,
-          19,
-          18,
+          31,
           17,
-          18,
-          17
+          31,
+          23
         ],
         "scr_time": null,
         "competitor_id": "",
@@ -747,28 +1212,20 @@
         "flucs_with_timestamp": {
           "last_six": [
             {
-              "timestamp": "2025-11-03T23:42:08.29742908Z",
-              "fluc": 20
-            },
-            {
-              "timestamp": "2025-11-03T23:42:44.682394856Z",
-              "fluc": 19
-            },
-            {
-              "timestamp": "2025-11-03T23:44:35.282473589Z",
-              "fluc": 18
-            },
-            {
-              "timestamp": "2025-11-03T23:45:10.987163175Z",
-              "fluc": 17
-            },
-            {
-              "timestamp": "2025-11-03T23:45:48.165500511Z",
-              "fluc": 18
+              "timestamp": "2025-10-31T02:46:31Z",
+              "fluc": 31
             },
             {
               "timestamp": "2025-11-03T23:46:35.685473305Z",
               "fluc": 17
+            },
+            {
+              "timestamp": "2025-11-04T00:06:01.38661455Z",
+              "fluc": 31
+            },
+            {
+              "timestamp": "2025-11-04T00:12:23.215567396Z",
+              "fluc": 23
             }
           ],
           "open": {
@@ -780,12 +1237,12 @@
             "fluc": 31
           },
           "low": {
-            "timestamp": "2025-11-03T23:45:10.987163175Z",
+            "timestamp": "2025-11-03T23:46:35.685473305Z",
             "fluc": 17
           },
           "nine_am": {
-            "timestamp": "2025-11-03T21:41:21.888077683Z",
-            "fluc": 20
+            "timestamp": "2025-11-04T00:12:23.215567396Z",
+            "fluc": 23
           }
         }
       },
@@ -873,11 +1330,7 @@
         },
         "meta": null,
         "flucs": [
-          11,
-          10,
-          11,
-          9.5,
-          9,
+          7.5,
           9.5
         ],
         "scr_time": "2025-11-03T19:19:12Z",
@@ -888,24 +1341,8 @@
         "flucs_with_timestamp": {
           "last_six": [
             {
-              "timestamp": "2025-11-03T11:42:33.034801159Z",
-              "fluc": 11
-            },
-            {
-              "timestamp": "2025-11-03T11:42:57.485683462Z",
-              "fluc": 10
-            },
-            {
-              "timestamp": "2025-11-03T17:54:29.129125448Z",
-              "fluc": 11
-            },
-            {
-              "timestamp": "2025-11-03T17:54:29.440333373Z",
-              "fluc": 9.5
-            },
-            {
-              "timestamp": "2025-11-03T17:55:23.584604482Z",
-              "fluc": 9
+              "timestamp": "2025-10-31T02:46:31Z",
+              "fluc": 7.5
             },
             {
               "timestamp": "2025-11-03T17:56:12.032733151Z",
@@ -917,8 +1354,8 @@
             "fluc": 7.5
           },
           "high": {
-            "timestamp": "2025-11-03T05:44:18.929544076Z",
-            "fluc": 14
+            "timestamp": "2025-11-03T17:56:12.032733151Z",
+            "fluc": 9.5
           },
           "low": {
             "timestamp": "2025-10-31T02:46:31Z",
@@ -1007,11 +1444,7 @@
         },
         "meta": null,
         "flucs": [
-          14,
-          15,
-          16,
-          14,
-          16,
+          8.5,
           14
         ],
         "scr_time": "2025-11-03T17:54:28Z",
@@ -1022,24 +1455,8 @@
         "flucs_with_timestamp": {
           "last_six": [
             {
-              "timestamp": "2025-11-02T23:21:28.289750256Z",
-              "fluc": 14
-            },
-            {
-              "timestamp": "2025-11-03T04:06:43.989955555Z",
-              "fluc": 15
-            },
-            {
-              "timestamp": "2025-11-03T05:44:18.929401346Z",
-              "fluc": 16
-            },
-            {
-              "timestamp": "2025-11-03T05:44:19.149757397Z",
-              "fluc": 14
-            },
-            {
-              "timestamp": "2025-11-03T05:50:17.952525895Z",
-              "fluc": 16
+              "timestamp": "2025-10-31T02:46:31Z",
+              "fluc": 8.5
             },
             {
               "timestamp": "2025-11-03T05:50:18.235210264Z",
@@ -1051,8 +1468,8 @@
             "fluc": 8.5
           },
           "high": {
-            "timestamp": "2025-11-03T05:50:17.952525895Z",
-            "fluc": 16
+            "timestamp": "2025-11-03T05:50:18.235210264Z",
+            "fluc": 14
           },
           "low": {
             "timestamp": "2025-10-31T02:46:31Z",
@@ -1141,10 +1558,6 @@
         },
         "meta": null,
         "flucs": [
-          8.5,
-          9,
-          9.5,
-          9,
           9.5,
           10
         ],
@@ -1156,23 +1569,7 @@
         "flucs_with_timestamp": {
           "last_six": [
             {
-              "timestamp": "2025-11-03T01:30:59.13746451Z",
-              "fluc": 8.5
-            },
-            {
-              "timestamp": "2025-11-03T02:01:00.089133683Z",
-              "fluc": 9
-            },
-            {
-              "timestamp": "2025-11-03T04:08:19.937336137Z",
-              "fluc": 9.5
-            },
-            {
-              "timestamp": "2025-11-03T04:34:51.689580954Z",
-              "fluc": 9
-            },
-            {
-              "timestamp": "2025-11-03T04:36:05.191870689Z",
+              "timestamp": "2025-10-31T02:46:31Z",
               "fluc": 9.5
             },
             {
@@ -1189,8 +1586,8 @@
             "fluc": 10
           },
           "low": {
-            "timestamp": "2025-11-03T01:30:59.13746451Z",
-            "fluc": 8.5
+            "timestamp": "2025-10-31T02:46:31Z",
+            "fluc": 9.5
           },
           "nine_am": {
             "timestamp": "2025-11-03T05:04:26.937952852Z",
@@ -1283,8 +1680,6 @@
         "meta": null,
         "flucs": [
           34,
-          35,
-          46,
           35
         ],
         "scr_time": "2025-11-01T07:50:13Z",
@@ -1299,14 +1694,6 @@
               "fluc": 34
             },
             {
-              "timestamp": "2025-10-31T02:50:48Z",
-              "fluc": 35
-            },
-            {
-              "timestamp": "2025-10-31T03:51:24Z",
-              "fluc": 46
-            },
-            {
               "timestamp": "2025-10-31T03:51:31Z",
               "fluc": 35
             }
@@ -1316,8 +1703,8 @@
             "fluc": 34
           },
           "high": {
-            "timestamp": "2025-10-31T03:51:24Z",
-            "fluc": 46
+            "timestamp": "2025-10-31T03:51:31Z",
+            "fluc": 35
           },
           "low": {
             "timestamp": "2025-10-31T02:46:31Z",
@@ -1337,8 +1724,8 @@
         "is_scratched": false,
         "gear": "[Ear Muffs (Pre-Race Only)]",
         "odds": {
-          "fixed_win": 2.2,
-          "fixed_place": 1.4
+          "fixed_win": 3,
+          "fixed_place": 1.7
         },
         "scratch_time": 0,
         "barrier": 6,
@@ -1366,7 +1753,7 @@
           "allocated": "55",
           "total": "55"
         },
-        "favourite": true,
+        "favourite": false,
         "mover": false,
         "speedmap": {
           "settling_lengths": 5,
@@ -1402,12 +1789,10 @@
         "trainer_location": "Eagle Farm",
         "meta": null,
         "flucs": [
-          2.15,
-          2.1,
-          2.15,
+          2.3,
           2.2,
-          2.15,
-          2.2
+          3.5,
+          3
         ],
         "scr_time": null,
         "competitor_id": "",
@@ -1417,28 +1802,20 @@
         "flucs_with_timestamp": {
           "last_six": [
             {
-              "timestamp": "2025-11-03T20:16:16.741340143Z",
-              "fluc": 2.15
+              "timestamp": "2025-10-31T02:46:31Z",
+              "fluc": 2.3
             },
             {
-              "timestamp": "2025-11-03T20:19:04.83594282Z",
-              "fluc": 2.1
-            },
-            {
-              "timestamp": "2025-11-03T21:36:21.627840672Z",
-              "fluc": 2.15
-            },
-            {
-              "timestamp": "2025-11-03T23:25:15.390101317Z",
+              "timestamp": "2025-11-04T00:02:42.669030686Z",
               "fluc": 2.2
             },
             {
-              "timestamp": "2025-11-03T23:26:42.187699573Z",
-              "fluc": 2.15
+              "timestamp": "2025-11-04T00:10:07.936507701Z",
+              "fluc": 3.5
             },
             {
-              "timestamp": "2025-11-03T23:37:05.187771635Z",
-              "fluc": 2.2
+              "timestamp": "2025-11-04T00:12:33.822203027Z",
+              "fluc": 3
             }
           ],
           "open": {
@@ -1446,16 +1823,16 @@
             "fluc": 2.3
           },
           "high": {
-            "timestamp": "2025-11-03T20:16:16.216276631Z",
-            "fluc": 2.3
+            "timestamp": "2025-11-04T00:10:07.936507701Z",
+            "fluc": 3.5
           },
           "low": {
-            "timestamp": "2025-11-03T20:19:04.83594282Z",
-            "fluc": 2.1
+            "timestamp": "2025-11-04T00:02:42.669030686Z",
+            "fluc": 2.2
           },
           "nine_am": {
-            "timestamp": "2025-11-03T21:36:21.627840672Z",
-            "fluc": 2.15
+            "timestamp": "2025-11-04T00:12:33.822203027Z",
+            "fluc": 3
           }
         }
       },
@@ -1543,11 +1920,7 @@
         },
         "meta": null,
         "flucs": [
-          16,
-          17,
-          16,
-          16,
-          19,
+          12,
           17
         ],
         "scr_time": "2025-11-02T00:18:21Z",
@@ -1558,24 +1931,8 @@
         "flucs_with_timestamp": {
           "last_six": [
             {
-              "timestamp": "2025-11-01T20:48:52.035942569Z",
-              "fluc": 16
-            },
-            {
-              "timestamp": "2025-11-01T23:00:46.234077513Z",
-              "fluc": 17
-            },
-            {
-              "timestamp": "2025-11-01T23:02:10.18514483Z",
-              "fluc": 16
-            },
-            {
-              "timestamp": "2025-11-02T00:11:11.948674753Z",
-              "fluc": 16
-            },
-            {
-              "timestamp": "2025-11-02T00:11:11.513166445Z",
-              "fluc": 19
+              "timestamp": "2025-10-31T02:46:31Z",
+              "fluc": 12
             },
             {
               "timestamp": "2025-11-02T00:13:03.434077865Z",
@@ -1587,8 +1944,8 @@
             "fluc": 12
           },
           "high": {
-            "timestamp": "2025-11-02T00:11:11.513166445Z",
-            "fluc": 19
+            "timestamp": "2025-11-02T00:13:03.434077865Z",
+            "fluc": 17
           },
           "low": {
             "timestamp": "2025-10-31T02:46:31Z",
@@ -1711,7 +2068,7 @@
         "gear": "[Half Spoon Bit]",
         "odds": {
           "fixed_win": 6.5,
-          "fixed_place": 2.8
+          "fixed_place": 2.9
         },
         "scratch_time": 0,
         "barrier": 5,
@@ -1775,11 +2132,8 @@
         "trainer_location": "Ballarat",
         "meta": null,
         "flucs": [
-          7,
-          6.5,
-          6,
-          6.5,
-          7,
+          10,
+          8,
           6.5
         ],
         "scr_time": null,
@@ -1790,27 +2144,15 @@
         "flucs_with_timestamp": {
           "last_six": [
             {
-              "timestamp": "2025-11-03T21:46:51.588723109Z",
-              "fluc": 7
+              "timestamp": "2025-10-31T02:46:31Z",
+              "fluc": 10
             },
             {
-              "timestamp": "2025-11-03T22:23:17.137428292Z",
-              "fluc": 6.5
+              "timestamp": "2025-11-04T00:08:23.980732342Z",
+              "fluc": 8
             },
             {
-              "timestamp": "2025-11-03T23:04:25.938334944Z",
-              "fluc": 6
-            },
-            {
-              "timestamp": "2025-11-03T23:37:05.187781276Z",
-              "fluc": 6.5
-            },
-            {
-              "timestamp": "2025-11-03T23:44:34.586031932Z",
-              "fluc": 7
-            },
-            {
-              "timestamp": "2025-11-03T23:44:35.282488641Z",
+              "timestamp": "2025-11-04T00:12:33.446543211Z",
               "fluc": 6.5
             }
           ],
@@ -1823,12 +2165,12 @@
             "fluc": 10
           },
           "low": {
-            "timestamp": "2025-11-03T23:04:25.938334944Z",
-            "fluc": 6
+            "timestamp": "2025-11-04T00:12:33.446543211Z",
+            "fluc": 6.5
           },
           "nine_am": {
-            "timestamp": "2025-11-03T21:46:51.588723109Z",
-            "fluc": 7
+            "timestamp": "2025-11-04T00:12:33.446543211Z",
+            "fluc": 6.5
           }
         }
       },
@@ -1840,8 +2182,8 @@
         "is_scratched": false,
         "gear": "[Ear Muffs (Pre-Race Only)]",
         "odds": {
-          "fixed_win": 3.2,
-          "fixed_place": 1.7
+          "fixed_win": 2.6,
+          "fixed_place": 1.55
         },
         "scratch_time": 0,
         "barrier": 1,
@@ -1869,7 +2211,7 @@
           "allocated": "56.5",
           "total": "56.5"
         },
-        "favourite": false,
+        "favourite": true,
         "mover": true,
         "speedmap": {
           "settling_lengths": 2,
@@ -1905,12 +2247,10 @@
         "trainer_location": "Eagle Farm",
         "meta": null,
         "flucs": [
-          3.3,
+          9,
           3.2,
-          3.1,
-          3.2,
-          3.1,
-          3.2
+          2.3,
+          2.6
         ],
         "scr_time": null,
         "competitor_id": "",
@@ -1920,28 +2260,20 @@
         "flucs_with_timestamp": {
           "last_six": [
             {
-              "timestamp": "2025-11-03T21:44:50.534204839Z",
-              "fluc": 3.3
-            },
-            {
-              "timestamp": "2025-11-03T23:25:15.390128592Z",
-              "fluc": 3.2
-            },
-            {
-              "timestamp": "2025-11-03T23:37:25.487768782Z",
-              "fluc": 3.1
-            },
-            {
-              "timestamp": "2025-11-03T23:42:44.682368851Z",
-              "fluc": 3.2
-            },
-            {
-              "timestamp": "2025-11-03T23:45:10.98718375Z",
-              "fluc": 3.1
+              "timestamp": "2025-10-31T02:46:31Z",
+              "fluc": 9
             },
             {
               "timestamp": "2025-11-03T23:45:48.165925589Z",
               "fluc": 3.2
+            },
+            {
+              "timestamp": "2025-11-04T00:10:48.697781538Z",
+              "fluc": 2.3
+            },
+            {
+              "timestamp": "2025-11-04T00:12:13.535897704Z",
+              "fluc": 2.6
             }
           ],
           "open": {
@@ -1953,12 +2285,12 @@
             "fluc": 9
           },
           "low": {
-            "timestamp": "2025-11-03T21:35:25.842526091Z",
-            "fluc": 2.8
+            "timestamp": "2025-11-04T00:10:48.697781538Z",
+            "fluc": 2.3
           },
           "nine_am": {
-            "timestamp": "2025-11-03T21:44:50.534204839Z",
-            "fluc": 3.3
+            "timestamp": "2025-11-04T00:12:13.535897704Z",
+            "fluc": 2.6
           }
         }
       },
@@ -2077,10 +2409,10 @@
         "primary_market": true,
         "name": "Barrelling",
         "is_scratched": false,
-        "gear": "Nasal Strip OFF FIRST TIME",
+        "gear": "Nasal Strip OFF",
         "odds": {
-          "fixed_win": 5.5,
-          "fixed_place": 2.3
+          "fixed_win": 5,
+          "fixed_place": 2.35
         },
         "scratch_time": 0,
         "barrier": 3,
@@ -2163,12 +2495,10 @@
         "trainer_location": "Eagle Farm",
         "meta": null,
         "flucs": [
-          5.5,
-          4.8,
-          5,
-          4.8,
-          5,
-          5.5
+          4.6,
+          6,
+          3.9,
+          5
         ],
         "scr_time": null,
         "competitor_id": "",
@@ -2178,28 +2508,20 @@
         "flucs_with_timestamp": {
           "last_six": [
             {
-              "timestamp": "2025-11-03T20:16:16.216440202Z",
-              "fluc": 5.5
+              "timestamp": "2025-10-31T02:46:31Z",
+              "fluc": 4.6
             },
             {
-              "timestamp": "2025-11-03T20:19:20.199927973Z",
-              "fluc": 4.8
+              "timestamp": "2025-11-03T23:59:57.940289626Z",
+              "fluc": 6
             },
             {
-              "timestamp": "2025-11-03T21:36:21.627778057Z",
+              "timestamp": "2025-11-04T00:08:07.885381753Z",
+              "fluc": 3.9
+            },
+            {
+              "timestamp": "2025-11-04T00:12:08.285496272Z",
               "fluc": 5
-            },
-            {
-              "timestamp": "2025-11-03T21:41:21.888066514Z",
-              "fluc": 4.8
-            },
-            {
-              "timestamp": "2025-11-03T21:44:50.534227392Z",
-              "fluc": 5
-            },
-            {
-              "timestamp": "2025-11-03T23:04:05.582531212Z",
-              "fluc": 5.5
             }
           ],
           "open": {
@@ -2207,15 +2529,15 @@
             "fluc": 4.6
           },
           "high": {
-            "timestamp": "2025-11-03T19:19:13.148456048Z",
-            "fluc": 5.5
+            "timestamp": "2025-11-03T23:59:57.940289626Z",
+            "fluc": 6
           },
           "low": {
-            "timestamp": "2025-10-31T02:46:31Z",
-            "fluc": 4.6
+            "timestamp": "2025-11-04T00:08:07.885381753Z",
+            "fluc": 3.9
           },
           "nine_am": {
-            "timestamp": "2025-11-03T21:44:50.534227392Z",
+            "timestamp": "2025-11-04T00:12:08.285496272Z",
             "fluc": 5
           }
         }
@@ -2228,8 +2550,8 @@
         "is_scratched": false,
         "gear": "[Blinkers, Ear Muffs (Pre-Race Only)]",
         "odds": {
-          "fixed_win": 34,
-          "fixed_place": 10
+          "fixed_win": 31,
+          "fixed_place": 9.5
         },
         "scratch_time": 0,
         "barrier": 4,
@@ -2293,12 +2615,9 @@
         "trainer_location": "Eagle Farm",
         "meta": null,
         "flucs": [
-          35,
-          34,
-          35,
-          34,
-          35,
-          34
+          26,
+          61,
+          31
         ],
         "scr_time": null,
         "competitor_id": "",
@@ -2308,28 +2627,16 @@
         "flucs_with_timestamp": {
           "last_six": [
             {
-              "timestamp": "2025-11-03T20:19:42.865453557Z",
-              "fluc": 35
+              "timestamp": "2025-10-31T02:46:31Z",
+              "fluc": 26
             },
             {
-              "timestamp": "2025-11-03T20:24:00.930911078Z",
-              "fluc": 34
+              "timestamp": "2025-11-04T00:08:02.885870353Z",
+              "fluc": 61
             },
             {
-              "timestamp": "2025-11-03T21:36:21.627840465Z",
-              "fluc": 35
-            },
-            {
-              "timestamp": "2025-11-03T21:41:21.888087699Z",
-              "fluc": 34
-            },
-            {
-              "timestamp": "2025-11-03T21:46:51.588750843Z",
-              "fluc": 35
-            },
-            {
-              "timestamp": "2025-11-03T22:20:35.282736599Z",
-              "fluc": 34
+              "timestamp": "2025-11-04T00:11:03.688403996Z",
+              "fluc": 31
             }
           ],
           "open": {
@@ -2337,16 +2644,16 @@
             "fluc": 26
           },
           "high": {
-            "timestamp": "2025-11-03T20:16:16.216451359Z",
-            "fluc": 41
+            "timestamp": "2025-11-04T00:08:02.885870353Z",
+            "fluc": 61
           },
           "low": {
             "timestamp": "2025-10-31T02:46:31Z",
             "fluc": 26
           },
           "nine_am": {
-            "timestamp": "2025-11-03T21:46:51.588750843Z",
-            "fluc": 35
+            "timestamp": "2025-11-04T00:11:03.688403996Z",
+            "fluc": 31
           }
         }
       },
@@ -2427,11 +2734,7 @@
         },
         "meta": null,
         "flucs": [
-          27,
-          26,
-          27,
           31,
-          26,
           27
         ],
         "scr_time": "2025-11-03T05:50:17Z",
@@ -2442,24 +2745,8 @@
         "flucs_with_timestamp": {
           "last_six": [
             {
-              "timestamp": "2025-11-02T20:28:30.134583516Z",
-              "fluc": 27
-            },
-            {
-              "timestamp": "2025-11-02T20:30:48.034151557Z",
-              "fluc": 26
-            },
-            {
-              "timestamp": "2025-11-03T05:03:08.485051998Z",
-              "fluc": 27
-            },
-            {
-              "timestamp": "2025-11-03T05:44:18.929517474Z",
+              "timestamp": "2025-10-31T02:46:31Z",
               "fluc": 31
-            },
-            {
-              "timestamp": "2025-11-03T05:44:19.149702081Z",
-              "fluc": 26
             },
             {
               "timestamp": "2025-11-03T05:46:24.086846457Z",
@@ -2471,12 +2758,12 @@
             "fluc": 31
           },
           "high": {
-            "timestamp": "2025-11-03T05:44:18.929517474Z",
+            "timestamp": "2025-10-31T02:46:31Z",
             "fluc": 31
           },
           "low": {
-            "timestamp": "2025-11-03T05:44:19.149702081Z",
-            "fluc": 26
+            "timestamp": "2025-11-03T05:46:24.086846457Z",
+            "fluc": 27
           },
           "nine_am": {
             "timestamp": "2025-11-03T05:46:24.086846457Z",
@@ -2568,11 +2855,7 @@
         },
         "meta": null,
         "flucs": [
-          51,
-          61,
-          61,
-          46,
-          51,
+          41,
           46
         ],
         "scr_time": "2025-11-02T02:33:24Z",
@@ -2583,24 +2866,8 @@
         "flucs_with_timestamp": {
           "last_six": [
             {
-              "timestamp": "2025-11-02T00:11:11.513120775Z",
-              "fluc": 61
-            },
-            {
-              "timestamp": "2025-11-02T00:11:11.948617992Z",
-              "fluc": 51
-            },
-            {
-              "timestamp": "2025-11-02T00:18:21.999984689Z",
-              "fluc": 61
-            },
-            {
-              "timestamp": "2025-11-02T00:18:22.29516341Z",
-              "fluc": 46
-            },
-            {
-              "timestamp": "2025-11-02T00:18:29.588422122Z",
-              "fluc": 51
+              "timestamp": "2025-10-31T02:46:31Z",
+              "fluc": 41
             },
             {
               "timestamp": "2025-11-02T00:22:38.835748463Z",
@@ -2612,8 +2879,8 @@
             "fluc": 41
           },
           "high": {
-            "timestamp": "2025-11-02T00:11:11.513120775Z",
-            "fluc": 61
+            "timestamp": "2025-11-02T00:22:38.835748463Z",
+            "fluc": 46
           },
           "low": {
             "timestamp": "2025-10-31T02:46:31Z",
@@ -2626,7 +2893,565 @@
         }
       }
     ],
-    "derivatives": null,
+    "derivatives": [
+      {
+        "entrant_id": "bad4986f-abed-43a1-9737-bf8b712af9fa",
+        "market_name": "Live Racing",
+        "primary_market": false,
+        "name": "Extreme Taste",
+        "is_scratched": false,
+        "gear": "[Ear Muffs (Pre-Race Only)]",
+        "odds": {
+          "fixed_win": 1,
+          "fixed_place": 0
+        },
+        "scratch_time": 0,
+        "barrier": 1,
+        "runner_number": 14,
+        "prize_money": "2000",
+        "age": 4,
+        "sex": "M",
+        "colour": "B",
+        "silk_colours": "YELLOW, ROYAL BLUE STAR AND ARMBANDS, QUARTERED CAP",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "Jai Williams",
+        "apprentice_indicator": "A",
+        "allowance_weight": "3",
+        "owners": "J G Richards, Robert Willis Bloodstock (Mgr: R S Willis), M G Buys, B J Thynne, L Zenonos, M Palmer, S J Gloftis & Ms J V Cleary",
+        "country": "AUS",
+        "trainer_name": "Barry Lockwood & Emma-Jane Vincent",
+        "last_twenty_starts": "4",
+        "sire": "EXTREME CHOICE (AUS)",
+        "dam": "LEAMINGTON (USA)",
+        "breeding": "4 m EXTREME CHOICE (AUS)-LEAMINGTON (USA)",
+        "weight": {
+          "allocated": "56.5",
+          "total": "56.5"
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {
+          "settling_lengths": 2,
+          "entrant_id": "bad4986f-abed-43a1-9737-bf8b712af9fa",
+          "label": "Back Marker"
+        },
+        "form_indicators": null,
+        "past_performances": {
+          "jockey": {
+            "number_of_starts": 0,
+            "number_of_wins": 0,
+            "number_of_placings": 0,
+            "number_of_seconds": 0,
+            "number_of_thirds": 0
+          }
+        },
+        "jockey_past_performances": {
+          "last_50_starts": {
+            "number_of_starts": 50,
+            "number_of_wins": 5,
+            "number_of_placings": 0,
+            "number_of_seconds": 5,
+            "number_of_thirds": 8
+          },
+          "trainer": {
+            "number_of_starts": 0,
+            "number_of_wins": 0,
+            "number_of_placings": 0,
+            "number_of_seconds": 0,
+            "number_of_thirds": 0
+          }
+        },
+        "trainer_location": "Eagle Farm",
+        "meta": null,
+        "flucs": [
+          2.5,
+          3.2
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2025-11-04T00:12:35.139619333Z",
+              "fluc": 2.5
+            },
+            {
+              "timestamp": "2025-11-04T00:13:05.077916593Z",
+              "fluc": 3.2
+            }
+          ],
+          "open": {
+            "timestamp": "2025-11-04T00:12:35.139619333Z",
+            "fluc": 2.5
+          },
+          "high": {
+            "timestamp": "2025-11-04T00:13:05.077916593Z",
+            "fluc": 3.2
+          },
+          "low": {
+            "timestamp": "2025-11-04T00:12:35.139619333Z",
+            "fluc": 2.5
+          },
+          "nine_am": {
+            "timestamp": "2025-11-04T00:13:05.077916593Z",
+            "fluc": 3.2
+          }
+        }
+      },
+      {
+        "entrant_id": "1d36bffb-e592-46d2-829d-04a249ee2535",
+        "market_name": "Live Racing",
+        "primary_market": false,
+        "name": "Barrelling",
+        "is_scratched": false,
+        "gear": "Nasal Strip OFF",
+        "odds": {
+          "fixed_win": 1,
+          "fixed_place": 0
+        },
+        "scratch_time": 0,
+        "barrier": 3,
+        "runner_number": 16,
+        "prize_money": "6325",
+        "age": 4,
+        "sex": "G",
+        "colour": "B",
+        "silk_colours": "MAROON, GOLD DIAGONAL STRIPES, WHITE SLEEVES, GOLD CAP",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "Ryan Maloney",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "Mrs L Huddy & G Huddy",
+        "country": "AUS",
+        "trainer_name": "Tony Gollan",
+        "last_twenty_starts": "6x543x",
+        "sire": "TORONADO (IRE)",
+        "dam": "MINTHA (AUS)",
+        "breeding": "4 g TORONADO (IRE)-MINTHA (AUS)",
+        "weight": {
+          "allocated": "58.5",
+          "total": "58.5"
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {
+          "settling_lengths": 3,
+          "entrant_id": "1d36bffb-e592-46d2-829d-04a249ee2535",
+          "label": "Midfield"
+        },
+        "form_indicators": [
+          {
+            "name": "Recent Trial Winner",
+            "group": "Trial",
+            "negative": false,
+            "priority": 570
+          },
+          {
+            "name": "Jockey Flying",
+            "group": "Jockey",
+            "negative": false,
+            "priority": 160
+          },
+          {
+            "name": "Trainer / Jockey Combo",
+            "group": "Jockey_Trainer",
+            "negative": false,
+            "priority": 140
+          }
+        ],
+        "past_performances": {
+          "jockey": {
+            "number_of_starts": 0,
+            "number_of_wins": 0,
+            "number_of_placings": 0,
+            "number_of_seconds": 0,
+            "number_of_thirds": 0
+          }
+        },
+        "jockey_past_performances": {
+          "last_50_starts": {
+            "number_of_starts": 50,
+            "number_of_wins": 15,
+            "number_of_placings": 0,
+            "number_of_seconds": 12,
+            "number_of_thirds": 9
+          },
+          "trainer": {
+            "number_of_starts": 823,
+            "number_of_wins": 203,
+            "number_of_placings": 0,
+            "number_of_seconds": 140,
+            "number_of_thirds": 122
+          }
+        },
+        "trainer_location": "Eagle Farm",
+        "meta": null,
+        "flucs": [
+          4.6,
+          4.8,
+          3.9
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2025-11-04T00:12:35.139535309Z",
+              "fluc": 4.6
+            },
+            {
+              "timestamp": "2025-11-04T00:12:51.12990583Z",
+              "fluc": 4.8
+            },
+            {
+              "timestamp": "2025-11-04T00:13:05.0779396Z",
+              "fluc": 3.9
+            }
+          ],
+          "open": {
+            "timestamp": "2025-11-04T00:12:35.139535309Z",
+            "fluc": 4.6
+          },
+          "high": {
+            "timestamp": "2025-11-04T00:12:51.12990583Z",
+            "fluc": 4.8
+          },
+          "low": {
+            "timestamp": "2025-11-04T00:13:05.0779396Z",
+            "fluc": 3.9
+          },
+          "nine_am": {
+            "timestamp": "2025-11-04T00:13:05.0779396Z",
+            "fluc": 3.9
+          }
+        }
+      },
+      {
+        "entrant_id": "bd41afc3-dac5-47c2-84de-2cf8520419db",
+        "market_name": "Live Racing",
+        "primary_market": false,
+        "name": "All Other Runners (excludes 10, 13, 14, 16)",
+        "is_scratched": false,
+        "gear": "",
+        "odds": {
+          "fixed_win": 1,
+          "fixed_place": 0
+        },
+        "scratch_time": 0,
+        "barrier": 0,
+        "runner_number": 0,
+        "prize_money": "",
+        "age": 0,
+        "sex": "",
+        "colour": "",
+        "silk_colours": "",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "",
+        "country": "",
+        "trainer_name": "",
+        "last_twenty_starts": "",
+        "sire": "",
+        "dam": "",
+        "breeding": "",
+        "weight": {
+          "allocated": "",
+          "total": ""
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {},
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "",
+        "meta": null,
+        "flucs": [
+          9,
+          10,
+          9.5
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2025-11-04T00:12:35.139631925Z",
+              "fluc": 9
+            },
+            {
+              "timestamp": "2025-11-04T00:12:54.582120515Z",
+              "fluc": 10
+            },
+            {
+              "timestamp": "2025-11-04T00:13:05.077897963Z",
+              "fluc": 9.5
+            }
+          ],
+          "open": {
+            "timestamp": "2025-11-04T00:12:35.139631925Z",
+            "fluc": 9
+          },
+          "high": {
+            "timestamp": "2025-11-04T00:12:54.582120515Z",
+            "fluc": 10
+          },
+          "low": {
+            "timestamp": "2025-11-04T00:12:35.139631925Z",
+            "fluc": 9
+          },
+          "nine_am": {
+            "timestamp": "2025-11-04T00:13:05.077897963Z",
+            "fluc": 9.5
+          }
+        }
+      },
+      {
+        "entrant_id": "0216fcda-3a5e-4a24-b8dc-c00954f9dff7",
+        "market_name": "Live Racing",
+        "primary_market": false,
+        "name": "Lady Milan",
+        "is_scratched": false,
+        "gear": "[Ear Muffs (Pre-Race Only)]",
+        "odds": {
+          "fixed_win": 1,
+          "fixed_place": 0
+        },
+        "scratch_time": 0,
+        "barrier": 6,
+        "runner_number": 10,
+        "prize_money": "7200",
+        "age": 3,
+        "sex": "F",
+        "colour": "BR",
+        "silk_colours": "WHITE, ROYAL BLUE STARS, ROYAL BLUE AND WHITE STARS SLEEVES AND CAP",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "Ben Thompson",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "Wessel Thoroughbreds (Mgr: C J Wessel), M A McLean, Ridgmont (Mgr: M Cunningham), R B Gold, Mrs S B Hannon, Ms N L Zischke, D C Crane, S A Morris, H J Chambers, B F Clifford, G L Lawler, Sleek Racing (Mgr: T Sleeman), Mrs G N Gibson, D J Gibson & G T Lawler",
+        "country": "AUS",
+        "trainer_name": "Tony Gollan",
+        "last_twenty_starts": "2",
+        "sire": "CAPITALIST (AUS)",
+        "dam": "VINCERE VOLARE (AUS)",
+        "breeding": "3 f CAPITALIST (AUS)-VINCERE VOLARE (AUS)",
+        "weight": {
+          "allocated": "55",
+          "total": "55"
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {
+          "settling_lengths": 5,
+          "entrant_id": "0216fcda-3a5e-4a24-b8dc-c00954f9dff7",
+          "label": "Front Runner"
+        },
+        "form_indicators": null,
+        "past_performances": {
+          "jockey": {
+            "number_of_starts": 1,
+            "number_of_wins": 0,
+            "number_of_placings": 0,
+            "number_of_seconds": 1,
+            "number_of_thirds": 0
+          }
+        },
+        "jockey_past_performances": {
+          "last_50_starts": {
+            "number_of_starts": 50,
+            "number_of_wins": 7,
+            "number_of_placings": 0,
+            "number_of_seconds": 10,
+            "number_of_thirds": 8
+          },
+          "trainer": {
+            "number_of_starts": 467,
+            "number_of_wins": 79,
+            "number_of_placings": 0,
+            "number_of_seconds": 79,
+            "number_of_thirds": 55
+          }
+        },
+        "trainer_location": "Eagle Farm",
+        "meta": null,
+        "flucs": [
+          2.9,
+          3.1,
+          3
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2025-11-04T00:12:35.139590388Z",
+              "fluc": 2.9
+            },
+            {
+              "timestamp": "2025-11-04T00:12:54.58213166Z",
+              "fluc": 3.1
+            },
+            {
+              "timestamp": "2025-11-04T00:13:05.077880393Z",
+              "fluc": 3
+            }
+          ],
+          "open": {
+            "timestamp": "2025-11-04T00:12:35.139590388Z",
+            "fluc": 2.9
+          },
+          "high": {
+            "timestamp": "2025-11-04T00:12:54.58213166Z",
+            "fluc": 3.1
+          },
+          "low": {
+            "timestamp": "2025-11-04T00:12:35.139590388Z",
+            "fluc": 2.9
+          },
+          "nine_am": {
+            "timestamp": "2025-11-04T00:13:05.077880393Z",
+            "fluc": 3
+          }
+        }
+      },
+      {
+        "entrant_id": "4b7ae20a-82e6-48d1-8ad0-49db1842b3d5",
+        "market_name": "Live Racing",
+        "primary_market": false,
+        "name": "Ratenotice",
+        "is_scratched": false,
+        "gear": "[Half Spoon Bit]",
+        "odds": {
+          "fixed_win": 1,
+          "fixed_place": 0
+        },
+        "scratch_time": 0,
+        "barrier": 5,
+        "runner_number": 13,
+        "prize_money": "4875",
+        "age": 4,
+        "sex": "M",
+        "colour": "B",
+        "silk_colours": "CERISE, WHITE LATTICE, NAVY BLUE SLEEVES AND CAP",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "Corey Sutherland",
+        "apprentice_indicator": "A",
+        "allowance_weight": "3",
+        "owners": "E Fouchard, G Timmins, M J Gingell, G J Sefton,G H E Goyne, Mrs D L Warne & Miss C Spina",
+        "country": "AUS",
+        "trainer_name": "Emma Fouchard",
+        "last_twenty_starts": "54x",
+        "sire": "GRUNT (NZ)",
+        "dam": "WRITTEN NOTICE (AUS)",
+        "breeding": "4 m GRUNT (NZ)-WRITTEN NOTICE (AUS)",
+        "weight": {
+          "allocated": "56.5",
+          "total": "56.5"
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {
+          "settling_lengths": 5,
+          "entrant_id": "4b7ae20a-82e6-48d1-8ad0-49db1842b3d5",
+          "label": "Front Runner"
+        },
+        "form_indicators": null,
+        "past_performances": {
+          "jockey": {
+            "number_of_starts": 0,
+            "number_of_wins": 0,
+            "number_of_placings": 0,
+            "number_of_seconds": 0,
+            "number_of_thirds": 0
+          }
+        },
+        "jockey_past_performances": {
+          "last_50_starts": {
+            "number_of_starts": 50,
+            "number_of_wins": 4,
+            "number_of_placings": 0,
+            "number_of_seconds": 2,
+            "number_of_thirds": 7
+          },
+          "trainer": {
+            "number_of_starts": 2,
+            "number_of_wins": 0,
+            "number_of_placings": 0,
+            "number_of_seconds": 0,
+            "number_of_thirds": 0
+          }
+        },
+        "trainer_location": "Ballarat",
+        "meta": null,
+        "flucs": [
+          5.5,
+          4.4
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2025-11-04T00:12:35.139619177Z",
+              "fluc": 5.5
+            },
+            {
+              "timestamp": "2025-11-04T00:13:05.07786335Z",
+              "fluc": 4.4
+            }
+          ],
+          "open": {
+            "timestamp": "2025-11-04T00:12:35.139619177Z",
+            "fluc": 5.5
+          },
+          "high": {
+            "timestamp": "2025-11-04T00:12:35.139619177Z",
+            "fluc": 5.5
+          },
+          "low": {
+            "timestamp": "2025-11-04T00:13:05.07786335Z",
+            "fluc": 4.4
+          },
+          "nine_am": {
+            "timestamp": "2025-11-04T00:13:05.07786335Z",
+            "fluc": 4.4
+          }
+        }
+      }
+    ],
     "mover": {
       "entrant_id": "49fd7a7a-99be-432e-b0a1-d22e107fd150",
       "market_name": "Final Field",
@@ -2635,8 +3460,8 @@
       "is_scratched": false,
       "gear": "[Ear Muffs (Pre-Race Only)]",
       "odds": {
-        "fixed_win": 3.2,
-        "fixed_place": 1.7
+        "fixed_win": 2.6,
+        "fixed_place": 1.55
       },
       "scratch_time": 0,
       "barrier": 1,
