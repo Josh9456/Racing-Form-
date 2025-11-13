@@ -1,0 +1,1458 @@
+{
+  "header": {
+    "title": "Event Details: 1f3ee363-0e6f-416d-84d2-b4253e7a240d",
+    "generated_time": "2025-11-13T23:39:19.716178706Z",
+    "url": "/affiliates/v1/racing/events/1f3ee363-0e6f-416d-84d2-b4253e7a240d?enc=json&include_form=true&include_odds=true&include_flucs=true&include_speedmap=true&include_past_performances=true&include_form_indicators=true&include_jockey_stats=true&include_trainer_stats=true"
+  },
+  "params": {
+    "enc": "json",
+    "id": "1f3ee363-0e6f-416d-84d2-b4253e7a240d",
+    "present_overlay": false,
+    "with_big_bets": false,
+    "with_live_bets": false,
+    "with_money_tracker": false,
+    "with_biggest_bet": false,
+    "will_pays": false,
+    "with_tote_trends_data": false,
+    "bet_type_filter": "",
+    "bets_limit": 10
+  },
+  "data": {
+    "race": {
+      "event_id": "1f3ee363-0e6f-416d-84d2-b4253e7a240d",
+      "meeting_name": "Q Straight",
+      "display_meeting_name": "Q Straight",
+      "meeting_id": "93bcccc0-e183-4992-874c-88d2a5de2425",
+      "status": "Final",
+      "description": "Ladbrokes Top 2/3/4 Betting",
+      "advertised_start": 1763001420,
+      "actual_start": 1763001461,
+      "advertised_start_string": "2025-11-13 02:37:00 +0000 UTC",
+      "actual_start_string": "2025-11-13 02:37:41 +0000 UTC",
+      "race_number": 2,
+      "type": "G",
+      "start_type": "",
+      "country": "AUS",
+      "state": "QLD",
+      "distance": 350,
+      "weather": "Fine",
+      "form_guide": "",
+      "comment": "RANGO TRON (4) has been hard to follow lately, running fourth (20.31) last time but prior to that ran very well when placed at Capalaba. Looks suited here and big improvement expected. MAGILL (3) delivered a moderate run last time when fifth at this track over 350m behind Canya Flavour (19.74). Leading chance. BIG BLAST (7) is on debut without trialling for this. Can sneak into the finish on debut. LITTLE JACK (1) gets a chance to redeem an unplaced effort here last start.",
+      "silk_base_url": "drr38safykj6s.cloudfront.net",
+      "track_condition": "Good",
+      "track_direction": "Left",
+      "silk_url": "https://www.ladbrokes.com.au/images/sprites/greyhound-silks-standard.png",
+      "entrant_count": 8,
+      "positions_paid": 2,
+      "video_channels": [
+        "Live1"
+      ],
+      "video_channels_meta": {
+        "Live1": {
+          "RaceNo": 2,
+          "RaceType": "G",
+          "SlotType": "",
+          "SlotTitle": "",
+          "VenueName": "Q Straight",
+          "CrossPoint": 21,
+          "RacePriority": "2",
+          "SlotDuration": "",
+          "SchedulerNote": "P1 (Metropolitan)",
+          "CrossPointName": "SKY 02",
+          "SlotDescription": "",
+          "UtcRaceStartTime": "2025-11-13T02:37:00Z",
+          "VenueCountryCode": "AU",
+          "VenueProviderName": "SKY",
+          "DisplayRaceStartTime": "2025-11-13T12:37:00",
+          "SchedulerNotePriority": "None"
+        }
+      },
+      "tips": [
+        "d3505c74-3d72-41fc-b555-fe427a3645fd",
+        "8aed3492-d9d2-460e-8567-00f08e04e31a",
+        "2b2c5f9d-f4ea-4c3f-8318-0b43140729db",
+        "8cb0f131-77f9-4eb6-8e27-29efc67bb8ec"
+      ],
+      "rail_position": "",
+      "group": "",
+      "prize_monies": {
+        "1st": 1755,
+        "2nd": 540,
+        "3rd": 270,
+        "4th": 135,
+        "total_value": 2700
+      },
+      "track_home_straight": 0
+    },
+    "results": [
+      {
+        "position": 1,
+        "name": "Can't Sit Still",
+        "barrier": 2,
+        "runner_number": 2,
+        "margin_length": 0.03,
+        "entrant_id": "ed290611-da65-4337-9544-c99f1a83fa41"
+      },
+      {
+        "position": 2,
+        "name": "Rango Tron",
+        "barrier": 4,
+        "runner_number": 4,
+        "margin_length": 0.03,
+        "entrant_id": "d3505c74-3d72-41fc-b555-fe427a3645fd"
+      },
+      {
+        "position": 3,
+        "name": "Little Jack",
+        "barrier": 1,
+        "runner_number": 1,
+        "margin_length": 0.75,
+        "entrant_id": "8cb0f131-77f9-4eb6-8e27-29efc67bb8ec"
+      },
+      {
+        "position": 4,
+        "name": "Furious Rage",
+        "barrier": 6,
+        "runner_number": 6,
+        "margin_length": 2,
+        "entrant_id": "d5884d66-cf52-426a-aa6a-b6fb2116d666"
+      },
+      {
+        "position": 5,
+        "name": "Big Blast",
+        "barrier": 7,
+        "runner_number": 7,
+        "margin_length": 3.5,
+        "entrant_id": "2b2c5f9d-f4ea-4c3f-8318-0b43140729db"
+      },
+      {
+        "position": 6,
+        "name": "Magill",
+        "barrier": 3,
+        "runner_number": 3,
+        "margin_length": 4.25,
+        "entrant_id": "8aed3492-d9d2-460e-8567-00f08e04e31a"
+      },
+      {
+        "position": 7,
+        "name": "Smash The Joker",
+        "barrier": 8,
+        "runner_number": 8,
+        "margin_length": 9.25,
+        "entrant_id": "b7f3c5e7-a10d-46fd-bdc1-c1cf33909a45"
+      }
+    ],
+    "dividends": [
+      {
+        "id": "bea55f2b-8edd-5459-b488-626a0dfc32cb",
+        "tote": "QLD",
+        "product_name": "Running Double",
+        "status": "Final",
+        "dividend": 20.8,
+        "pool_size": 0,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "fbe23a3e-ea05-5380-8cbe-698500d231a5",
+        "tote": "VIC",
+        "product_name": "Running Double",
+        "status": "Final",
+        "dividend": 40.1,
+        "pool_size": 0,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "e2afd32b-408e-5deb-8032-c54c25c86980",
+        "tote": "NSW",
+        "product_name": "Quinella",
+        "status": "Final",
+        "dividend": 11.1,
+        "pool_size": 539,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 1
+          },
+          {
+            "runner_number": 4,
+            "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "b77bf57b-5d0f-5fb0-80d4-2ca19a742721",
+        "tote": "VIC",
+        "product_name": "Trifecta",
+        "status": "Final",
+        "dividend": 126.9,
+        "pool_size": 1777,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 1
+          },
+          {
+            "runner_number": 4,
+            "position": 2
+          },
+          {
+            "runner_number": 1,
+            "position": 3
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "7c184b9f-949a-5bca-9ecd-8a650ab928cb",
+        "tote": "QLD",
+        "product_name": "Tote Place",
+        "status": "Final",
+        "dividend": 2.5,
+        "pool_size": 134,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 4,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "c22db9b6-f878-5f9c-97fb-96b4d3132055",
+        "tote": "NSW",
+        "product_name": "First Four",
+        "status": "Final",
+        "dividend": 1427.8,
+        "pool_size": 987,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 1
+          },
+          {
+            "runner_number": 4,
+            "position": 2
+          },
+          {
+            "runner_number": 1,
+            "position": 3
+          },
+          {
+            "runner_number": 6,
+            "position": 4
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "a860b8b7-760f-5203-afac-772b68300337",
+        "tote": "NSW",
+        "product_name": "Running Double",
+        "status": "Final",
+        "dividend": 47.8,
+        "pool_size": 2,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "a4963358-5580-5ed1-9d32-138f3739b3af",
+        "tote": "VIC",
+        "product_name": "Tote Place",
+        "status": "Final",
+        "dividend": 2.1,
+        "pool_size": 415,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "11575b5f-ef3e-53c4-86b6-df702ab796eb",
+        "tote": "QLD",
+        "product_name": "First Four",
+        "status": "Final",
+        "dividend": 595.1,
+        "pool_size": 310,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 1
+          },
+          {
+            "runner_number": 4,
+            "position": 2
+          },
+          {
+            "runner_number": 1,
+            "position": 3
+          },
+          {
+            "runner_number": 6,
+            "position": 4
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "77f9dd24-1f63-539d-aa6c-484aaae97d5b",
+        "tote": "NSW",
+        "product_name": "Tote Place",
+        "status": "Final",
+        "dividend": 1.4,
+        "pool_size": 232,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 4,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "fd419497-5deb-5c6f-80db-5906f587b350",
+        "tote": "QLD",
+        "product_name": "Quinella",
+        "status": "Final",
+        "dividend": 6.3,
+        "pool_size": 439,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 1
+          },
+          {
+            "runner_number": 4,
+            "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "0c77723c-0172-5a13-8aa1-b33462965356",
+        "tote": "QLD",
+        "product_name": "Exacta",
+        "status": "Final",
+        "dividend": 42.5,
+        "pool_size": 142,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 1
+          },
+          {
+            "runner_number": 4,
+            "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "fe0c224d-27d2-5011-a477-83ef79eccd40",
+        "tote": "NSW",
+        "product_name": "Trifecta",
+        "status": "Final",
+        "dividend": 126.2,
+        "pool_size": 1481,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 1
+          },
+          {
+            "runner_number": 4,
+            "position": 2
+          },
+          {
+            "runner_number": 1,
+            "position": 3
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "c0b3fa2d-2677-5a5b-90ab-049af95e558f",
+        "tote": "VIC",
+        "product_name": "Exacta",
+        "status": "Final",
+        "dividend": 40.9,
+        "pool_size": 587,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 1
+          },
+          {
+            "runner_number": 4,
+            "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "e19aae5d-8c99-5c0b-af0c-a171e3a98376",
+        "tote": "VIC",
+        "product_name": "Quinella",
+        "status": "Final",
+        "dividend": 27.3,
+        "pool_size": 858,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 1
+          },
+          {
+            "runner_number": 4,
+            "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "e2a4f69f-b161-57ac-a840-d2781ccbae17",
+        "tote": "VIC",
+        "product_name": "First Four",
+        "status": "Final",
+        "dividend": 677.9,
+        "pool_size": 2436,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 1
+          },
+          {
+            "runner_number": 4,
+            "position": 2
+          },
+          {
+            "runner_number": 1,
+            "position": 3
+          },
+          {
+            "runner_number": 6,
+            "position": 4
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "05f7ca27-3b36-53c7-af21-43ae7482d196",
+        "tote": "NSW",
+        "product_name": "Tote Place",
+        "status": "Final",
+        "dividend": 3,
+        "pool_size": 232,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "4cb785c2-74bd-5d30-a254-5b8fe094532f",
+        "tote": "QLD",
+        "product_name": "Tote Place",
+        "status": "Final",
+        "dividend": 3.6,
+        "pool_size": 134,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "feab81d8-362c-592f-856f-183d10f33772",
+        "tote": "VIC",
+        "product_name": "Tote Win",
+        "status": "Final",
+        "dividend": 8.9,
+        "pool_size": 2869,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "ec9b89af-b90d-5cb4-adc2-b807ca4dd409",
+        "tote": "QLD",
+        "product_name": "Trifecta",
+        "status": "Final",
+        "dividend": 96.5,
+        "pool_size": 1478,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 1
+          },
+          {
+            "runner_number": 4,
+            "position": 2
+          },
+          {
+            "runner_number": 1,
+            "position": 3
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "9b0982ee-473e-58f7-a109-510d1e99efa5",
+        "tote": "QLD",
+        "product_name": "Tote Win",
+        "status": "Final",
+        "dividend": 10.2,
+        "pool_size": 377,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "8e140a93-1979-532f-879b-445d03ee1d5e",
+        "tote": "VIC",
+        "product_name": "Tote Place",
+        "status": "Final",
+        "dividend": 3.8,
+        "pool_size": 415,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 4,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "aa20b976-3bd2-5f52-9e5a-9c04efea9477",
+        "tote": "NSW",
+        "product_name": "Tote Win",
+        "status": "Final",
+        "dividend": 9.6,
+        "pool_size": 1614,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "b7eec485-29ae-55d1-921e-e0355cd3c736",
+        "tote": "NSW",
+        "product_name": "Exacta",
+        "status": "Final",
+        "dividend": 42,
+        "pool_size": 370,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 1
+          },
+          {
+            "runner_number": 4,
+            "position": 2
+          }
+        ],
+        "description": ""
+      }
+    ],
+    "substitutions": [
+      {
+        "entrant_id": "2b2c5f9d-f4ea-4c3f-8318-0b43140729db",
+        "tote": "QLD",
+        "product_name": "Tote Win"
+      },
+      {
+        "entrant_id": "2b2c5f9d-f4ea-4c3f-8318-0b43140729db",
+        "tote": "VIC",
+        "product_name": "Tote Win"
+      },
+      {
+        "entrant_id": "2b2c5f9d-f4ea-4c3f-8318-0b43140729db",
+        "tote": "NSW",
+        "product_name": "Tote Win"
+      }
+    ],
+    "favourite": {
+      "entrant_id": "2b2c5f9d-f4ea-4c3f-8318-0b43140729db",
+      "market_name": "Final Field",
+      "primary_market": true,
+      "name": "Big Blast",
+      "is_scratched": false,
+      "gear": "",
+      "best_time": "NBT",
+      "odds": {
+        "fixed_win": 1.75,
+        "fixed_place": 1.28
+      },
+      "scratch_time": 0,
+      "barrier": 7,
+      "runner_number": 7,
+      "prize_money": "0",
+      "age": 2,
+      "sex": "D",
+      "colour": "DK BDL",
+      "silk_colours": "",
+      "silk_url_64x64": "",
+      "silk_url_128x128": "",
+      "form_comment": null,
+      "class_level": "",
+      "jockey": "",
+      "apprentice_indicator": "",
+      "allowance_weight": "",
+      "owners": "Julie King",
+      "country": "AUS",
+      "trainer_name": "Julie King",
+      "last_twenty_starts": "",
+      "sire": "ASTON RUPEE (AUS)",
+      "dam": "RUBY HERRERA (AUS)",
+      "breeding": "d ASTON RUPEE (AUS)-RUBY HERRERA (AUS)",
+      "weight": {
+        "allocated": "",
+        "total": ""
+      },
+      "favourite": false,
+      "mover": false,
+      "speedmap": {},
+      "form_indicators": null,
+      "past_performances": null,
+      "jockey_past_performances": null,
+      "trainer_location": "Warragai Creek"
+    },
+    "runners": [
+      {
+        "entrant_id": "8cb0f131-77f9-4eb6-8e27-29efc67bb8ec",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Little Jack",
+        "is_scratched": false,
+        "gear": "",
+        "best_time": "19.57",
+        "odds": {
+          "fixed_win": 5.5,
+          "fixed_place": 2.35
+        },
+        "scratch_time": 0,
+        "barrier": 1,
+        "runner_number": 1,
+        "prize_money": "620",
+        "age": 1,
+        "sex": "D",
+        "colour": "BL",
+        "silk_colours": "",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "Keith Snow",
+        "country": "AUS",
+        "trainer_name": "Ned Snow",
+        "last_twenty_starts": "336",
+        "sire": "JACKSLITTLETHING (AUS)",
+        "dam": "JILLIBY CAZ (AUS)",
+        "breeding": "d JACKSLITTLETHING (AUS)-JILLIBY CAZ (AUS)",
+        "weight": {
+          "allocated": "",
+          "total": ""
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {
+          "settling_lengths": 7,
+          "entrant_id": "8cb0f131-77f9-4eb6-8e27-29efc67bb8ec",
+          "label": "Front Runner"
+        },
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "Purga",
+        "meta": null,
+        "flucs": [
+          5,
+          10,
+          5.5
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2025-11-12T22:05:28.981973307Z",
+              "fluc": 5
+            },
+            {
+              "timestamp": "2025-11-13T02:30:05.034111461Z",
+              "fluc": 10
+            },
+            {
+              "timestamp": "2025-11-13T02:36:20.489052737Z",
+              "fluc": 5.5
+            }
+          ],
+          "open": {
+            "timestamp": "2025-11-12T22:05:28.981973307Z",
+            "fluc": 5
+          },
+          "high": {
+            "timestamp": "2025-11-13T02:30:05.034111461Z",
+            "fluc": 10
+          },
+          "low": {
+            "timestamp": "2025-11-12T22:05:28.981973307Z",
+            "fluc": 5
+          },
+          "nine_am": {
+            "timestamp": "2025-11-13T02:36:20.489052737Z",
+            "fluc": 5.5
+          }
+        }
+      },
+      {
+        "entrant_id": "ed290611-da65-4337-9544-c99f1a83fa41",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Can't Sit Still",
+        "is_scratched": false,
+        "gear": "",
+        "best_time": "19.62",
+        "odds": {
+          "fixed_win": 6.5,
+          "fixed_place": 2.6
+        },
+        "scratch_time": 0,
+        "barrier": 2,
+        "runner_number": 2,
+        "prize_money": "1080",
+        "age": 2,
+        "sex": "D",
+        "colour": "WH/RED/FWN",
+        "silk_colours": "",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "Jessica Ashford",
+        "country": "AUS",
+        "trainer_name": "Linda Ashford",
+        "last_twenty_starts": "77227",
+        "sire": "HOOKED ON SCOTCH (AUS)",
+        "dam": "JIMARY SPITFIRE (AUS)",
+        "breeding": "d HOOKED ON SCOTCH (AUS)-JIMARY SPITFIRE (AUS)",
+        "weight": {
+          "allocated": "",
+          "total": ""
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {
+          "settling_lengths": 5,
+          "entrant_id": "ed290611-da65-4337-9544-c99f1a83fa41",
+          "label": "Midfield"
+        },
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "Bethania",
+        "meta": null,
+        "flucs": [
+          9,
+          15,
+          4.6,
+          6.5
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2025-11-12T22:05:28.981890429Z",
+              "fluc": 9
+            },
+            {
+              "timestamp": "2025-11-13T02:20:39.429448905Z",
+              "fluc": 15
+            },
+            {
+              "timestamp": "2025-11-13T02:34:53.429855591Z",
+              "fluc": 4.6
+            },
+            {
+              "timestamp": "2025-11-13T02:37:26.790200197Z",
+              "fluc": 6.5
+            }
+          ],
+          "open": {
+            "timestamp": "2025-11-12T22:05:28.981890429Z",
+            "fluc": 9
+          },
+          "high": {
+            "timestamp": "2025-11-13T02:20:39.429448905Z",
+            "fluc": 15
+          },
+          "low": {
+            "timestamp": "2025-11-13T02:34:53.429855591Z",
+            "fluc": 4.6
+          },
+          "nine_am": {
+            "timestamp": "2025-11-13T02:37:26.790200197Z",
+            "fluc": 6.5
+          }
+        }
+      },
+      {
+        "entrant_id": "8aed3492-d9d2-460e-8567-00f08e04e31a",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Magill",
+        "is_scratched": false,
+        "gear": "",
+        "best_time": "19.74",
+        "odds": {
+          "fixed_win": 16,
+          "fixed_place": 4.6
+        },
+        "scratch_time": 0,
+        "barrier": 3,
+        "runner_number": 3,
+        "prize_money": "0",
+        "age": 1,
+        "sex": "D",
+        "colour": "BLU",
+        "silk_colours": "",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "Robert Britton",
+        "country": "AUS",
+        "trainer_name": "Martina Kirillidis",
+        "last_twenty_starts": "5",
+        "sire": "HOOKED ON SCOTCH (AUS)",
+        "dam": "WIPE THE TEARS (AUS)",
+        "breeding": "d HOOKED ON SCOTCH (AUS)-WIPE THE TEARS (AUS)",
+        "weight": {
+          "allocated": "",
+          "total": ""
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {
+          "settling_lengths": 5,
+          "entrant_id": "8aed3492-d9d2-460e-8567-00f08e04e31a",
+          "label": "Midfield"
+        },
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "Churchable",
+        "meta": null,
+        "flucs": [
+          3.8,
+          91,
+          16
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2025-11-12T22:05:28.981979943Z",
+              "fluc": 3.8
+            },
+            {
+              "timestamp": "2025-11-13T02:32:13.833522256Z",
+              "fluc": 91
+            },
+            {
+              "timestamp": "2025-11-13T02:37:22.579511639Z",
+              "fluc": 16
+            }
+          ],
+          "open": {
+            "timestamp": "2025-11-12T22:05:28.981979943Z",
+            "fluc": 3.8
+          },
+          "high": {
+            "timestamp": "2025-11-13T02:32:13.833522256Z",
+            "fluc": 91
+          },
+          "low": {
+            "timestamp": "2025-11-12T22:05:28.981979943Z",
+            "fluc": 3.8
+          },
+          "nine_am": {
+            "timestamp": "2025-11-13T02:37:22.579511639Z",
+            "fluc": 16
+          }
+        }
+      },
+      {
+        "entrant_id": "d3505c74-3d72-41fc-b555-fe427a3645fd",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Rango Tron",
+        "is_scratched": false,
+        "gear": "",
+        "best_time": "NBT",
+        "odds": {
+          "fixed_win": 5.5,
+          "fixed_place": 2.35
+        },
+        "scratch_time": 0,
+        "barrier": 4,
+        "runner_number": 4,
+        "prize_money": "1005",
+        "age": 2,
+        "sex": "D",
+        "colour": "RED/FWN",
+        "silk_colours": "",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "Jessica Ashford",
+        "country": "AUS",
+        "trainer_name": "Linda Ashford",
+        "last_twenty_starts": "247634",
+        "sire": "HOOKED ON SCOTCH (AUS)",
+        "dam": "JIMARY SPITFIRE (AUS)",
+        "breeding": "d HOOKED ON SCOTCH (AUS)-JIMARY SPITFIRE (AUS)",
+        "weight": {
+          "allocated": "",
+          "total": ""
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {
+          "settling_lengths": 4,
+          "entrant_id": "d3505c74-3d72-41fc-b555-fe427a3645fd",
+          "label": "Back Marker"
+        },
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "Bethania",
+        "meta": null,
+        "flucs": [
+          6,
+          8,
+          5.5
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2025-11-12T22:05:28.98192393Z",
+              "fluc": 6
+            },
+            {
+              "timestamp": "2025-11-13T02:32:13.833519379Z",
+              "fluc": 8
+            },
+            {
+              "timestamp": "2025-11-13T02:36:40.385440785Z",
+              "fluc": 5.5
+            }
+          ],
+          "open": {
+            "timestamp": "2025-11-12T22:05:28.98192393Z",
+            "fluc": 6
+          },
+          "high": {
+            "timestamp": "2025-11-13T02:32:13.833519379Z",
+            "fluc": 8
+          },
+          "low": {
+            "timestamp": "2025-11-13T02:36:40.385440785Z",
+            "fluc": 5.5
+          },
+          "nine_am": {
+            "timestamp": "2025-11-13T02:36:40.385440785Z",
+            "fluc": 5.5
+          }
+        }
+      },
+      {
+        "entrant_id": "75a46a93-f277-4699-af02-c988699a2c51",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Vacant Box",
+        "is_scratched": true,
+        "gear": "",
+        "best_time": "",
+        "odds": {
+          "fixed_win": 0,
+          "fixed_place": 0
+        },
+        "scratch_time": 1762828402,
+        "barrier": 5,
+        "runner_number": 5,
+        "prize_money": "",
+        "age": 0,
+        "sex": "U",
+        "colour": "",
+        "silk_colours": "",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "",
+        "country": "",
+        "trainer_name": "No Trainer",
+        "last_twenty_starts": "",
+        "sire": "",
+        "dam": "",
+        "breeding": " -",
+        "weight": {
+          "allocated": "",
+          "total": ""
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {},
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "",
+        "meta": null,
+        "flucs": [],
+        "scr_time": "2025-11-11T02:33:22Z",
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [],
+          "open": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          },
+          "high": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          },
+          "low": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          },
+          "nine_am": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          }
+        }
+      },
+      {
+        "entrant_id": "d5884d66-cf52-426a-aa6a-b6fb2116d666",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Furious Rage",
+        "is_scratched": false,
+        "gear": "",
+        "best_time": "19.66",
+        "odds": {
+          "fixed_win": 71,
+          "fixed_place": 12
+        },
+        "scratch_time": 0,
+        "barrier": 6,
+        "runner_number": 6,
+        "prize_money": "2715",
+        "age": 2,
+        "sex": "D",
+        "colour": "RED/FWN",
+        "silk_colours": "",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "Lynette Williams",
+        "country": "AUS",
+        "trainer_name": "Lynette Williams",
+        "last_twenty_starts": "5544763566",
+        "sire": "WHISKEY RIOT (AUS)",
+        "dam": "SUSTAIN THE RAGE (AUS)",
+        "breeding": "d WHISKEY RIOT (AUS)-SUSTAIN THE RAGE (AUS)",
+        "weight": {
+          "allocated": "",
+          "total": ""
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {
+          "settling_lengths": 6,
+          "entrant_id": "d5884d66-cf52-426a-aa6a-b6fb2116d666",
+          "label": "Midfield"
+        },
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "Tregeagle",
+        "meta": null,
+        "flucs": [
+          71,
+          151,
+          61,
+          71
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2025-11-12T22:05:28.981958625Z",
+              "fluc": 71
+            },
+            {
+              "timestamp": "2025-11-13T02:31:25.584056835Z",
+              "fluc": 151
+            },
+            {
+              "timestamp": "2025-11-13T02:36:10.585750389Z",
+              "fluc": 61
+            },
+            {
+              "timestamp": "2025-11-13T02:37:00.227412828Z",
+              "fluc": 71
+            }
+          ],
+          "open": {
+            "timestamp": "2025-11-12T22:05:28.981958625Z",
+            "fluc": 71
+          },
+          "high": {
+            "timestamp": "2025-11-13T02:31:25.584056835Z",
+            "fluc": 151
+          },
+          "low": {
+            "timestamp": "2025-11-13T02:36:10.585750389Z",
+            "fluc": 61
+          },
+          "nine_am": {
+            "timestamp": "2025-11-13T02:37:00.227412828Z",
+            "fluc": 71
+          }
+        }
+      },
+      {
+        "entrant_id": "2b2c5f9d-f4ea-4c3f-8318-0b43140729db",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Big Blast",
+        "is_scratched": false,
+        "gear": "",
+        "best_time": "NBT",
+        "odds": {
+          "fixed_win": 1.75,
+          "fixed_place": 1.28
+        },
+        "scratch_time": 0,
+        "barrier": 7,
+        "runner_number": 7,
+        "prize_money": "0",
+        "age": 2,
+        "sex": "D",
+        "colour": "DK BDL",
+        "silk_colours": "",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "Julie King",
+        "country": "AUS",
+        "trainer_name": "Julie King",
+        "last_twenty_starts": "",
+        "sire": "ASTON RUPEE (AUS)",
+        "dam": "RUBY HERRERA (AUS)",
+        "breeding": "d ASTON RUPEE (AUS)-RUBY HERRERA (AUS)",
+        "weight": {
+          "allocated": "",
+          "total": ""
+        },
+        "favourite": true,
+        "mover": true,
+        "speedmap": {},
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "Warragai Creek",
+        "meta": null,
+        "flucs": [
+          3.6,
+          1.65,
+          1.8,
+          1.75
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2025-11-12T22:05:28.981885961Z",
+              "fluc": 3.6
+            },
+            {
+              "timestamp": "2025-11-13T02:33:20.384173685Z",
+              "fluc": 1.65
+            },
+            {
+              "timestamp": "2025-11-13T02:36:55.536200317Z",
+              "fluc": 1.8
+            },
+            {
+              "timestamp": "2025-11-13T02:37:26.790150708Z",
+              "fluc": 1.75
+            }
+          ],
+          "open": {
+            "timestamp": "2025-11-12T22:05:28.981885961Z",
+            "fluc": 3.6
+          },
+          "high": {
+            "timestamp": "2025-11-12T22:05:28.981885961Z",
+            "fluc": 3.6
+          },
+          "low": {
+            "timestamp": "2025-11-13T02:33:20.384173685Z",
+            "fluc": 1.65
+          },
+          "nine_am": {
+            "timestamp": "2025-11-13T02:37:26.790150708Z",
+            "fluc": 1.75
+          }
+        }
+      },
+      {
+        "entrant_id": "b7f3c5e7-a10d-46fd-bdc1-c1cf33909a45",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Smash The Joker",
+        "is_scratched": false,
+        "gear": "",
+        "best_time": "NBT",
+        "odds": {
+          "fixed_win": 12,
+          "fixed_place": 3.9
+        },
+        "scratch_time": 0,
+        "barrier": 8,
+        "runner_number": 8,
+        "prize_money": "0",
+        "age": 1,
+        "sex": "D",
+        "colour": "BL",
+        "silk_colours": "",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "Christopher Kadniak",
+        "country": "AUS",
+        "trainer_name": "Christopher Kadniak",
+        "last_twenty_starts": "",
+        "sire": "TOMMY SHELBY (AUS)",
+        "dam": "SMASHNIAK DOUBLE (AUS)",
+        "breeding": "d TOMMY SHELBY (AUS)-SMASHNIAK DOUBLE (AUS)",
+        "weight": {
+          "allocated": "",
+          "total": ""
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {},
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "Park Ridge",
+        "meta": null,
+        "flucs": [
+          3.2,
+          12
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2025-11-12T22:05:28.981943076Z",
+              "fluc": 3.2
+            },
+            {
+              "timestamp": "2025-11-13T02:37:05.731965922Z",
+              "fluc": 12
+            }
+          ],
+          "open": {
+            "timestamp": "2025-11-12T22:05:28.981943076Z",
+            "fluc": 3.2
+          },
+          "high": {
+            "timestamp": "2025-11-13T02:37:05.731965922Z",
+            "fluc": 12
+          },
+          "low": {
+            "timestamp": "2025-11-12T22:05:28.981943076Z",
+            "fluc": 3.2
+          },
+          "nine_am": {
+            "timestamp": "2025-11-13T02:37:05.731965922Z",
+            "fluc": 12
+          }
+        }
+      }
+    ],
+    "derivatives": null,
+    "mover": {
+      "entrant_id": "2b2c5f9d-f4ea-4c3f-8318-0b43140729db",
+      "market_name": "Final Field",
+      "primary_market": true,
+      "name": "Big Blast",
+      "is_scratched": false,
+      "gear": "",
+      "best_time": "NBT",
+      "odds": {
+        "fixed_win": 1.75,
+        "fixed_place": 1.28
+      },
+      "scratch_time": 0,
+      "barrier": 7,
+      "runner_number": 7,
+      "prize_money": "0",
+      "age": 2,
+      "sex": "D",
+      "colour": "DK BDL",
+      "silk_colours": "",
+      "silk_url_64x64": "",
+      "silk_url_128x128": "",
+      "form_comment": null,
+      "class_level": "",
+      "jockey": "",
+      "apprentice_indicator": "",
+      "allowance_weight": "",
+      "owners": "Julie King",
+      "country": "AUS",
+      "trainer_name": "Julie King",
+      "last_twenty_starts": "",
+      "sire": "ASTON RUPEE (AUS)",
+      "dam": "RUBY HERRERA (AUS)",
+      "breeding": "d ASTON RUPEE (AUS)-RUBY HERRERA (AUS)",
+      "weight": {
+        "allocated": "",
+        "total": ""
+      },
+      "favourite": false,
+      "mover": true,
+      "speedmap": {},
+      "form_indicators": null,
+      "past_performances": null,
+      "jockey_past_performances": null,
+      "trainer_location": "Warragai Creek"
+    },
+    "big_bets": null,
+    "live_bets": null,
+    "biggest_bet": null,
+    "money_tracker": null,
+    "error": ""
+  }
+}
