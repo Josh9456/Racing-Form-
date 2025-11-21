@@ -1,6 +1,6 @@
 import os
 import sys
-from ladbrokes_racing_scraper import LadbrokesRacingScraper
+from scraper import LadbrokesRacingScraper
 
 # Get configuration from environment
 email = os.getenv('SCRAPER_EMAIL')
@@ -11,7 +11,7 @@ categories_str = os.getenv('SCRAPE_CATEGORIES', 'T,G')
 
 # Parse countries and categories
 if countries_str == 'ALL':
-    countries = ['AUS', 'NZL', 'HKG', 'SGP', 'JPN', 'GBR', 'IRL', 'USA', 'CAN', 'FRA', 'ARG', 'ZAF', 'UAE', 'SAU']
+    countries = 'ALL'
 else:
     countries = [c.strip() for c in countries_str.split(',')]
 
