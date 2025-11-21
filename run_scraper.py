@@ -1,6 +1,6 @@
 import os
 import sys
-from scraper import LadbrokesRacingScraper
+from ladbrokes_racing_scraper import LadbrokesRacingScraper
 
 # Get configuration from environment
 email = os.getenv('SCRAPER_EMAIL')
