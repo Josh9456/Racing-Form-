@@ -112,8 +112,9 @@ jobs:
           SCRAPE_DATE: ${{ steps.config.outputs.date }}
           SCRAPE_COUNTRIES: ${{ steps.config.outputs.countries }}
           SCRAPE_CATEGORIES: ${{ steps.config.outputs.categories }}
+          PYTHONPATH: ${{ github.workspace }}/Ladbrokes
         run: |
-          python run_scraper.py
+          python Ladbrokes/run_scraper.py
         continue-on-error: false
 
       - name: Verify data was scraped
