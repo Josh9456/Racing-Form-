@@ -85,8 +85,10 @@ class LadbrokesRacingScraper:
         elif countries is None:
             countries = ['AUS']
         
-        all_meetings = []
-        
+        # Track seen meeting IDs to prevent duplicates
+        seen_meeting_ids = set()
+        unique_meetings = []
+
         # If fetching global, we try to get everything in one go without country filter
         # If that fails or returns only AUS, we might need to fallback to individual countries
         
@@ -111,7 +113,11 @@ class LadbrokesRacingScraper:
                         meetings = data["data"]["meetings"]
                         if meetings:
                             print(f"Found {len(meetings)} {category} meetings globally")
-                            all_meetings.extend(meetings)
+                            for meeting in meetings:
+                                meeting_id = meeting.get("meeting_id") or meeting.get("id")
+                                if meeting_id and meeting_id not in seen_meeting_ids:
+                                    seen_meeting_ids.add(meeting_id)
+                                    unique_meetings.append(meeting)
                         else:
                             print(f"No {category} meetings found globally")
                     
@@ -122,8 +128,8 @@ class LadbrokesRacingScraper:
             
             # If we found meetings, we return them. 
             # If we found nothing (which is suspicious for a global fetch), we might want to try specific codes.
-            if all_meetings:
-                return all_meetings
+            if unique_meetings:
+                return unique_meetings
             
             print("Global fetch returned no meetings. Falling back to individual country checks...")
             # Fallback list if global fetch fails
@@ -153,8 +159,16 @@ class LadbrokesRacingScraper:
                         meetings = data["data"]["meetings"]
                         country_name = self.country_codes.get(country, country)
                         if meetings:
-                            print(f"Found {len(meetings)} {category} meetings in {country_name} ({country})")
-                            all_meetings.extend(meetings)
+                            new_count = 0
+                            for meeting in meetings:
+                                meeting_id = meeting.get("meeting_id") or meeting.get("id")
+                                if meeting_id and meeting_id not in seen_meeting_ids:
+                                    seen_meeting_ids.add(meeting_id)
+                                    unique_meetings.append(meeting)
+                                    new_count += 1
+                            
+                            if new_count > 0:
+                                print(f"Found {new_count} new {category} meetings in {country_name} ({country})")
                     
                     time.sleep(0.2)  # Faster polling for many countries
                     
@@ -162,7 +176,7 @@ class LadbrokesRacingScraper:
                     # Don't print error for every missing country to avoid spam
                     pass
         
-        return all_meetings
+        return unique_meetings
 
     def get_race_details(self, race_id, country=None):
         """
