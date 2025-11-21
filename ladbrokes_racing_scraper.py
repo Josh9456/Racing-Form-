@@ -29,23 +29,24 @@ class LadbrokesRacingScraper:
         
         self.base_dir = base_dir
         # Enhanced country codes for international racing
+        # Includes both Alpha-3 and Alpha-2 codes as the API may vary
         self.country_codes = {
             "AUS": "Australia",
-            "NZL": "New Zealand",
-            "HKG": "Hong Kong",
-            "SGP": "Singapore",
-            "JPN": "Japan",
-            "KOR": "South Korea",
-            "GBR": "Great Britain",
+            "NZL": "New Zealand", "NZ": "New Zealand",
+            "HKG": "Hong Kong", "HK": "Hong Kong",
+            "SGP": "Singapore", "SG": "Singapore",
+            "JPN": "Japan", "JP": "Japan",
+            "KOR": "South Korea", "KR": "South Korea",
+            "GBR": "Great Britain", "UK": "United Kingdom", "IE": "Ireland",
             "IRL": "Ireland",
-            "USA": "United States",
+            "USA": "United States", "US": "United States",
             "CAN": "Canada",
-            "FRA": "France",
-            "GER": "Germany",
-            "ITA": "Italy",
-            "ESP": "Spain",
+            "FRA": "France", "FR": "France",
+            "GER": "Germany", "DE": "Germany",
+            "ITA": "Italy", "IT": "Italy",
+            "ESP": "Spain", "ES": "Spain",
             "ARG": "Argentina",
-            "ZAF": "South Africa",
+            "ZAF": "South Africa", "ZA": "South Africa",
             "UAE": "United Arab Emirates",
             "SAU": "Saudi Arabia",
             "CHI": "Chile",
@@ -54,7 +55,9 @@ class LadbrokesRacingScraper:
             "MEX": "Mexico",
             "MAC": "Macau",
             "MAL": "Malaysia",
-            "IND": "India"
+            "IND": "India",
+            "SWE": "Sweden", "SE": "Sweden",
+            "NOR": "Norway", "NO": "Norway"
         }
 
     def get_meetings(self, date=None, categories=None, countries=None):
@@ -64,7 +67,7 @@ class LadbrokesRacingScraper:
         Args:
             date: Date string in YYYY-MM-DD format (default: today)
             categories: List of categories ['T', 'H', 'G'] (default: ['T', 'G'])
-            countries: List of country codes (default: ['AUS'])
+            countries: List of country codes (default: ['AUS']) or 'ALL'
         
         Returns:
             List of meeting dictionaries
@@ -73,12 +76,63 @@ class LadbrokesRacingScraper:
             date = datetime.now().strftime("%Y-%m-%d")
         if categories is None:
             categories = ['T', 'G']  # Thoroughbred and Greyhound
-        if countries is None:
+        
+        # Handle 'ALL' countries request
+        fetch_global = False
+        if countries == 'ALL' or (isinstance(countries, list) and 'ALL' in countries):
+            fetch_global = True
+            countries = ['ALL'] # Placeholder for the loop
+        elif countries is None:
             countries = ['AUS']
         
         all_meetings = []
         
+        # If fetching global, we try to get everything in one go without country filter
+        # If that fails or returns only AUS, we might need to fallback to individual countries
+        
+        if fetch_global:
+            print(f"Attempting to fetch ALL international meetings...")
+            for category in categories:
+                url = f"{self.base_url}/meetings"
+                params = {
+                    "enc": "json",
+                    "date_from": date,
+                    "date_to": date,
+                    "category": category,
+                    "limit": 1000  # Increased limit for global fetch
+                }
+                
+                try:
+                    response = requests.get(url, headers=self.headers, params=params)
+                    response.raise_for_status()
+                    data = response.json()
+                    
+                    if "data" in data and "meetings" in data["data"]:
+                        meetings = data["data"]["meetings"]
+                        if meetings:
+                            print(f"Found {len(meetings)} {category} meetings globally")
+                            all_meetings.extend(meetings)
+                        else:
+                            print(f"No {category} meetings found globally")
+                    
+                    time.sleep(0.5)
+                    
+                except requests.exceptions.RequestException as e:
+                    print(f"Error fetching global {category} meetings: {e}")
+            
+            # If we found meetings, we return them. 
+            # If we found nothing (which is suspicious for a global fetch), we might want to try specific codes.
+            if all_meetings:
+                return all_meetings
+            
+            print("Global fetch returned no meetings. Falling back to individual country checks...")
+            # Fallback list if global fetch fails
+            countries = list(set(self.country_codes.keys()))
+
+        # Standard country-by-country fetch (or fallback)
         for country in countries:
+            if country == 'ALL': continue # Should not happen due to logic above but safety check
+            
             for category in categories:
                 url = f"{self.base_url}/meetings"
                 params = {
@@ -99,13 +153,14 @@ class LadbrokesRacingScraper:
                         meetings = data["data"]["meetings"]
                         country_name = self.country_codes.get(country, country)
                         if meetings:
-                            print(f"Found {len(meetings)} {category} meetings in {country_name}")
-                        all_meetings.extend(meetings)
+                            print(f"Found {len(meetings)} {category} meetings in {country_name} ({country})")
+                            all_meetings.extend(meetings)
                     
-                    time.sleep(0.5)  # Be polite to the API
+                    time.sleep(0.2)  # Faster polling for many countries
                     
                 except requests.exceptions.RequestException as e:
-                    print(f"Error fetching {category} meetings for {country}: {e}")
+                    # Don't print error for every missing country to avoid spam
+                    pass
         
         return all_meetings
 
@@ -383,8 +438,8 @@ class LadbrokesRacingScraper:
             return ['AUS']
         
         if user_input == 'ALL':
-            print(f"\n✓ Selected: All {len(self.country_codes)} countries")
-            return list(self.country_codes.keys())
+            print(f"\n✓ Selected: Global Fetch (All Countries)")
+            return 'ALL'
         
         # Parse input
         selected_countries = []
