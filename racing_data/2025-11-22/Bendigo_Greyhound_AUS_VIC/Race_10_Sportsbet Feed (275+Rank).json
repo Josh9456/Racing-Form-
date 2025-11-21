@@ -1,7 +1,7 @@
 {
   "header": {
     "title": "Event Details: 4d35f42d-6dac-497c-9574-2f7d32731a84",
-    "generated_time": "2025-11-21T16:31:46.723350114Z",
+    "generated_time": "2025-11-21T23:38:10.166584849Z",
     "url": "/affiliates/v1/racing/events/4d35f42d-6dac-497c-9574-2f7d32731a84?enc=json&include_form=true&include_odds=true&include_flucs=true&include_speedmap=true&include_past_performances=true&include_form_indicators=true&include_jockey_stats=true&include_trainer_stats=true"
   },
   "params": {
@@ -35,7 +35,7 @@
       "country": "AUS",
       "state": "VIC",
       "distance": 425,
-      "weather": "Cloudy",
+      "weather": "Overcast",
       "form_guide": "",
       "comment": "ASTON DUNKEL (4) is a capable type and proved too classy last time to win by 4 lengths at Ballarat in a handy 22.55 beating Angry Man. Winner at his latest appearance in one of the quickest times on the card. Shapes as a top winning chance on latest effort. BONDED (2) was in the minors two back (23.15) at Geelong but ran below best last time at Ballarat, finishing 7th. Expected to give a good account. NOTORIOUS BLAZE (8) was sixth in a Grade 5 two back then found trouble in the run and took a tumble at Ballarat last time. Key player if finds best. IMPOSTER (1) scored by 4 lengths last time (17.65) in a Other over 305m at Mt Gambier. Has five wins already from this draw.",
       "silk_base_url": "drr38safykj6s.cloudfront.net",
@@ -43,7 +43,7 @@
       "track_direction": "Left",
       "silk_url": "https://www.ladbrokes.com.au/images/sprites/greyhound-silks-standard.png",
       "entrant_count": 8,
-      "positions_paid": 2,
+      "positions_paid": 1,
       "video_channels": [
         "Live1"
       ],
@@ -69,8 +69,7 @@
       },
       "tips": [
         "f5cbda0c-29c9-4629-ae6a-57111e867943",
-        "bba89cff-c619-4709-bb72-97facae73b37",
-        "ef3be461-94fa-421f-a65f-c7db777ce568"
+        "bba89cff-c619-4709-bb72-97facae73b37"
       ],
       "rail_position": "",
       "group": "",
@@ -84,23 +83,24 @@
       "track_home_straight": 0
     },
     "favourite": {
-      "entrant_id": "",
-      "market_name": "",
-      "primary_market": false,
-      "name": "",
+      "entrant_id": "f5cbda0c-29c9-4629-ae6a-57111e867943",
+      "market_name": "Final Field",
+      "primary_market": true,
+      "name": "Aston Dunkel",
       "is_scratched": false,
       "gear": "",
+      "best_time": "24.52",
       "odds": {
-        "fixed_win": 0,
+        "fixed_win": 1.35,
         "fixed_place": 0
       },
       "scratch_time": 0,
-      "barrier": 0,
-      "runner_number": 0,
-      "prize_money": "",
-      "age": 0,
-      "sex": "",
-      "colour": "",
+      "barrier": 4,
+      "runner_number": 4,
+      "prize_money": "8040",
+      "age": 2,
+      "sex": "D",
+      "colour": "BLU",
       "silk_colours": "",
       "silk_url_64x64": "",
       "silk_url_128x128": "",
@@ -109,24 +109,27 @@
       "jockey": "",
       "apprentice_indicator": "",
       "allowance_weight": "",
-      "owners": "",
-      "country": "",
-      "trainer_name": "",
-      "last_twenty_starts": "",
-      "sire": "",
-      "dam": "",
-      "breeding": "",
+      "owners": "Jeffrey Abela",
+      "country": "AUS",
+      "trainer_name": "Jeffrey Abela",
+      "last_twenty_starts": "2173457741",
+      "sire": "GOOD ODDS HARADA (AUS)",
+      "dam": "ASTON MOET (AUS)",
+      "breeding": "d GOOD ODDS HARADA (AUS)-ASTON MOET (AUS)",
       "weight": {
         "allocated": "",
         "total": ""
       },
       "favourite": false,
       "mover": false,
-      "speedmap": {},
+      "speedmap": {
+        "settling_lengths": 5,
+        "entrant_id": "f5cbda0c-29c9-4629-ae6a-57111e867943"
+      },
       "form_indicators": null,
       "past_performances": null,
       "jockey_past_performances": null,
-      "trainer_location": ""
+      "trainer_location": "Echuca"
     },
     "runners": [
       {
@@ -134,14 +137,14 @@
         "market_name": "Final Field",
         "primary_market": true,
         "name": "Imposter",
-        "is_scratched": false,
+        "is_scratched": true,
         "gear": "",
         "best_time": "24.38",
         "odds": {
           "fixed_win": 0,
           "fixed_place": 0
         },
-        "scratch_time": 0,
+        "scratch_time": 1763758192,
         "barrier": 1,
         "runner_number": 1,
         "prize_money": "26630",
@@ -170,9 +173,9 @@
         "favourite": false,
         "mover": false,
         "speedmap": {
-          "settling_lengths": 7,
+          "settling_lengths": 1,
           "entrant_id": "ef3be461-94fa-421f-a65f-c7db777ce568",
-          "label": "Front Runner"
+          "label": "Back Marker"
         },
         "form_indicators": [
           {
@@ -187,7 +190,7 @@
         "trainer_location": "ARARAT",
         "meta": null,
         "flucs": [],
-        "scr_time": null,
+        "scr_time": "2025-11-21T20:49:52Z",
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
@@ -221,7 +224,7 @@
         "gear": "",
         "best_time": "24.54",
         "odds": {
-          "fixed_win": 0,
+          "fixed_win": 3.4,
           "fixed_place": 0
         },
         "scratch_time": 0,
@@ -262,25 +265,37 @@
         "jockey_past_performances": null,
         "trainer_location": "Albion",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          3.3,
+          3.4
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T22:02:35.920984612Z",
+              "fluc": 3.3
+            },
+            {
+              "timestamp": "2025-11-21T23:18:45.47071894Z",
+              "fluc": 3.4
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:35.920984612Z",
+            "fluc": 3.3
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T23:18:45.47071894Z",
+            "fluc": 3.4
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:35.920984612Z",
+            "fluc": 3.3
           },
           "nine_am": {
             "timestamp": "0001-01-01T00:00:00Z",
@@ -297,7 +312,7 @@
         "gear": "",
         "best_time": "24.57",
         "odds": {
-          "fixed_win": 0,
+          "fixed_win": 14,
           "fixed_place": 0
         },
         "scratch_time": 0,
@@ -338,25 +353,37 @@
         "jockey_past_performances": null,
         "trainer_location": "Maryborough",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          13,
+          14
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T22:02:35.921025879Z",
+              "fluc": 13
+            },
+            {
+              "timestamp": "2025-11-21T23:18:45.47075673Z",
+              "fluc": 14
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:35.921025879Z",
+            "fluc": 13
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T23:18:45.47075673Z",
+            "fluc": 14
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:35.921025879Z",
+            "fluc": 13
           },
           "nine_am": {
             "timestamp": "0001-01-01T00:00:00Z",
@@ -373,7 +400,7 @@
         "gear": "",
         "best_time": "24.52",
         "odds": {
-          "fixed_win": 0,
+          "fixed_win": 1.35,
           "fixed_place": 0
         },
         "scratch_time": 0,
@@ -402,37 +429,49 @@
           "allocated": "",
           "total": ""
         },
-        "favourite": false,
-        "mover": false,
+        "favourite": true,
+        "mover": true,
         "speedmap": {
           "settling_lengths": 5,
           "entrant_id": "f5cbda0c-29c9-4629-ae6a-57111e867943",
-          "label": "Midfield"
+          "label": "Front Runner"
         },
         "form_indicators": null,
         "past_performances": null,
         "jockey_past_performances": null,
         "trainer_location": "Echuca",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          1.4,
+          1.35
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T22:02:35.920940329Z",
+              "fluc": 1.4
+            },
+            {
+              "timestamp": "2025-11-21T23:18:45.470741489Z",
+              "fluc": 1.35
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:35.920940329Z",
+            "fluc": 1.4
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:35.920940329Z",
+            "fluc": 1.4
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T23:18:45.470741489Z",
+            "fluc": 1.35
           },
           "nine_am": {
             "timestamp": "0001-01-01T00:00:00Z",
@@ -597,7 +636,7 @@
         "gear": "",
         "best_time": "24.43",
         "odds": {
-          "fixed_win": 0,
+          "fixed_win": 10,
           "fixed_place": 0
         },
         "scratch_time": 0,
@@ -631,32 +670,44 @@
         "speedmap": {
           "settling_lengths": 5,
           "entrant_id": "8a8692dd-5edb-4f63-bdc0-77486c753144",
-          "label": "Midfield"
+          "label": "Front Runner"
         },
         "form_indicators": null,
         "past_performances": null,
         "jockey_past_performances": null,
         "trainer_location": "Huntly",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          9.5,
+          10
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T22:02:35.920961318Z",
+              "fluc": 9.5
+            },
+            {
+              "timestamp": "2025-11-21T23:18:45.470729465Z",
+              "fluc": 10
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:35.920961318Z",
+            "fluc": 9.5
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T23:18:45.470729465Z",
+            "fluc": 10
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:35.920961318Z",
+            "fluc": 9.5
           },
           "nine_am": {
             "timestamp": "0001-01-01T00:00:00Z",
@@ -705,7 +756,7 @@
         "favourite": false,
         "mover": false,
         "speedmap": {
-          "settling_lengths": 5,
+          "settling_lengths": 1,
           "entrant_id": "2ad96ef0-b2c6-4b60-8005-3862150855da",
           "label": "Back Marker"
         },
@@ -743,23 +794,24 @@
     ],
     "derivatives": null,
     "mover": {
-      "entrant_id": "",
-      "market_name": "",
-      "primary_market": false,
-      "name": "",
+      "entrant_id": "f5cbda0c-29c9-4629-ae6a-57111e867943",
+      "market_name": "Final Field",
+      "primary_market": true,
+      "name": "Aston Dunkel",
       "is_scratched": false,
       "gear": "",
+      "best_time": "24.52",
       "odds": {
-        "fixed_win": 0,
+        "fixed_win": 1.35,
         "fixed_place": 0
       },
       "scratch_time": 0,
-      "barrier": 0,
-      "runner_number": 0,
-      "prize_money": "",
-      "age": 0,
-      "sex": "",
-      "colour": "",
+      "barrier": 4,
+      "runner_number": 4,
+      "prize_money": "8040",
+      "age": 2,
+      "sex": "D",
+      "colour": "BLU",
       "silk_colours": "",
       "silk_url_64x64": "",
       "silk_url_128x128": "",
@@ -768,24 +820,27 @@
       "jockey": "",
       "apprentice_indicator": "",
       "allowance_weight": "",
-      "owners": "",
-      "country": "",
-      "trainer_name": "",
-      "last_twenty_starts": "",
-      "sire": "",
-      "dam": "",
-      "breeding": "",
+      "owners": "Jeffrey Abela",
+      "country": "AUS",
+      "trainer_name": "Jeffrey Abela",
+      "last_twenty_starts": "2173457741",
+      "sire": "GOOD ODDS HARADA (AUS)",
+      "dam": "ASTON MOET (AUS)",
+      "breeding": "d GOOD ODDS HARADA (AUS)-ASTON MOET (AUS)",
       "weight": {
         "allocated": "",
         "total": ""
       },
       "favourite": false,
-      "mover": false,
-      "speedmap": {},
+      "mover": true,
+      "speedmap": {
+        "settling_lengths": 5,
+        "entrant_id": "f5cbda0c-29c9-4629-ae6a-57111e867943"
+      },
       "form_indicators": null,
       "past_performances": null,
       "jockey_past_performances": null,
-      "trainer_location": ""
+      "trainer_location": "Echuca"
     },
     "big_bets": null,
     "live_bets": null,

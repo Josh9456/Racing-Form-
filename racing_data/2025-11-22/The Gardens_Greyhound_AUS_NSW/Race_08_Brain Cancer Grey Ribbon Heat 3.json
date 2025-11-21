@@ -1,7 +1,7 @@
 {
   "header": {
     "title": "Event Details: 9b7094f1-4e39-4c3a-bebf-2f3213a58290",
-    "generated_time": "2025-11-21T16:31:57.908999818Z",
+    "generated_time": "2025-11-21T23:38:20.957574717Z",
     "url": "/affiliates/v1/racing/events/9b7094f1-4e39-4c3a-bebf-2f3213a58290?enc=json&include_form=true&include_odds=true&include_flucs=true&include_speedmap=true&include_past_performances=true&include_form_indicators=true&include_jockey_stats=true&include_trainer_stats=true"
   },
   "params": {
@@ -35,7 +35,7 @@
       "country": "AUS",
       "state": "NSW",
       "distance": 515,
-      "weather": "",
+      "weather": "overcast",
       "form_guide": "",
       "comment": "WILBERT (4) was an impressive winner last time in quickest of the meeting when scoring by 11 lengths (29.36) at Gosford. Rates a top chance again. KALANI SKY (5) has a strong winning strike-rate this journey here having won two of four starts. Below best last time at this track (30.74) in a Grade 5, finishing a 12 length eighth. Can feature with the right run. ACE'S FOUR BRIAN (1) jumped from out wide and was game in defeat last start when a one length second (25.32) behind Blue Fabio at Maitland. Nicely placed to grab a well-deserved win. BRING ON BLING (8) should be thereabouts after narrowly missing most recently.",
       "silk_base_url": "drr38safykj6s.cloudfront.net",
@@ -85,23 +85,24 @@
       "track_home_straight": 0
     },
     "favourite": {
-      "entrant_id": "",
-      "market_name": "",
-      "primary_market": false,
-      "name": "",
+      "entrant_id": "675072ea-7779-422d-88ef-981d60efcc8b",
+      "market_name": "Final Field",
+      "primary_market": true,
+      "name": "Ace's Four Brian",
       "is_scratched": false,
       "gear": "",
+      "best_time": "29.92",
       "odds": {
-        "fixed_win": 0,
-        "fixed_place": 0
+        "fixed_win": 3,
+        "fixed_place": 1.4
       },
       "scratch_time": 0,
-      "barrier": 0,
-      "runner_number": 0,
-      "prize_money": "",
-      "age": 0,
-      "sex": "",
-      "colour": "",
+      "barrier": 1,
+      "runner_number": 1,
+      "prize_money": "3265",
+      "age": 1,
+      "sex": "D",
+      "colour": "BL",
       "silk_colours": "",
       "silk_url_64x64": "",
       "silk_url_128x128": "",
@@ -110,24 +111,34 @@
       "jockey": "",
       "apprentice_indicator": "",
       "allowance_weight": "",
-      "owners": "",
-      "country": "",
-      "trainer_name": "",
-      "last_twenty_starts": "",
-      "sire": "",
-      "dam": "",
-      "breeding": "",
+      "owners": "Craig Blakemore",
+      "country": "AUS",
+      "trainer_name": "Craig Blakemore",
+      "last_twenty_starts": "2215345532",
+      "sire": "TOMMY SHELBY (AUS)",
+      "dam": "WYNBURN MIA (AUS)",
+      "breeding": "d TOMMY SHELBY (AUS)-WYNBURN MIA (AUS)",
       "weight": {
         "allocated": "",
         "total": ""
       },
       "favourite": false,
       "mover": false,
-      "speedmap": {},
-      "form_indicators": null,
+      "speedmap": {
+        "settling_lengths": 3,
+        "entrant_id": "675072ea-7779-422d-88ef-981d60efcc8b"
+      },
+      "form_indicators": [
+        {
+          "name": "Nearing Another Win",
+          "group": "Win",
+          "negative": false,
+          "priority": 160
+        }
+      ],
       "past_performances": null,
       "jockey_past_performances": null,
-      "trainer_location": ""
+      "trainer_location": "East Maitland"
     },
     "runners": [
       {
@@ -139,8 +150,8 @@
         "gear": "",
         "best_time": "29.92",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 3,
+          "fixed_place": 1.4
         },
         "scratch_time": 0,
         "barrier": 1,
@@ -168,7 +179,7 @@
           "allocated": "",
           "total": ""
         },
-        "favourite": false,
+        "favourite": true,
         "mover": false,
         "speedmap": {
           "settling_lengths": 3,
@@ -187,25 +198,32 @@
         "jockey_past_performances": null,
         "trainer_location": "East Maitland",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          3
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T22:02:31.917376289Z",
+              "fluc": 3
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:31.917376289Z",
+            "fluc": 3
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:31.917376289Z",
+            "fluc": 3
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:31.917376289Z",
+            "fluc": 3
           },
           "nine_am": {
             "timestamp": "0001-01-01T00:00:00Z",
@@ -222,8 +240,8 @@
         "gear": "",
         "best_time": "30.15",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 15,
+          "fixed_place": 2.8
         },
         "scratch_time": 0,
         "barrier": 2,
@@ -263,25 +281,32 @@
         "jockey_past_performances": null,
         "trainer_location": "Nabiac",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          15
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T22:02:31.917386925Z",
+              "fluc": 15
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:31.917386925Z",
+            "fluc": 15
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:31.917386925Z",
+            "fluc": 15
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:31.917386925Z",
+            "fluc": 15
           },
           "nine_am": {
             "timestamp": "0001-01-01T00:00:00Z",
@@ -298,8 +323,8 @@
         "gear": "",
         "best_time": "30.31",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 6.5,
+          "fixed_place": 1.95
         },
         "scratch_time": 0,
         "barrier": 3,
@@ -346,25 +371,32 @@
         "jockey_past_performances": null,
         "trainer_location": "Kurri Kurri",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          6.5
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T22:02:31.917397089Z",
+              "fluc": 6.5
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:31.917397089Z",
+            "fluc": 6.5
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:31.917397089Z",
+            "fluc": 6.5
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:31.917397089Z",
+            "fluc": 6.5
           },
           "nine_am": {
             "timestamp": "0001-01-01T00:00:00Z",
@@ -381,8 +413,8 @@
         "gear": "",
         "best_time": "NBT",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 5,
+          "fixed_place": 1.7
         },
         "scratch_time": 0,
         "barrier": 4,
@@ -429,25 +461,32 @@
         "jockey_past_performances": null,
         "trainer_location": "Abermain",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          5
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T22:02:31.917366424Z",
+              "fluc": 5
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:31.917366424Z",
+            "fluc": 5
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:31.917366424Z",
+            "fluc": 5
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:31.917366424Z",
+            "fluc": 5
           },
           "nine_am": {
             "timestamp": "0001-01-01T00:00:00Z",
@@ -464,8 +503,8 @@
         "gear": "",
         "best_time": "29.46",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 4.2,
+          "fixed_place": 1.6
         },
         "scratch_time": 0,
         "barrier": 5,
@@ -518,25 +557,32 @@
         "jockey_past_performances": null,
         "trainer_location": "Elrington",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          4.2
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T22:02:31.917564036Z",
+              "fluc": 4.2
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:31.917564036Z",
+            "fluc": 4.2
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:31.917564036Z",
+            "fluc": 4.2
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:31.917564036Z",
+            "fluc": 4.2
           },
           "nine_am": {
             "timestamp": "0001-01-01T00:00:00Z",
@@ -553,8 +599,8 @@
         "gear": "",
         "best_time": "29.92",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 21,
+          "fixed_place": 3.3
         },
         "scratch_time": 0,
         "barrier": 6,
@@ -594,25 +640,32 @@
         "jockey_past_performances": null,
         "trainer_location": "Kundle Kundle",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          21
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T22:02:31.917647494Z",
+              "fluc": 21
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:31.917647494Z",
+            "fluc": 21
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:31.917647494Z",
+            "fluc": 21
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:31.917647494Z",
+            "fluc": 21
           },
           "nine_am": {
             "timestamp": "0001-01-01T00:00:00Z",
@@ -629,8 +682,8 @@
         "gear": "",
         "best_time": "30.01",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 8.5,
+          "fixed_place": 2.15
         },
         "scratch_time": 0,
         "barrier": 7,
@@ -670,25 +723,32 @@
         "jockey_past_performances": null,
         "trainer_location": "Maitland",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          8.5
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T22:02:31.917607178Z",
+              "fluc": 8.5
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:31.917607178Z",
+            "fluc": 8.5
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:31.917607178Z",
+            "fluc": 8.5
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:31.917607178Z",
+            "fluc": 8.5
           },
           "nine_am": {
             "timestamp": "0001-01-01T00:00:00Z",
@@ -705,8 +765,8 @@
         "gear": "",
         "best_time": "30.09",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 5,
+          "fixed_place": 1.7
         },
         "scratch_time": 0,
         "barrier": 8,
@@ -753,25 +813,37 @@
         "jockey_past_performances": null,
         "trainer_location": "Jilliby",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          4.8,
+          5
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T22:02:31.917498443Z",
+              "fluc": 4.8
+            },
+            {
+              "timestamp": "2025-11-21T23:07:14.118374492Z",
+              "fluc": 5
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:31.917498443Z",
+            "fluc": 4.8
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T23:07:14.118374492Z",
+            "fluc": 5
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:31.917498443Z",
+            "fluc": 4.8
           },
           "nine_am": {
             "timestamp": "0001-01-01T00:00:00Z",
@@ -784,15 +856,15 @@
         "market_name": "Final Field",
         "primary_market": true,
         "name": "Nova Lass",
-        "is_scratched": false,
+        "is_scratched": true,
         "gear": "",
         "best_time": "NBT",
         "odds": {
           "fixed_win": 0,
           "fixed_place": 0
         },
-        "scratch_time": 0,
-        "barrier": 9,
+        "scratch_time": 1763761615,
+        "barrier": 0,
         "runner_number": 9,
         "prize_money": "2150",
         "age": 2,
@@ -820,9 +892,9 @@
         "favourite": false,
         "mover": false,
         "speedmap": {
-          "settling_lengths": 5,
+          "settling_lengths": 1,
           "entrant_id": "2aba9bbb-450d-42a2-a1e3-6cc463ffa7be",
-          "label": "Midfield"
+          "label": "Back Marker"
         },
         "form_indicators": null,
         "past_performances": null,
@@ -830,7 +902,7 @@
         "trainer_location": "Abermain",
         "meta": null,
         "flucs": [],
-        "scr_time": null,
+        "scr_time": "2025-11-21T21:46:55Z",
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",

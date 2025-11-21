@@ -1,7 +1,7 @@
 {
   "header": {
     "title": "Event Details: 9bebf94c-6f70-40f3-b35c-c50bf875598a",
-    "generated_time": "2025-11-21T16:25:18.679044318Z",
+    "generated_time": "2025-11-21T23:37:07.315404282Z",
     "url": "/affiliates/v1/racing/events/9bebf94c-6f70-40f3-b35c-c50bf875598a?enc=json&include_form=true&include_odds=true&include_flucs=true&include_speedmap=true&include_past_performances=true&include_form_indicators=true&include_jockey_stats=true&include_trainer_stats=true"
   },
   "params": {
@@ -99,8 +99,8 @@
       "is_scratched": false,
       "gear": "[Blinkers, Tongue Tie]",
       "odds": {
-        "fixed_win": 2.5,
-        "fixed_place": 1.4
+        "fixed_win": 2.4,
+        "fixed_place": 1.35
       },
       "scratch_time": 0,
       "barrier": 12,
@@ -322,8 +322,8 @@
         "is_scratched": false,
         "gear": "[Blinkers, Tongue Tie]",
         "odds": {
-          "fixed_win": 2.5,
-          "fixed_place": 1.4
+          "fixed_win": 2.4,
+          "fixed_place": 1.35
         },
         "scratch_time": 0,
         "barrier": 12,
@@ -352,7 +352,7 @@
           "total": "56.5"
         },
         "favourite": true,
-        "mover": false,
+        "mover": true,
         "speedmap": {
           "settling_lengths": 3,
           "entrant_id": "1f2804ba-87fc-4fa3-bd50-a52a78a9455f",
@@ -408,12 +408,12 @@
         ],
         "meta": null,
         "flucs": [
-          2.6,
           2.7,
           2.6,
           2.5,
           2.45,
-          2.5
+          2.5,
+          2.45
         ],
         "scr_time": null,
         "competitor_id": "",
@@ -422,10 +422,6 @@
         "ride_guide_file": "",
         "flucs_with_timestamp": {
           "last_six": [
-            {
-              "timestamp": "2025-11-20T04:31:26.650854697Z",
-              "fluc": 2.6
-            },
             {
               "timestamp": "2025-11-20T04:38:40.602455318Z",
               "fluc": 2.7
@@ -445,6 +441,10 @@
             {
               "timestamp": "2025-11-21T14:28:40.65469326Z",
               "fluc": 2.5
+            },
+            {
+              "timestamp": "2025-11-21T21:36:29.696895439Z",
+              "fluc": 2.45
             }
           ],
           "open": {
@@ -460,8 +460,8 @@
             "fluc": 2.15
           },
           "nine_am": {
-            "timestamp": "2025-11-21T14:28:40.65469326Z",
-            "fluc": 2.5
+            "timestamp": "2025-11-21T21:36:29.696895439Z",
+            "fluc": 2.45
           }
         }
       },
@@ -886,7 +886,7 @@
           "total": "54"
         },
         "favourite": false,
-        "mover": true,
+        "mover": false,
         "speedmap": {
           "settling_lengths": 9,
           "entrant_id": "8c075154-47f5-425c-9cef-f54449702ee6",
@@ -980,7 +980,7 @@
             "fluc": 10
           },
           "high": {
-            "timestamp": "2025-11-19T05:44:28.490897642Z",
+            "timestamp": "2025-11-19T05:47:24.193185322Z",
             "fluc": 10
           },
           "low": {
@@ -1121,7 +1121,7 @@
             "fluc": 41
           },
           "low": {
-            "timestamp": "2025-11-19T09:54:38.092001147Z",
+            "timestamp": "2025-11-20T04:30:09.303613191Z",
             "fluc": 31
           },
           "nine_am": {
@@ -1139,7 +1139,7 @@
         "gear": "[Winkers]",
         "odds": {
           "fixed_win": 10,
-          "fixed_place": 3.1
+          "fixed_place": 3
         },
         "scratch_time": 0,
         "barrier": 10,
@@ -1262,7 +1262,7 @@
             "fluc": 8
           },
           "high": {
-            "timestamp": "2025-11-19T06:30:56.643733949Z",
+            "timestamp": "2025-11-21T14:28:00.748473445Z",
             "fluc": 10
           },
           "low": {
@@ -1283,8 +1283,8 @@
         "is_scratched": false,
         "gear": "Blinkers OFF FIRST TIME",
         "odds": {
-          "fixed_win": 7,
-          "fixed_place": 2.45
+          "fixed_win": 7.5,
+          "fixed_place": 2.5
         },
         "scratch_time": 0,
         "barrier": 13,
@@ -1369,12 +1369,12 @@
         ],
         "meta": null,
         "flucs": [
-          6,
           6.5,
           6,
           5.5,
           6.5,
-          7
+          7,
+          7.5
         ],
         "scr_time": null,
         "competitor_id": "",
@@ -1383,10 +1383,6 @@
         "ride_guide_file": "",
         "flucs_with_timestamp": {
           "last_six": [
-            {
-              "timestamp": "2025-11-19T05:44:28.491409694Z",
-              "fluc": 6
-            },
             {
               "timestamp": "2025-11-19T06:29:14.096869997Z",
               "fluc": 6.5
@@ -1406,6 +1402,10 @@
             {
               "timestamp": "2025-11-20T23:47:50.647021567Z",
               "fluc": 7
+            },
+            {
+              "timestamp": "2025-11-21T23:12:50.947535657Z",
+              "fluc": 7.5
             }
           ],
           "open": {
@@ -1413,8 +1413,8 @@
             "fluc": 6
           },
           "high": {
-            "timestamp": "2025-11-20T23:47:50.647021567Z",
-            "fluc": 7
+            "timestamp": "2025-11-21T23:12:50.947535657Z",
+            "fluc": 7.5
           },
           "low": {
             "timestamp": "2025-11-20T04:36:28.301672533Z",
@@ -1795,7 +1795,7 @@
             "fluc": 19
           },
           "high": {
-            "timestamp": "2025-11-20T03:01:29.656100424Z",
+            "timestamp": "2025-11-19T06:39:37.447551555Z",
             "fluc": 26
           },
           "low": {
@@ -2014,8 +2014,8 @@
           8.5,
           8,
           8.5,
-          7.5,
           8,
+          7.5,
           8.5
         ],
         "scr_time": null,
@@ -2055,7 +2055,7 @@
             "fluc": 8.5
           },
           "high": {
-            "timestamp": "2025-11-20T04:46:04.847918075Z",
+            "timestamp": "2025-11-19T05:44:28.491140598Z",
             "fluc": 8.5
           },
           "low": {
@@ -2186,60 +2186,66 @@
     ],
     "derivatives": null,
     "mover": {
-      "entrant_id": "8c075154-47f5-425c-9cef-f54449702ee6",
+      "entrant_id": "1f2804ba-87fc-4fa3-bd50-a52a78a9455f",
       "market_name": "Final Field",
       "primary_market": true,
-      "name": "Filthy Habits",
+      "name": "Captain Pluto",
       "is_scratched": false,
-      "gear": "[Winkers]",
+      "gear": "[Blinkers, Tongue Tie]",
       "odds": {
-        "fixed_win": 7.5,
-        "fixed_place": 2.5
+        "fixed_win": 2.4,
+        "fixed_place": 1.35
       },
       "scratch_time": 0,
-      "barrier": 3,
-      "runner_number": 6,
-      "prize_money": "460616",
+      "barrier": 12,
+      "runner_number": 2,
+      "prize_money": "447755",
       "age": 6,
       "sex": "G",
-      "colour": "B",
-      "silk_colours": "BLACK, RED COLLAR AND CUFFS, WHITE CAP",
-      "silk_url_64x64": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODU0Njc2/filthy-habits_64x64.png",
-      "silk_url_128x128": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODU0Njc2/filthy-habits_128x128.png",
+      "colour": "BR",
+      "silk_colours": "BLACK, EMERALD GREEN CHEVRONS, WHITE AND EMERALD GREEN SEAMS SLEEVES, BLACK AND GREEN STRIPED CAP",
+      "silk_url_64x64": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODU0Njc2/captain-pluto_64x64.png",
+      "silk_url_128x128": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODU0Njc2/captain-pluto_128x128.png",
       "form_comment": null,
       "class_level": "",
-      "jockey": "Lucy Fiore",
+      "jockey": "William Pike",
       "apprentice_indicator": "",
       "allowance_weight": "",
-      "owners": "J T Warwick, Forest View Farm Syndicate (Mgr: B G Duncan), M Murphy & G R Kemp",
-      "country": "AUS",
-      "trainer_name": "Brandon Fiore",
-      "last_twenty_starts": "22x21311x4",
-      "sire": "I'M ALL THE TALK (AUS)",
-      "dam": "DIRTY VEGAS (AUS)",
-      "breeding": "6 g I'M ALL THE TALK (AUS)-DIRTY VEGAS (AUS)",
+      "owners": "Ultra Horse Syndicate (Mgr: P S Buckley) & Ms S J Leury",
+      "country": "NZ",
+      "trainer_name": "Grant & Alana Williams",
+      "last_twenty_starts": "6x1314x631",
+      "sire": "SAVABEEL (AUS)",
+      "dam": "MISS BERNARDINI (AUS)",
+      "breeding": "6 g SAVABEEL (AUS)-MISS BERNARDINI (AUS)",
       "weight": {
-        "allocated": "54",
-        "total": "54"
+        "allocated": "56.5",
+        "total": "56.5"
       },
       "favourite": false,
       "mover": true,
       "speedmap": {
-        "settling_lengths": 9,
-        "entrant_id": "8c075154-47f5-425c-9cef-f54449702ee6"
+        "settling_lengths": 3,
+        "entrant_id": "1f2804ba-87fc-4fa3-bd50-a52a78a9455f"
       },
       "form_indicators": [
         {
-          "name": "2nd Up Record",
-          "group": "Fitness",
+          "name": "Jockey Flying",
+          "group": "Jockey",
           "negative": false,
-          "priority": 260
+          "priority": 160
+        },
+        {
+          "name": "Trainer / Jockey Combo",
+          "group": "Jockey_Trainer",
+          "negative": false,
+          "priority": 140
         }
       ],
       "past_performances": {
         "jockey": {
-          "number_of_starts": 22,
-          "number_of_wins": 7,
+          "number_of_starts": 12,
+          "number_of_wins": 2,
           "number_of_placings": 0,
           "number_of_seconds": 4,
           "number_of_thirds": 4
@@ -2248,20 +2254,20 @@
       "jockey_past_performances": {
         "last_50_starts": {
           "number_of_starts": 50,
-          "number_of_wins": 5,
+          "number_of_wins": 14,
           "number_of_placings": 0,
           "number_of_seconds": 10,
           "number_of_thirds": 4
         },
         "trainer": {
-          "number_of_starts": 138,
-          "number_of_wins": 19,
+          "number_of_starts": 1831,
+          "number_of_wins": 581,
           "number_of_placings": 0,
-          "number_of_seconds": 13,
-          "number_of_thirds": 15
+          "number_of_seconds": 317,
+          "number_of_thirds": 243
         }
       },
-      "trainer_location": "Uduc"
+      "trainer_location": "Karnup"
     },
     "big_bets": null,
     "live_bets": null,

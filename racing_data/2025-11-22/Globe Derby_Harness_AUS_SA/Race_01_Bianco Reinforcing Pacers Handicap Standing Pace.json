@@ -1,7 +1,7 @@
 {
   "header": {
     "title": "Event Details: d03088bb-c1fd-492a-b8a4-5221fb4f14a6",
-    "generated_time": "2025-11-21T16:35:56.612806081Z",
+    "generated_time": "2025-11-21T23:40:08.106808601Z",
     "url": "/affiliates/v1/racing/events/d03088bb-c1fd-492a-b8a4-5221fb4f14a6?enc=json&include_form=true&include_odds=true&include_flucs=true&include_speedmap=true&include_past_performances=true&include_form_indicators=true&include_jockey_stats=true&include_trainer_stats=true"
   },
   "params": {
@@ -35,7 +35,7 @@
       "country": "AUS",
       "state": "SA",
       "distance": 2230,
-      "weather": "",
+      "weather": "overcast",
       "form_guide": "",
       "comment": "ARTILLERY (7) finished third last start, beaten 5.5 metres at this track over 2230m. Has the talent to take care of this field. CLASSIC LINE (3) has been racing well of late. Finished fifth at his latest appearance over 2230m here, beaten 7 metres. Ideally placed and is sure to prove tough to beat. LAST TANGO IN HEAVEN NZ (6) is worth another chance after a last-start ninth over 2230m at this circuit a week ago. Capable of bouncing back. RUPERT OF LINCOLN NZ (5) resumes. Last appeared when a modest eighth over 2130m at Gloucester Park ten months ago. This easier and can run a race while fresh.",
       "silk_base_url": "drr38safykj6s.cloudfront.net",
@@ -88,49 +88,60 @@
       "track_home_straight": 0
     },
     "favourite": {
-      "entrant_id": "",
-      "market_name": "",
-      "primary_market": false,
-      "name": "",
+      "entrant_id": "fdcb7b4e-ff2f-4ee7-a33b-210545ace102",
+      "market_name": "Final Field",
+      "primary_market": true,
+      "name": "Artillery",
       "is_scratched": false,
       "gear": "",
       "odds": {
-        "fixed_win": 0,
-        "fixed_place": 0
+        "fixed_win": 2.45,
+        "fixed_place": 1.4
       },
       "scratch_time": 0,
-      "barrier": 0,
-      "runner_number": 0,
-      "prize_money": "",
-      "age": 0,
-      "sex": "",
-      "colour": "",
-      "silk_colours": "",
-      "silk_url_64x64": "",
-      "silk_url_128x128": "",
+      "barrier": 1,
+      "barrier_position": "20m",
+      "runner_number": 7,
+      "prize_money": "269664",
+      "age": 7,
+      "sex": "G",
+      "colour": "B",
+      "silk_colours": "RED, WHITE PIPING & CUFFS",
+      "silk_url_64x64": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODU0ODE4/artillery_64x64.png",
+      "silk_url_128x128": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODU0ODE4/artillery_128x128.png",
       "form_comment": null,
       "class_level": "",
-      "jockey": "",
+      "jockey": "Gaita Pullicino",
       "apprentice_indicator": "",
       "allowance_weight": "",
-      "owners": "",
-      "country": "",
-      "trainer_name": "",
-      "last_twenty_starts": "",
-      "sire": "",
-      "dam": "",
-      "breeding": "",
+      "owners": "THE RUN FOR FUN SYNDICATE (Mgr: P A Cavallaro)",
+      "country": "AUS",
+      "trainer_name": "P A Cavallaro",
+      "last_twenty_starts": "3133267463",
+      "sire": "ART MAJOR (USA)",
+      "dam": "TESSACE (AUS)",
+      "breeding": "7 g ART MAJOR (USA)-TESSACE (AUS)",
       "weight": {
         "allocated": "",
         "total": ""
       },
       "favourite": false,
       "mover": false,
-      "speedmap": {},
-      "form_indicators": null,
+      "speedmap": {
+        "settling_lengths": 8,
+        "entrant_id": "fdcb7b4e-ff2f-4ee7-a33b-210545ace102"
+      },
+      "form_indicators": [
+        {
+          "name": "Track Specialist",
+          "group": "Track_Distance",
+          "negative": false,
+          "priority": 120
+        }
+      ],
       "past_performances": null,
       "jockey_past_performances": null,
-      "trainer_location": ""
+      "trainer_location": "Golden Grove"
     },
     "runners": [
       {
@@ -217,8 +228,8 @@
         "is_scratched": false,
         "gear": "",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 15,
+          "fixed_place": 4.4
         },
         "scratch_time": 0,
         "barrier": 1,
@@ -259,29 +270,36 @@
         "jockey_past_performances": null,
         "trainer_location": "Port Pirie",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          15
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T21:54:16.532491263Z",
+              "fluc": 15
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T21:54:16.532491263Z",
+            "fluc": 15
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T21:54:16.532491263Z",
+            "fluc": 15
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T21:54:16.532491263Z",
+            "fluc": 15
           },
           "nine_am": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T21:54:16.532491263Z",
+            "fluc": 15
           }
         }
       },
@@ -293,8 +311,8 @@
         "is_scratched": false,
         "gear": "",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 2.7,
+          "fixed_place": 1.5
         },
         "scratch_time": 0,
         "barrier": 2,
@@ -335,29 +353,36 @@
         "jockey_past_performances": null,
         "trainer_location": "Salisbury North",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          2.7
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T21:54:16.532504208Z",
+              "fluc": 2.7
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T21:54:16.532504208Z",
+            "fluc": 2.7
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T21:54:16.532504208Z",
+            "fluc": 2.7
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T21:54:16.532504208Z",
+            "fluc": 2.7
           },
           "nine_am": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T21:54:16.532504208Z",
+            "fluc": 2.7
           }
         }
       },
@@ -369,8 +394,8 @@
         "is_scratched": false,
         "gear": "",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 15,
+          "fixed_place": 4.4
         },
         "scratch_time": 0,
         "barrier": 3,
@@ -411,29 +436,36 @@
         "jockey_past_performances": null,
         "trainer_location": "Two Wells",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          15
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T21:54:16.532481548Z",
+              "fluc": 15
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T21:54:16.532481548Z",
+            "fluc": 15
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T21:54:16.532481548Z",
+            "fluc": 15
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T21:54:16.532481548Z",
+            "fluc": 15
           },
           "nine_am": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T21:54:16.532481548Z",
+            "fluc": 15
           }
         }
       },
@@ -445,8 +477,8 @@
         "is_scratched": false,
         "gear": "",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 8,
+          "fixed_place": 2.9
         },
         "scratch_time": 0,
         "barrier": 1,
@@ -494,29 +526,36 @@
         "jockey_past_performances": null,
         "trainer_location": "Virginia",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          8
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T21:54:16.532445843Z",
+              "fluc": 8
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T21:54:16.532445843Z",
+            "fluc": 8
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T21:54:16.532445843Z",
+            "fluc": 8
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T21:54:16.532445843Z",
+            "fluc": 8
           },
           "nine_am": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T21:54:16.532445843Z",
+            "fluc": 8
           }
         }
       },
@@ -528,8 +567,8 @@
         "is_scratched": false,
         "gear": "",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 3.3,
+          "fixed_place": 1.65
         },
         "scratch_time": 0,
         "barrier": 2,
@@ -570,29 +609,36 @@
         "jockey_past_performances": null,
         "trainer_location": "Two Wells",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          3.3
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T21:54:16.532439609Z",
+              "fluc": 3.3
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T21:54:16.532439609Z",
+            "fluc": 3.3
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T21:54:16.532439609Z",
+            "fluc": 3.3
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T21:54:16.532439609Z",
+            "fluc": 3.3
           },
           "nine_am": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T21:54:16.532439609Z",
+            "fluc": 3.3
           }
         }
       },
@@ -604,8 +650,8 @@
         "is_scratched": false,
         "gear": "",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 2.45,
+          "fixed_place": 1.4
         },
         "scratch_time": 0,
         "barrier": 1,
@@ -634,7 +680,7 @@
           "allocated": "",
           "total": ""
         },
-        "favourite": false,
+        "favourite": true,
         "mover": false,
         "speedmap": {
           "settling_lengths": 8,
@@ -653,29 +699,36 @@
         "jockey_past_performances": null,
         "trainer_location": "Golden Grove",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          2.45
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T21:54:16.532465969Z",
+              "fluc": 2.45
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T21:54:16.532465969Z",
+            "fluc": 2.45
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T21:54:16.532465969Z",
+            "fluc": 2.45
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T21:54:16.532465969Z",
+            "fluc": 2.45
           },
           "nine_am": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T21:54:16.532465969Z",
+            "fluc": 2.45
           }
         }
       }

@@ -1,7 +1,7 @@
 {
   "header": {
     "title": "Event Details: 47ce828e-31fa-4d2d-92ad-81c552023224",
-    "generated_time": "2025-11-21T16:34:02.158581803Z",
+    "generated_time": "2025-11-21T23:39:33.671491933Z",
     "url": "/affiliates/v1/racing/events/47ce828e-31fa-4d2d-92ad-81c552023224?enc=json&include_form=true&include_odds=true&include_flucs=true&include_speedmap=true&include_past_performances=true&include_form_indicators=true&include_jockey_stats=true&include_trainer_stats=true"
   },
   "params": {
@@ -82,23 +82,24 @@
       "track_home_straight": 0
     },
     "favourite": {
-      "entrant_id": "",
-      "market_name": "",
-      "primary_market": false,
-      "name": "",
+      "entrant_id": "0fedce96-fad6-41e4-8489-078c46896399",
+      "market_name": "Final Field",
+      "primary_market": true,
+      "name": "Impress Hawkins",
       "is_scratched": false,
       "gear": "",
+      "best_time": "29.83",
       "odds": {
-        "fixed_win": 0,
-        "fixed_place": 0
+        "fixed_win": 3,
+        "fixed_place": 1.4
       },
       "scratch_time": 0,
-      "barrier": 0,
-      "runner_number": 0,
-      "prize_money": "",
-      "age": 0,
-      "sex": "",
-      "colour": "",
+      "barrier": 7,
+      "runner_number": 7,
+      "prize_money": "45555",
+      "age": 2,
+      "sex": "B",
+      "colour": "RED/BDL",
       "silk_colours": "",
       "silk_url_64x64": "",
       "silk_url_128x128": "",
@@ -107,24 +108,27 @@
       "jockey": "",
       "apprentice_indicator": "",
       "allowance_weight": "",
-      "owners": "",
-      "country": "",
-      "trainer_name": "",
-      "last_twenty_starts": "",
-      "sire": "",
-      "dam": "",
-      "breeding": "",
+      "owners": "Crawford Stewart Synd L Crawford,J Stewart",
+      "country": "AUS",
+      "trainer_name": "Cosi Dagostino",
+      "last_twenty_starts": "3511117514",
+      "sire": "FERAL FRANKY (AUS)",
+      "dam": "MEPUNGA FRANKIE (AUS)",
+      "breeding": "b FERAL FRANKY (AUS)-MEPUNGA FRANKIE (AUS)",
       "weight": {
         "allocated": "",
         "total": ""
       },
       "favourite": false,
       "mover": false,
-      "speedmap": {},
+      "speedmap": {
+        "settling_lengths": 7,
+        "entrant_id": "0fedce96-fad6-41e4-8489-078c46896399"
+      },
       "form_indicators": null,
       "past_performances": null,
       "jockey_past_performances": null,
-      "trainer_location": ""
+      "trainer_location": "Treeby"
     },
     "runners": [
       {
@@ -136,8 +140,8 @@
         "gear": "",
         "best_time": "30.09",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 4.6,
+          "fixed_place": 1.7
         },
         "scratch_time": 0,
         "barrier": 1,
@@ -184,25 +188,52 @@
         "jockey_past_performances": null,
         "trainer_location": "Hopeland",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          4.6,
+          4.4,
+          4.2,
+          4.5,
+          4.6
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T22:02:34.863434381Z",
+              "fluc": 4.6
+            },
+            {
+              "timestamp": "2025-11-21T22:07:32.364792749Z",
+              "fluc": 4.4
+            },
+            {
+              "timestamp": "2025-11-21T22:07:52.716100098Z",
+              "fluc": 4.2
+            },
+            {
+              "timestamp": "2025-11-21T22:14:36.613548275Z",
+              "fluc": 4.5
+            },
+            {
+              "timestamp": "2025-11-21T22:20:32.21035479Z",
+              "fluc": 4.6
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:34.863434381Z",
+            "fluc": 4.6
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:34.863434381Z",
+            "fluc": 4.6
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:07:52.716100098Z",
+            "fluc": 4.2
           },
           "nine_am": {
             "timestamp": "0001-01-01T00:00:00Z",
@@ -219,8 +250,8 @@
         "gear": "",
         "best_time": "30.01",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 9,
+          "fixed_place": 2.25
         },
         "scratch_time": 0,
         "barrier": 2,
@@ -249,7 +280,7 @@
           "total": ""
         },
         "favourite": false,
-        "mover": false,
+        "mover": true,
         "speedmap": {
           "settling_lengths": 5,
           "entrant_id": "08127401-3abf-43ac-8f3b-4347496a7e4e",
@@ -267,25 +298,47 @@
         "jockey_past_performances": null,
         "trainer_location": "Southern River",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          13,
+          12,
+          11,
+          9
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T22:02:34.863484912Z",
+              "fluc": 13
+            },
+            {
+              "timestamp": "2025-11-21T22:07:52.71599903Z",
+              "fluc": 12
+            },
+            {
+              "timestamp": "2025-11-21T22:14:36.613579506Z",
+              "fluc": 11
+            },
+            {
+              "timestamp": "2025-11-21T22:20:32.210356228Z",
+              "fluc": 9
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:34.863484912Z",
+            "fluc": 13
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:34.863484912Z",
+            "fluc": 13
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:20:32.210356228Z",
+            "fluc": 9
           },
           "nine_am": {
             "timestamp": "0001-01-01T00:00:00Z",
@@ -302,8 +355,8 @@
         "gear": "",
         "best_time": "29.95",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 21,
+          "fixed_place": 3.4
         },
         "scratch_time": 0,
         "barrier": 3,
@@ -350,25 +403,47 @@
         "jockey_past_performances": null,
         "trainer_location": "Nambeelup",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          18,
+          19,
+          20,
+          21
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T22:02:34.863665612Z",
+              "fluc": 18
+            },
+            {
+              "timestamp": "2025-11-21T22:02:35.61045728Z",
+              "fluc": 19
+            },
+            {
+              "timestamp": "2025-11-21T22:07:32.364905399Z",
+              "fluc": 20
+            },
+            {
+              "timestamp": "2025-11-21T22:20:32.210372261Z",
+              "fluc": 21
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:34.863665612Z",
+            "fluc": 18
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:20:32.210372261Z",
+            "fluc": 21
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:34.863665612Z",
+            "fluc": 18
           },
           "nine_am": {
             "timestamp": "0001-01-01T00:00:00Z",
@@ -385,8 +460,8 @@
         "gear": "",
         "best_time": "29.87",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 4.4,
+          "fixed_place": 1.65
         },
         "scratch_time": 0,
         "barrier": 4,
@@ -439,25 +514,47 @@
         "jockey_past_performances": null,
         "trainer_location": "Nambeelup",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          4.2,
+          4.4,
+          4.2,
+          4.4
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T22:02:34.863422521Z",
+              "fluc": 4.2
+            },
+            {
+              "timestamp": "2025-11-21T22:07:32.364762164Z",
+              "fluc": 4.4
+            },
+            {
+              "timestamp": "2025-11-21T22:07:52.716132166Z",
+              "fluc": 4.2
+            },
+            {
+              "timestamp": "2025-11-21T22:14:36.613524153Z",
+              "fluc": 4.4
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:34.863422521Z",
+            "fluc": 4.2
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:14:36.613524153Z",
+            "fluc": 4.4
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:07:52.716132166Z",
+            "fluc": 4.2
           },
           "nine_am": {
             "timestamp": "0001-01-01T00:00:00Z",
@@ -474,8 +571,8 @@
         "gear": "",
         "best_time": "29.68",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 4.5,
+          "fixed_place": 1.65
         },
         "scratch_time": 0,
         "barrier": 5,
@@ -515,25 +612,52 @@
         "jockey_past_performances": null,
         "trainer_location": "Nambeelup",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          4,
+          4.2,
+          4.4,
+          4.6,
+          4.5
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T22:02:34.863423393Z",
+              "fluc": 4
+            },
+            {
+              "timestamp": "2025-11-21T22:02:35.61052874Z",
+              "fluc": 4.2
+            },
+            {
+              "timestamp": "2025-11-21T22:07:32.364822906Z",
+              "fluc": 4.4
+            },
+            {
+              "timestamp": "2025-11-21T22:07:52.716083961Z",
+              "fluc": 4.6
+            },
+            {
+              "timestamp": "2025-11-21T22:14:36.613686253Z",
+              "fluc": 4.5
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:34.863423393Z",
+            "fluc": 4
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:07:52.716083961Z",
+            "fluc": 4.6
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:34.863423393Z",
+            "fluc": 4
           },
           "nine_am": {
             "timestamp": "0001-01-01T00:00:00Z",
@@ -550,8 +674,8 @@
         "gear": "",
         "best_time": "29.94",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 13,
+          "fixed_place": 2.7
         },
         "scratch_time": 0,
         "barrier": 6,
@@ -591,25 +715,42 @@
         "jockey_past_performances": null,
         "trainer_location": "Nambeelup",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          11,
+          12,
+          13
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T22:02:34.863449695Z",
+              "fluc": 11
+            },
+            {
+              "timestamp": "2025-11-21T22:02:35.610554147Z",
+              "fluc": 12
+            },
+            {
+              "timestamp": "2025-11-21T22:07:32.364767418Z",
+              "fluc": 13
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:34.863449695Z",
+            "fluc": 11
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:07:32.364767418Z",
+            "fluc": 13
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:34.863449695Z",
+            "fluc": 11
           },
           "nine_am": {
             "timestamp": "0001-01-01T00:00:00Z",
@@ -626,8 +767,8 @@
         "gear": "",
         "best_time": "29.83",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 3,
+          "fixed_place": 1.4
         },
         "scratch_time": 0,
         "barrier": 7,
@@ -655,7 +796,7 @@
           "allocated": "",
           "total": ""
         },
-        "favourite": false,
+        "favourite": true,
         "mover": false,
         "speedmap": {
           "settling_lengths": 7,
@@ -667,25 +808,42 @@
         "jockey_past_performances": null,
         "trainer_location": "Treeby",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          3,
+          3.1,
+          3
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T22:02:34.863495942Z",
+              "fluc": 3
+            },
+            {
+              "timestamp": "2025-11-21T22:02:35.610611769Z",
+              "fluc": 3.1
+            },
+            {
+              "timestamp": "2025-11-21T22:09:16.018236191Z",
+              "fluc": 3
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:34.863495942Z",
+            "fluc": 3
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:35.610611769Z",
+            "fluc": 3.1
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:09:16.018236191Z",
+            "fluc": 3
           },
           "nine_am": {
             "timestamp": "0001-01-01T00:00:00Z",
@@ -702,8 +860,8 @@
         "gear": "",
         "best_time": "30.36",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 14,
+          "fixed_place": 2.8
         },
         "scratch_time": 0,
         "barrier": 8,
@@ -743,25 +901,37 @@
         "jockey_past_performances": null,
         "trainer_location": "Southern River",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          13,
+          14
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T22:02:34.863460733Z",
+              "fluc": 13
+            },
+            {
+              "timestamp": "2025-11-21T22:02:35.610515013Z",
+              "fluc": 14
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:34.863460733Z",
+            "fluc": 13
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:35.610515013Z",
+            "fluc": 14
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:34.863460733Z",
+            "fluc": 13
           },
           "nine_am": {
             "timestamp": "0001-01-01T00:00:00Z",
@@ -778,11 +948,11 @@
         "gear": "",
         "best_time": "30.30",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 27,
+          "fixed_place": 3.9
         },
         "scratch_time": 0,
-        "barrier": 9,
+        "barrier": 0,
         "runner_number": 9,
         "prize_money": "27069",
         "age": 3,
@@ -819,25 +989,47 @@
         "jockey_past_performances": null,
         "trainer_location": "Southern River",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          31,
+          27,
+          26,
+          27
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T22:02:34.863548476Z",
+              "fluc": 31
+            },
+            {
+              "timestamp": "2025-11-21T22:07:32.364805569Z",
+              "fluc": 27
+            },
+            {
+              "timestamp": "2025-11-21T22:07:52.716171753Z",
+              "fluc": 26
+            },
+            {
+              "timestamp": "2025-11-21T22:14:36.613565539Z",
+              "fluc": 27
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:34.863548476Z",
+            "fluc": 31
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:34.863548476Z",
+            "fluc": 31
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:07:52.716171753Z",
+            "fluc": 26
           },
           "nine_am": {
             "timestamp": "0001-01-01T00:00:00Z",
@@ -854,11 +1046,11 @@
         "gear": "",
         "best_time": "29.80",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 10,
+          "fixed_place": 2.45
         },
         "scratch_time": 0,
-        "barrier": 10,
+        "barrier": 0,
         "runner_number": 10,
         "prize_money": "21670",
         "age": 3,
@@ -895,25 +1087,42 @@
         "jockey_past_performances": null,
         "trainer_location": "Nambeelup",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          9,
+          9.5,
+          10
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T22:02:34.863500695Z",
+              "fluc": 9
+            },
+            {
+              "timestamp": "2025-11-21T22:02:35.610461704Z",
+              "fluc": 9.5
+            },
+            {
+              "timestamp": "2025-11-21T22:07:52.716113167Z",
+              "fluc": 10
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:34.863500695Z",
+            "fluc": 9
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:07:52.716113167Z",
+            "fluc": 10
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T22:02:34.863500695Z",
+            "fluc": 9
           },
           "nine_am": {
             "timestamp": "0001-01-01T00:00:00Z",
@@ -924,23 +1133,24 @@
     ],
     "derivatives": null,
     "mover": {
-      "entrant_id": "",
-      "market_name": "",
-      "primary_market": false,
-      "name": "",
+      "entrant_id": "08127401-3abf-43ac-8f3b-4347496a7e4e",
+      "market_name": "Final Field",
+      "primary_market": true,
+      "name": "Binnaway Charm",
       "is_scratched": false,
       "gear": "",
+      "best_time": "30.01",
       "odds": {
-        "fixed_win": 0,
-        "fixed_place": 0
+        "fixed_win": 9,
+        "fixed_place": 2.25
       },
       "scratch_time": 0,
-      "barrier": 0,
-      "runner_number": 0,
-      "prize_money": "",
-      "age": 0,
-      "sex": "",
-      "colour": "",
+      "barrier": 2,
+      "runner_number": 2,
+      "prize_money": "18045",
+      "age": 2,
+      "sex": "B",
+      "colour": "BDL",
       "silk_colours": "",
       "silk_url_64x64": "",
       "silk_url_128x128": "",
@@ -949,24 +1159,34 @@
       "jockey": "",
       "apprentice_indicator": "",
       "allowance_weight": "",
-      "owners": "",
-      "country": "",
-      "trainer_name": "",
-      "last_twenty_starts": "",
-      "sire": "",
-      "dam": "",
-      "breeding": "",
+      "owners": "Christopher Harrison",
+      "country": "AUS",
+      "trainer_name": "Barry McPherson",
+      "last_twenty_starts": "5562255122",
+      "sire": "ORSON ALLEN (AUS)",
+      "dam": "UP TIME GIRL (AUS)",
+      "breeding": "b ORSON ALLEN (AUS)-UP TIME GIRL (AUS)",
       "weight": {
         "allocated": "",
         "total": ""
       },
       "favourite": false,
-      "mover": false,
-      "speedmap": {},
-      "form_indicators": null,
+      "mover": true,
+      "speedmap": {
+        "settling_lengths": 5,
+        "entrant_id": "08127401-3abf-43ac-8f3b-4347496a7e4e"
+      },
+      "form_indicators": [
+        {
+          "name": "Nearing Another Win",
+          "group": "Win",
+          "negative": false,
+          "priority": 160
+        }
+      ],
       "past_performances": null,
       "jockey_past_performances": null,
-      "trainer_location": ""
+      "trainer_location": "Southern River"
     },
     "big_bets": null,
     "live_bets": null,

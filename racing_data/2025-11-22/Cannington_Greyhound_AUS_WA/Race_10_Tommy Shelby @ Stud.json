@@ -1,7 +1,7 @@
 {
   "header": {
     "title": "Event Details: 9007d0a4-ca64-42e2-8442-b44b15a93c77",
-    "generated_time": "2025-11-21T16:34:07.837532479Z",
+    "generated_time": "2025-11-21T23:39:39.134151696Z",
     "url": "/affiliates/v1/racing/events/9007d0a4-ca64-42e2-8442-b44b15a93c77?enc=json&include_form=true&include_odds=true&include_flucs=true&include_speedmap=true&include_past_performances=true&include_form_indicators=true&include_jockey_stats=true&include_trainer_stats=true"
   },
   "params": {
@@ -82,23 +82,24 @@
       "track_home_straight": 0
     },
     "favourite": {
-      "entrant_id": "",
-      "market_name": "",
-      "primary_market": false,
-      "name": "",
+      "entrant_id": "a098de80-4ca5-4948-95ff-9fb18c612e45",
+      "market_name": "Final Field",
+      "primary_market": true,
+      "name": "Another James",
       "is_scratched": false,
       "gear": "",
+      "best_time": "NBT",
       "odds": {
-        "fixed_win": 0,
-        "fixed_place": 0
+        "fixed_win": 2.3,
+        "fixed_place": 1.45
       },
       "scratch_time": 0,
-      "barrier": 0,
-      "runner_number": 0,
-      "prize_money": "",
-      "age": 0,
-      "sex": "",
-      "colour": "",
+      "barrier": 4,
+      "runner_number": 4,
+      "prize_money": "75956",
+      "age": 3,
+      "sex": "D",
+      "colour": "RED/FWN",
       "silk_colours": "",
       "silk_url_64x64": "",
       "silk_url_128x128": "",
@@ -107,24 +108,27 @@
       "jockey": "",
       "apprentice_indicator": "",
       "allowance_weight": "",
-      "owners": "",
-      "country": "",
-      "trainer_name": "",
-      "last_twenty_starts": "",
-      "sire": "",
-      "dam": "",
-      "breeding": "",
+      "owners": "Lowry Lowry Synd K Lowry,F Lowry",
+      "country": "AUS",
+      "trainer_name": "Michael Johnston",
+      "last_twenty_starts": "5537213626",
+      "sire": "SENNACHIE (AUS)",
+      "dam": "HAZLEHURST (AUS)",
+      "breeding": "d SENNACHIE (AUS)-HAZLEHURST (AUS)",
       "weight": {
         "allocated": "",
         "total": ""
       },
       "favourite": false,
       "mover": false,
-      "speedmap": {},
+      "speedmap": {
+        "settling_lengths": 6,
+        "entrant_id": "a098de80-4ca5-4948-95ff-9fb18c612e45"
+      },
       "form_indicators": null,
       "past_performances": null,
       "jockey_past_performances": null,
-      "trainer_location": ""
+      "trainer_location": "Nambeelup"
     },
     "runners": [
       {
@@ -136,8 +140,8 @@
         "gear": "",
         "best_time": "34.94",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 21,
+          "fixed_place": 5.5
         },
         "scratch_time": 0,
         "barrier": 1,
@@ -184,29 +188,61 @@
         "jockey_past_performances": null,
         "trainer_location": "Canning Vale",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          23,
+          21,
+          23,
+          21,
+          20,
+          21
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T20:27:29.477714399Z",
+              "fluc": 23
+            },
+            {
+              "timestamp": "2025-11-21T20:41:05.676591885Z",
+              "fluc": 21
+            },
+            {
+              "timestamp": "2025-11-21T20:44:23.776245997Z",
+              "fluc": 23
+            },
+            {
+              "timestamp": "2025-11-21T20:47:32.07473975Z",
+              "fluc": 21
+            },
+            {
+              "timestamp": "2025-11-21T20:52:10.622665791Z",
+              "fluc": 20
+            },
+            {
+              "timestamp": "2025-11-21T21:27:29.577700835Z",
+              "fluc": 21
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T20:27:29.477714399Z",
+            "fluc": 23
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T20:27:29.477714399Z",
+            "fluc": 23
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T20:52:10.622665791Z",
+            "fluc": 20
           },
           "nine_am": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T21:27:29.577700835Z",
+            "fluc": 21
           }
         }
       },
@@ -219,8 +255,8 @@
         "gear": "",
         "best_time": "34.82",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 13,
+          "fixed_place": 4
         },
         "scratch_time": 0,
         "barrier": 2,
@@ -260,29 +296,46 @@
         "jockey_past_performances": null,
         "trainer_location": "Southern River",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          11,
+          12,
+          13
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T20:27:29.477842243Z",
+              "fluc": 11
+            },
+            {
+              "timestamp": "2025-11-21T20:39:31.175045957Z",
+              "fluc": 12
+            },
+            {
+              "timestamp": "2025-11-21T20:49:02.383821127Z",
+              "fluc": 13
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T20:27:29.477842243Z",
+            "fluc": 11
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T20:49:02.383821127Z",
+            "fluc": 13
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T20:27:29.477842243Z",
+            "fluc": 11
           },
           "nine_am": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T20:49:02.383821127Z",
+            "fluc": 13
           }
         }
       },
@@ -367,8 +420,8 @@
         "gear": "",
         "best_time": "NBT",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 2.3,
+          "fixed_place": 1.45
         },
         "scratch_time": 0,
         "barrier": 4,
@@ -396,7 +449,7 @@
           "allocated": "",
           "total": ""
         },
-        "favourite": false,
+        "favourite": true,
         "mover": false,
         "speedmap": {
           "settling_lengths": 6,
@@ -408,29 +461,46 @@
         "jockey_past_performances": null,
         "trainer_location": "Nambeelup",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          2.3,
+          2.25,
+          2.3
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T20:27:29.477624126Z",
+              "fluc": 2.3
+            },
+            {
+              "timestamp": "2025-11-21T20:41:05.676919313Z",
+              "fluc": 2.25
+            },
+            {
+              "timestamp": "2025-11-21T20:52:10.622711191Z",
+              "fluc": 2.3
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T20:27:29.477624126Z",
+            "fluc": 2.3
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T20:27:29.477624126Z",
+            "fluc": 2.3
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T20:41:05.676919313Z",
+            "fluc": 2.25
           },
           "nine_am": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T20:52:10.622711191Z",
+            "fluc": 2.3
           }
         }
       },
@@ -443,8 +513,8 @@
         "gear": "",
         "best_time": "34.89",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 5,
+          "fixed_place": 2.2
         },
         "scratch_time": 0,
         "barrier": 5,
@@ -484,29 +554,46 @@
         "jockey_past_performances": null,
         "trainer_location": "Nambeelup",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          4.6,
+          4.8,
+          5
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T20:27:29.477517946Z",
+              "fluc": 4.6
+            },
+            {
+              "timestamp": "2025-11-21T20:39:31.174908265Z",
+              "fluc": 4.8
+            },
+            {
+              "timestamp": "2025-11-21T20:47:32.074712327Z",
+              "fluc": 5
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T20:27:29.477517946Z",
+            "fluc": 4.6
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T20:47:32.074712327Z",
+            "fluc": 5
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T20:27:29.477517946Z",
+            "fluc": 4.6
           },
           "nine_am": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T20:47:32.074712327Z",
+            "fluc": 5
           }
         }
       },
@@ -591,8 +678,8 @@
         "gear": "",
         "best_time": "34.78",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 4.2,
+          "fixed_place": 2
         },
         "scratch_time": 0,
         "barrier": 7,
@@ -632,29 +719,41 @@
         "jockey_past_performances": null,
         "trainer_location": "Nambeelup",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          4,
+          4.2
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T20:27:29.477489275Z",
+              "fluc": 4
+            },
+            {
+              "timestamp": "2025-11-21T20:39:31.174968407Z",
+              "fluc": 4.2
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T20:27:29.477489275Z",
+            "fluc": 4
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T20:39:31.174968407Z",
+            "fluc": 4.2
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T20:27:29.477489275Z",
+            "fluc": 4
           },
           "nine_am": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T20:39:31.174968407Z",
+            "fluc": 4.2
           }
         }
       },
@@ -667,8 +766,8 @@
         "gear": "",
         "best_time": "NBT",
         "odds": {
-          "fixed_win": 0,
-          "fixed_place": 0
+          "fixed_win": 3.6,
+          "fixed_place": 1.8
         },
         "scratch_time": 0,
         "barrier": 8,
@@ -697,7 +796,7 @@
           "total": ""
         },
         "favourite": false,
-        "mover": false,
+        "mover": true,
         "speedmap": {
           "settling_lengths": 5,
           "entrant_id": "7c8e8b9b-4ad6-408d-a6b3-7fb5e830114f",
@@ -708,52 +807,85 @@
         "jockey_past_performances": null,
         "trainer_location": "Nambeelup",
         "meta": null,
-        "flucs": [],
+        "flucs": [
+          3.8,
+          3.9,
+          3.7,
+          3.8,
+          3.7,
+          3.6
+        ],
         "scr_time": null,
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
         "ride_guide_file": "",
         "flucs_with_timestamp": {
-          "last_six": [],
+          "last_six": [
+            {
+              "timestamp": "2025-11-21T20:45:52.028136849Z",
+              "fluc": 3.8
+            },
+            {
+              "timestamp": "2025-11-21T20:47:27.181105167Z",
+              "fluc": 3.9
+            },
+            {
+              "timestamp": "2025-11-21T20:47:32.074725519Z",
+              "fluc": 3.7
+            },
+            {
+              "timestamp": "2025-11-21T20:50:35.474453026Z",
+              "fluc": 3.8
+            },
+            {
+              "timestamp": "2025-11-21T20:52:10.622685769Z",
+              "fluc": 3.7
+            },
+            {
+              "timestamp": "2025-11-21T21:27:29.577693485Z",
+              "fluc": 3.6
+            }
+          ],
           "open": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T20:27:29.477712697Z",
+            "fluc": 4.2
           },
           "high": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T20:27:29.477712697Z",
+            "fluc": 4.2
           },
           "low": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T21:27:29.577693485Z",
+            "fluc": 3.6
           },
           "nine_am": {
-            "timestamp": "0001-01-01T00:00:00Z",
-            "fluc": 0
+            "timestamp": "2025-11-21T21:27:29.577693485Z",
+            "fluc": 3.6
           }
         }
       }
     ],
     "derivatives": null,
     "mover": {
-      "entrant_id": "",
-      "market_name": "",
-      "primary_market": false,
-      "name": "",
+      "entrant_id": "7c8e8b9b-4ad6-408d-a6b3-7fb5e830114f",
+      "market_name": "Final Field",
+      "primary_market": true,
+      "name": "Canya Celeste",
       "is_scratched": false,
       "gear": "",
+      "best_time": "NBT",
       "odds": {
-        "fixed_win": 0,
-        "fixed_place": 0
+        "fixed_win": 3.6,
+        "fixed_place": 1.8
       },
       "scratch_time": 0,
-      "barrier": 0,
-      "runner_number": 0,
-      "prize_money": "",
-      "age": 0,
-      "sex": "",
-      "colour": "",
+      "barrier": 8,
+      "runner_number": 8,
+      "prize_money": "11461",
+      "age": 2,
+      "sex": "B",
+      "colour": "BLU/FWN",
       "silk_colours": "",
       "silk_url_64x64": "",
       "silk_url_128x128": "",
@@ -762,24 +894,27 @@
       "jockey": "",
       "apprentice_indicator": "",
       "allowance_weight": "",
-      "owners": "",
-      "country": "",
-      "trainer_name": "",
-      "last_twenty_starts": "",
-      "sire": "",
-      "dam": "",
-      "breeding": "",
+      "owners": "Jamie Ferguson",
+      "country": "AUS",
+      "trainer_name": "Gary Nelson",
+      "last_twenty_starts": "51253x2152",
+      "sire": "FERNANDO BALE (AUS)",
+      "dam": "SANDAVE SKY (AUS)",
+      "breeding": "b FERNANDO BALE (AUS)-SANDAVE SKY (AUS)",
       "weight": {
         "allocated": "",
         "total": ""
       },
       "favourite": false,
-      "mover": false,
-      "speedmap": {},
+      "mover": true,
+      "speedmap": {
+        "settling_lengths": 5,
+        "entrant_id": "7c8e8b9b-4ad6-408d-a6b3-7fb5e830114f"
+      },
       "form_indicators": null,
       "past_performances": null,
       "jockey_past_performances": null,
-      "trainer_location": ""
+      "trainer_location": "Nambeelup"
     },
     "big_bets": null,
     "live_bets": null,

@@ -1,7 +1,7 @@
 {
   "header": {
     "title": "Event Details: 359c6479-fcc9-44b6-aabf-bbaf2f6e3055",
-    "generated_time": "2025-11-21T16:35:39.810439267Z",
+    "generated_time": "2025-11-21T23:39:52.054601686Z",
     "url": "/affiliates/v1/racing/events/359c6479-fcc9-44b6-aabf-bbaf2f6e3055?enc=json&include_form=true&include_odds=true&include_flucs=true&include_speedmap=true&include_past_performances=true&include_form_indicators=true&include_jockey_stats=true&include_trainer_stats=true"
   },
   "params": {
@@ -35,7 +35,7 @@
       "country": "AUS",
       "state": "VIC",
       "distance": 2240,
-      "weather": "",
+      "weather": "Overcast",
       "form_guide": "",
       "comment": "Star mare KEAYANG ZAHARA (11) is extremely well placed against her own age and sex and should prove a class above them. Cruised home in her heat last week after beating the boys for a G1 Bill Collins Sprint triumph prior. Unbeaten at both the circuit and the distance and the back row draw doesn't look enough to stop her. PINNIE (3) has never been able to match KEAYANG ZAHARA in past clashes but she is racing well, winning two of her past three starts. Led to score easily in her heat last week so expect her to be prominent again from another good draw. KEAYANG LAVITA (9) is a mare with some upside, setting a new track record in her resuming win at Maryborough before racing parked for second to PINNIE last week. Has won three of five attempts here. Trifecta player along with MAORIS MAC (10) who looks unlikely to turn the tables on KEAYANG ZAHARA from the back row but has put three placings together.",
       "silk_base_url": "drr38safykj6s.cloudfront.net",
@@ -155,17 +155,17 @@
         "market_name": "Final Field",
         "primary_market": true,
         "name": "Waikare Adrienna",
-        "is_scratched": false,
+        "is_scratched": true,
         "gear": "",
         "odds": {
           "fixed_win": 67,
           "fixed_place": 6.5
         },
-        "scratch_time": 0,
+        "scratch_time": 1763762913,
         "barrier": 0,
         "barrier_position": "Fr-",
         "runner_number": 1,
-        "prize_money": "5620",
+        "prize_money": "5760",
         "age": 4,
         "sex": "M",
         "colour": "BR",
@@ -191,9 +191,9 @@
         "favourite": false,
         "mover": false,
         "speedmap": {
-          "settling_lengths": 3,
+          "settling_lengths": 1,
           "entrant_id": "355e563f-4340-40f8-8861-323371e24c3a",
-          "label": "Midfield"
+          "label": "Back Marker"
         },
         "form_indicators": null,
         "past_performances": null,
@@ -205,7 +205,7 @@
           91,
           67
         ],
-        "scr_time": null,
+        "scr_time": "2025-11-21T22:08:33Z",
         "competitor_id": "",
         "ride_guide_exists": false,
         "ride_guide_thumbnail": "",
@@ -217,12 +217,12 @@
               "fluc": 67
             },
             {
-              "timestamp": "2025-11-20T00:04:42.016431547Z",
-              "fluc": 91
-            },
-            {
               "timestamp": "2025-11-20T00:04:42.310920763Z",
               "fluc": 67
+            },
+            {
+              "timestamp": "2025-11-20T00:04:42.016431547Z",
+              "fluc": 91
             }
           ],
           "open": {
@@ -234,12 +234,12 @@
             "fluc": 91
           },
           "low": {
-            "timestamp": "2025-11-20T00:04:42.310920763Z",
+            "timestamp": "2025-11-18T19:59:57.635187356Z",
             "fluc": 67
           },
           "nine_am": {
-            "timestamp": "2025-11-20T00:04:42.016431547Z",
-            "fluc": 91
+            "timestamp": "2025-11-20T00:04:42.310920763Z",
+            "fluc": 67
           }
         }
       },
@@ -252,7 +252,7 @@
         "gear": "",
         "odds": {
           "fixed_win": 81,
-          "fixed_place": 7.5
+          "fixed_place": 6.5
         },
         "scratch_time": 0,
         "barrier": 1,
@@ -296,7 +296,10 @@
         "flucs": [
           81,
           126,
-          81
+          81,
+          91,
+          81,
+          91
         ],
         "scr_time": null,
         "competitor_id": "",
@@ -310,12 +313,24 @@
               "fluc": 81
             },
             {
+              "timestamp": "2025-11-20T00:04:42.016744396Z",
+              "fluc": 126
+            },
+            {
               "timestamp": "2025-11-20T00:04:42.310897874Z",
               "fluc": 81
             },
             {
-              "timestamp": "2025-11-20T00:04:42.016744396Z",
-              "fluc": 126
+              "timestamp": "2025-11-21T23:22:18.066458478Z",
+              "fluc": 91
+            },
+            {
+              "timestamp": "2025-11-21T23:36:41.931738089Z",
+              "fluc": 81
+            },
+            {
+              "timestamp": "2025-11-21T23:38:18.462629521Z",
+              "fluc": 91
             }
           ],
           "open": {
@@ -327,12 +342,12 @@
             "fluc": 126
           },
           "low": {
-            "timestamp": "2025-11-18T19:59:57.635221145Z",
+            "timestamp": "2025-11-21T23:36:41.931738089Z",
             "fluc": 81
           },
           "nine_am": {
-            "timestamp": "2025-11-20T00:04:42.310897874Z",
-            "fluc": 81
+            "timestamp": "2025-11-20T00:04:42.016744396Z",
+            "fluc": 126
           }
         }
       },
@@ -344,8 +359,8 @@
         "is_scratched": false,
         "gear": "",
         "odds": {
-          "fixed_win": 8,
-          "fixed_place": 1.5
+          "fixed_win": 9,
+          "fixed_place": 1.6
         },
         "scratch_time": 0,
         "barrier": 2,
@@ -375,7 +390,7 @@
           "total": ""
         },
         "favourite": false,
-        "mover": true,
+        "mover": false,
         "speedmap": {
           "settling_lengths": 8,
           "entrant_id": "1895c36c-bcb9-4572-86e9-05d77eb6f89e",
@@ -389,8 +404,9 @@
         "flucs": [
           8.5,
           8,
+          8,
           9.5,
-          8
+          8.5
         ],
         "scr_time": null,
         "competitor_id": "",
@@ -408,12 +424,16 @@
               "fluc": 8
             },
             {
+              "timestamp": "2025-11-20T00:04:42.311087097Z",
+              "fluc": 8
+            },
+            {
               "timestamp": "2025-11-20T00:04:42.01704719Z",
               "fluc": 9.5
             },
             {
-              "timestamp": "2025-11-20T00:04:42.311087097Z",
-              "fluc": 8
+              "timestamp": "2025-11-21T23:36:41.931682492Z",
+              "fluc": 8.5
             }
           ],
           "open": {
@@ -425,12 +445,12 @@
             "fluc": 9.5
           },
           "low": {
-            "timestamp": "2025-11-19T03:33:04.226928721Z",
+            "timestamp": "2025-11-20T00:04:42.311087097Z",
             "fluc": 8
           },
           "nine_am": {
-            "timestamp": "2025-11-20T00:04:42.01704719Z",
-            "fluc": 9.5
+            "timestamp": "2025-11-20T00:04:42.311087097Z",
+            "fluc": 8
           }
         }
       },
@@ -486,8 +506,11 @@
         "meta": null,
         "flucs": [
           81,
+          81,
           126,
-          81
+          91,
+          81,
+          91
         ],
         "scr_time": null,
         "competitor_id": "",
@@ -501,12 +524,24 @@
               "fluc": 81
             },
             {
+              "timestamp": "2025-11-20T00:04:42.310925067Z",
+              "fluc": 81
+            },
+            {
               "timestamp": "2025-11-20T00:04:42.016906164Z",
               "fluc": 126
             },
             {
-              "timestamp": "2025-11-20T00:04:42.310925067Z",
+              "timestamp": "2025-11-21T23:22:18.066433779Z",
+              "fluc": 91
+            },
+            {
+              "timestamp": "2025-11-21T23:36:41.931733602Z",
               "fluc": 81
+            },
+            {
+              "timestamp": "2025-11-21T23:38:18.462571399Z",
+              "fluc": 91
             }
           ],
           "open": {
@@ -522,8 +557,8 @@
             "fluc": 81
           },
           "nine_am": {
-            "timestamp": "2025-11-20T00:04:42.016906164Z",
-            "fluc": 126
+            "timestamp": "2025-11-20T00:04:42.310925067Z",
+            "fluc": 81
           }
         }
       },
@@ -536,7 +571,7 @@
         "gear": "",
         "odds": {
           "fixed_win": 31,
-          "fixed_place": 3.6
+          "fixed_place": 3.7
         },
         "scratch_time": 0,
         "barrier": 4,
@@ -579,8 +614,8 @@
         "meta": null,
         "flucs": [
           31,
-          31,
-          41
+          41,
+          31
         ],
         "scr_time": null,
         "competitor_id": "",
@@ -594,12 +629,12 @@
               "fluc": 31
             },
             {
-              "timestamp": "2025-11-20T00:04:42.310822472Z",
-              "fluc": 31
-            },
-            {
               "timestamp": "2025-11-20T00:04:42.016942891Z",
               "fluc": 41
+            },
+            {
+              "timestamp": "2025-11-20T00:04:42.310822472Z",
+              "fluc": 31
             }
           ],
           "open": {
@@ -611,12 +646,12 @@
             "fluc": 41
           },
           "low": {
-            "timestamp": "2025-11-20T00:04:42.310822472Z",
+            "timestamp": "2025-11-18T19:59:57.635366266Z",
             "fluc": 31
           },
           "nine_am": {
-            "timestamp": "2025-11-20T00:04:42.310822472Z",
-            "fluc": 31
+            "timestamp": "2025-11-20T00:04:42.016942891Z",
+            "fluc": 41
           }
         }
       },
@@ -672,8 +707,9 @@
         "meta": null,
         "flucs": [
           67,
+          67,
           91,
-          67
+          71
         ],
         "scr_time": null,
         "competitor_id": "",
@@ -687,12 +723,16 @@
               "fluc": 67
             },
             {
+              "timestamp": "2025-11-20T00:04:42.310831777Z",
+              "fluc": 67
+            },
+            {
               "timestamp": "2025-11-20T00:04:42.016749571Z",
               "fluc": 91
             },
             {
-              "timestamp": "2025-11-20T00:04:42.310831777Z",
-              "fluc": 67
+              "timestamp": "2025-11-21T23:22:18.066470633Z",
+              "fluc": 71
             }
           ],
           "open": {
@@ -708,8 +748,8 @@
             "fluc": 67
           },
           "nine_am": {
-            "timestamp": "2025-11-20T00:04:42.016749571Z",
-            "fluc": 91
+            "timestamp": "2025-11-20T00:04:42.310831777Z",
+            "fluc": 67
           }
         }
       },
@@ -721,8 +761,8 @@
         "is_scratched": false,
         "gear": "",
         "odds": {
-          "fixed_win": 23,
-          "fixed_place": 2.9
+          "fixed_win": 16,
+          "fixed_place": 2.1
         },
         "scratch_time": 0,
         "barrier": 6,
@@ -752,7 +792,7 @@
           "total": ""
         },
         "favourite": false,
-        "mover": false,
+        "mover": true,
         "speedmap": {
           "settling_lengths": 6,
           "entrant_id": "89901ccb-900f-4b2b-898b-bbd252cddb0b",
@@ -773,7 +813,10 @@
         "flucs": [
           23,
           31,
-          23
+          23,
+          21,
+          17,
+          16
         ],
         "scr_time": null,
         "competitor_id": "",
@@ -793,6 +836,18 @@
             {
               "timestamp": "2025-11-20T00:04:42.310928592Z",
               "fluc": 23
+            },
+            {
+              "timestamp": "2025-11-21T23:22:18.066419019Z",
+              "fluc": 21
+            },
+            {
+              "timestamp": "2025-11-21T23:36:41.931654552Z",
+              "fluc": 17
+            },
+            {
+              "timestamp": "2025-11-21T23:38:18.462592193Z",
+              "fluc": 16
             }
           ],
           "open": {
@@ -804,8 +859,8 @@
             "fluc": 31
           },
           "low": {
-            "timestamp": "2025-11-20T00:04:42.310928592Z",
-            "fluc": 23
+            "timestamp": "2025-11-21T23:38:18.462592193Z",
+            "fluc": 16
           },
           "nine_am": {
             "timestamp": "2025-11-20T00:04:42.016837717Z",
@@ -866,7 +921,10 @@
         "flucs": [
           81,
           81,
-          126
+          126,
+          91,
+          81,
+          91
         ],
         "scr_time": null,
         "competitor_id": "",
@@ -880,12 +938,24 @@
               "fluc": 81
             },
             {
+              "timestamp": "2025-11-20T00:04:42.311009415Z",
+              "fluc": 81
+            },
+            {
               "timestamp": "2025-11-20T00:04:42.016912037Z",
               "fluc": 126
             },
             {
-              "timestamp": "2025-11-20T00:04:42.311009415Z",
+              "timestamp": "2025-11-21T23:22:18.066494987Z",
+              "fluc": 91
+            },
+            {
+              "timestamp": "2025-11-21T23:36:41.931745076Z",
               "fluc": 81
+            },
+            {
+              "timestamp": "2025-11-21T23:38:18.462610047Z",
+              "fluc": 91
             }
           ],
           "open": {
@@ -901,8 +971,8 @@
             "fluc": 81
           },
           "nine_am": {
-            "timestamp": "2025-11-20T00:04:42.016912037Z",
-            "fluc": 126
+            "timestamp": "2025-11-20T00:04:42.311009415Z",
+            "fluc": 81
           }
         }
       },
@@ -915,7 +985,7 @@
         "gear": "[Bit - Headcheck ON, Bit - Lugging ON, Blinkers - Dolly Vardon ON, Deafeners - Plugs ON, Headcheck - Fixed ON, Hopples - Half ON, Shadow Roll ON, Whip ON, Fly Veil ON, Bandages OFF]",
         "odds": {
           "fixed_win": 12,
-          "fixed_place": 1.85
+          "fixed_place": 1.9
         },
         "scratch_time": 0,
         "barrier": 2,
@@ -990,7 +1060,7 @@
             "fluc": 14
           },
           "low": {
-            "timestamp": "2025-11-20T00:04:42.310825407Z",
+            "timestamp": "2025-11-18T19:59:57.635197016Z",
             "fluc": 12
           },
           "nine_am": {
@@ -1008,7 +1078,7 @@
         "gear": "",
         "odds": {
           "fixed_win": 23,
-          "fixed_place": 2.9
+          "fixed_place": 3
         },
         "scratch_time": 0,
         "barrier": 3,
@@ -1058,8 +1128,8 @@
         "meta": null,
         "flucs": [
           23,
-          31,
-          23
+          23,
+          31
         ],
         "scr_time": null,
         "competitor_id": "",
@@ -1073,12 +1143,12 @@
               "fluc": 23
             },
             {
-              "timestamp": "2025-11-20T00:04:42.016595286Z",
-              "fluc": 31
-            },
-            {
               "timestamp": "2025-11-20T00:04:42.311038184Z",
               "fluc": 23
+            },
+            {
+              "timestamp": "2025-11-20T00:04:42.016595286Z",
+              "fluc": 31
             }
           ],
           "open": {
@@ -1094,8 +1164,8 @@
             "fluc": 23
           },
           "nine_am": {
-            "timestamp": "2025-11-20T00:04:42.016595286Z",
-            "fluc": 31
+            "timestamp": "2025-11-20T00:04:42.311038184Z",
+            "fluc": 23
           }
         }
       },
@@ -1241,7 +1311,7 @@
         "favourite": false,
         "mover": false,
         "speedmap": {
-          "settling_lengths": 5,
+          "settling_lengths": 4,
           "entrant_id": "45ae274a-4844-4ab6-895d-fc8dde81bbcd",
           "label": "Midfield"
         },
@@ -1252,8 +1322,9 @@
         "meta": null,
         "flucs": [
           67,
+          91,
           67,
-          91
+          71
         ],
         "scr_time": null,
         "competitor_id": "",
@@ -1267,12 +1338,16 @@
               "fluc": 67
             },
             {
+              "timestamp": "2025-11-20T00:04:42.016837452Z",
+              "fluc": 91
+            },
+            {
               "timestamp": "2025-11-20T00:04:42.31089232Z",
               "fluc": 67
             },
             {
-              "timestamp": "2025-11-20T00:04:42.016837452Z",
-              "fluc": 91
+              "timestamp": "2025-11-21T23:22:18.066480145Z",
+              "fluc": 71
             }
           ],
           "open": {
@@ -1288,8 +1363,8 @@
             "fluc": 67
           },
           "nine_am": {
-            "timestamp": "2025-11-20T00:04:42.31089232Z",
-            "fluc": 67
+            "timestamp": "2025-11-20T00:04:42.016837452Z",
+            "fluc": 91
           }
         }
       },
@@ -1302,7 +1377,7 @@
         "gear": "",
         "odds": {
           "fixed_win": 67,
-          "fixed_place": 6.5
+          "fixed_place": 7
         },
         "scratch_time": 0,
         "barrier": 6,
@@ -1334,7 +1409,7 @@
         "favourite": false,
         "mover": false,
         "speedmap": {
-          "settling_lengths": 4,
+          "settling_lengths": 5,
           "entrant_id": "79739a64-1645-4342-9ea4-f0e3ba623b6d",
           "label": "Midfield"
         },
@@ -1345,8 +1420,9 @@
         "meta": null,
         "flucs": [
           67,
+          67,
           91,
-          67
+          71
         ],
         "scr_time": null,
         "competitor_id": "",
@@ -1366,6 +1442,10 @@
             {
               "timestamp": "2025-11-20T00:04:42.311085732Z",
               "fluc": 67
+            },
+            {
+              "timestamp": "2025-11-21T23:22:18.066511969Z",
+              "fluc": 71
             }
           ],
           "open": {
@@ -1389,39 +1469,39 @@
     ],
     "derivatives": null,
     "mover": {
-      "entrant_id": "1895c36c-bcb9-4572-86e9-05d77eb6f89e",
+      "entrant_id": "89901ccb-900f-4b2b-898b-bbd252cddb0b",
       "market_name": "Final Field",
       "primary_market": true,
-      "name": "Pinnie",
+      "name": "Mega Spur",
       "is_scratched": false,
       "gear": "",
       "odds": {
-        "fixed_win": 8,
-        "fixed_place": 1.5
+        "fixed_win": 16,
+        "fixed_place": 2.1
       },
       "scratch_time": 0,
-      "barrier": 2,
-      "barrier_position": "Fr2",
-      "runner_number": 3,
-      "prize_money": "149708",
+      "barrier": 6,
+      "barrier_position": "Fr6",
+      "runner_number": 7,
+      "prize_money": "79287",
       "age": 4,
       "sex": "M",
-      "colour": "B/BR",
-      "silk_colours": "BLACK, WHITE STARS, RED SLEEVES",
-      "silk_url_64x64": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODUzNDYz/pinnie_64x64.png",
-      "silk_url_128x128": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODUzNDYz/pinnie_128x128.png",
+      "colour": "B",
+      "silk_colours": "BLACK, WHITE DIAMONDS, BLACK BAND",
+      "silk_url_64x64": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODUzNDYz/mega-spur_64x64.png",
+      "silk_url_128x128": "https://cdn.prod.pricekinetics.com/silks/events/racing/betmakers-cmFjZToxODUzNDYz/mega-spur_128x128.png",
       "form_comment": null,
       "class_level": "",
-      "jockey": "Kate Gath",
+      "jockey": "James Herbertson",
       "apprentice_indicator": "",
       "allowance_weight": "",
-      "owners": "Arbit Each Way Pty Ltd (Mgr: J Nieuwenburg)",
+      "owners": "J Glavas",
       "country": "AUS",
-      "trainer_name": "Andy Gath",
-      "last_twenty_starts": "3017x32141",
-      "sire": "VOLSTEAD (USA)",
-      "dam": "NEEDLE (NZ)",
-      "breeding": "4 m VOLSTEAD (USA)-NEEDLE (NZ)",
+      "trainer_name": "Shane Hoban",
+      "last_twenty_starts": "12663x1423",
+      "sire": "PEGASUS SPUR (CAN)",
+      "dam": "EL SCORCHO (AUS)",
+      "breeding": "4 m PEGASUS SPUR (CAN)-EL SCORCHO (AUS)",
       "weight": {
         "allocated": "",
         "total": ""
@@ -1429,13 +1509,20 @@
       "favourite": false,
       "mover": true,
       "speedmap": {
-        "settling_lengths": 8,
-        "entrant_id": "1895c36c-bcb9-4572-86e9-05d77eb6f89e"
+        "settling_lengths": 6,
+        "entrant_id": "89901ccb-900f-4b2b-898b-bbd252cddb0b"
       },
-      "form_indicators": null,
+      "form_indicators": [
+        {
+          "name": "Nearing Another Win",
+          "group": "Win",
+          "negative": false,
+          "priority": 210
+        }
+      ],
       "past_performances": null,
       "jockey_past_performances": null,
-      "trainer_location": "Long Forest"
+      "trainer_location": "Toolern Vale"
     },
     "big_bets": null,
     "live_bets": null,
