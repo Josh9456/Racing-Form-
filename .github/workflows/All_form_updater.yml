@@ -110,7 +110,7 @@ jobs:
           cat > run_scraper.py << 'EOFPYTHON'
           import os
           import sys
-          from ladbrokes_racing_scraper import LadbrokesRacingScraper
+          from scraper import LadbrokesRacingScraper
           
           # Get configuration from environment
           email = os.getenv('SCRAPER_EMAIL')
@@ -121,7 +121,7 @@ jobs:
           
           # Parse countries and categories
           if countries_str == 'ALL':
-              countries = ['AUS', 'NZL', 'HKG', 'SGP', 'JPN', 'GBR', 'IRL', 'USA', 'CAN', 'FRA', 'ARG', 'ZAF', 'UAE', 'SAU']
+              countries = 'ALL'
           else:
               countries = [c.strip() for c in countries_str.split(',')]
           
@@ -133,6 +133,7 @@ jobs:
           print(f"  Categories: {categories}")
           
           # Run scraper
+          # Note: Assuming scraper.py is in the root and class is LadbrokesRacingScraper
           scraper = LadbrokesRacingScraper(email, partner)
           scraper.scrape_and_save(
               date=date,
