@@ -1,0 +1,994 @@
+{
+  "header": {
+    "title": "Event Details: b64cd5f8-e23f-4113-85ac-dc390f0571fb",
+    "generated_time": "2026-11-15T02:57:04.501722837Z",
+    "url": "/affiliates/v1/racing/events/b64cd5f8-e23f-4113-85ac-dc390f0571fb?enc=json&include_form=true&include_odds=true&include_flucs=true&include_speedmap=true&include_past_performances=true&include_form_indicators=true&include_jockey_stats=true&include_trainer_stats=true"
+  },
+  "params": {
+    "enc": "json",
+    "id": "b64cd5f8-e23f-4113-85ac-dc390f0571fb",
+    "present_overlay": false,
+    "with_big_bets": false,
+    "with_live_bets": false,
+    "with_money_tracker": false,
+    "with_biggest_bet": false,
+    "will_pays": false,
+    "with_tote_trends_data": false,
+    "bet_type_filter": "",
+    "bets_limit": 10
+  },
+  "data": {
+    "race": {
+      "event_id": "b64cd5f8-e23f-4113-85ac-dc390f0571fb",
+      "meeting_name": "Temora",
+      "display_meeting_name": "Temora",
+      "meeting_id": "03d56e37-5994-51c0-998e-c135cbf93255",
+      "status": "Open",
+      "description": "Altora Ag Services",
+      "advertised_start": 1794737400,
+      "actual_start": 1794737400,
+      "advertised_start_string": "2026-11-15 10:10:00 +0000 UTC",
+      "actual_start_string": "2026-11-15 10:10:00 +0000 UTC",
+      "race_number": 9,
+      "type": "G",
+      "start_type": "",
+      "country": "AUS",
+      "state": "NSW",
+      "distance": 330,
+      "weather": "FINE",
+      "form_guide": "",
+      "comment": "LEDGER'S DESIRE (5) was strongly supported last start when a short priced favourite and duly saluted winning by 3.5 lengths at this track in a handy 18.59. Awkwardly drawn but goes well over this trip. Has won three of three starts from this draw. Hard to fault recent form and looks a key chance again. PAW HART (7) is a capable type and proved too classy last time to win by 1.5 lengths at this track in a handy 18.89 beating Classic Edge. The form from his last run stacks up well. One of the key runners again. MY RUPEE (2) is in the mix despite missing out at this track last time.",
+      "silk_base_url": "drr38safykj6s.cloudfront.net",
+      "track_condition": "Good",
+      "track_direction": "Left",
+      "silk_url": "https://www.ladbrokes.com.au/images/sprites/greyhound-silks-standard.png",
+      "entrant_count": 8,
+      "positions_paid": 2,
+      "video_channels": [
+        "Live1"
+      ],
+      "video_channels_meta": {
+        "Live1": {
+          "RaceNo": 9,
+          "RaceType": "G",
+          "SlotType": "",
+          "SlotTitle": "",
+          "VenueName": "Temora",
+          "CrossPoint": 143,
+          "RacePriority": "1",
+          "SlotDuration": "",
+          "SchedulerNote": "Country",
+          "CrossPointName": "Main - TBS 03",
+          "SlotDescription": "",
+          "UtcRaceStartTime": "2026-11-15T10:10:00Z",
+          "VenueCountryCode": "AU",
+          "VenueProviderName": "GRNSW",
+          "DisplayRaceStartTime": "2026-11-15T20:10:00",
+          "SchedulerNotePriority": "None"
+        }
+      },
+      "tips": [
+        "92158500-3261-4c53-ae37-ed5dee87a2c1",
+        "6924f078-b280-4b0c-b52f-85b50cfbd125",
+        "139391a4-eed0-413c-b459-919a976d93ff"
+      ],
+      "rail_position": "",
+      "group": "",
+      "prize_monies": {
+        "1st": 1700,
+        "2nd": 505,
+        "3rd": 375,
+        "4th": 75,
+        "total_value": 2655
+      },
+      "track_home_straight": 0
+    },
+    "favourite": {
+      "entrant_id": "92158500-3261-4c53-ae37-ed5dee87a2c1",
+      "market_name": "Final Field",
+      "primary_market": true,
+      "name": "Ledger's Desire",
+      "is_scratched": false,
+      "gear": "",
+      "best_time": "18.35",
+      "odds": {
+        "fixed_win": 1.12,
+        "fixed_place": 1.02
+      },
+      "scratch_time": 0,
+      "barrier": 5,
+      "runner_number": 5,
+      "prize_money": "41800",
+      "age": 2,
+      "sex": "D",
+      "colour": "RED/FWN",
+      "silk_colours": "",
+      "silk_url_64x64": "",
+      "silk_url_128x128": "",
+      "form_comment": null,
+      "class_level": "",
+      "jockey": "",
+      "apprentice_indicator": "",
+      "allowance_weight": "",
+      "owners": "Thelma O'Keefe",
+      "country": "AUS",
+      "trainer_name": "Terry O'keefe",
+      "last_twenty_starts": "x132111111",
+      "sire": "FERAL FRANKY (AUS)",
+      "dam": "EVERY CHANCE (AUS)",
+      "breeding": "d FERAL FRANKY (AUS)-EVERY CHANCE (AUS)",
+      "weight": {
+        "allocated": "",
+        "total": ""
+      },
+      "favourite": false,
+      "mover": false,
+      "speedmap": {
+        "settling_lengths": 9,
+        "entrant_id": "92158500-3261-4c53-ae37-ed5dee87a2c1"
+      },
+      "form_indicators": [
+        {
+          "name": "Picket Fence",
+          "group": "Last_Start_Winner",
+          "negative": false,
+          "priority": 220
+        },
+        {
+          "name": "Box Specialist",
+          "group": "Box_History",
+          "negative": false,
+          "priority": 70
+        },
+        {
+          "name": "Unbeaten from the Box",
+          "group": "Track",
+          "negative": false,
+          "priority": 65
+        },
+        {
+          "name": "Track / Distance Specialist",
+          "group": "Track_Distance",
+          "negative": false,
+          "priority": 60
+        },
+        {
+          "name": "Track Specialist",
+          "group": "Track",
+          "negative": false,
+          "priority": 20
+        }
+      ],
+      "past_performances": null,
+      "jockey_past_performances": null,
+      "trainer_location": "COOTAMUNDRA"
+    },
+    "runners": [
+      {
+        "entrant_id": "e98256ea-24d2-4a53-a547-7bbe7706c8a7",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Darcy Mac",
+        "is_scratched": true,
+        "gear": "",
+        "best_time": "18.56",
+        "odds": {
+          "fixed_win": 0,
+          "fixed_place": 0
+        },
+        "scratch_time": 1794690776,
+        "barrier": 1,
+        "runner_number": 1,
+        "prize_money": "28080",
+        "age": 2,
+        "sex": "D",
+        "colour": "BL",
+        "silk_colours": "",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "Jacob Moodie",
+        "country": "AUS",
+        "trainer_name": "Rodney McDonald",
+        "last_twenty_starts": "4111125315",
+        "sire": "SHIMA SHINE (AUS)",
+        "dam": "MONKEY TAIL (AUS)",
+        "breeding": "d SHIMA SHINE (AUS)-MONKEY TAIL (AUS)",
+        "weight": {
+          "allocated": "",
+          "total": ""
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {
+          "settling_lengths": 1,
+          "entrant_id": "e98256ea-24d2-4a53-a547-7bbe7706c8a7",
+          "label": "invalid settling lengths"
+        },
+        "form_indicators": [
+          {
+            "name": "Box Specialist",
+            "group": "Box_History",
+            "negative": false,
+            "priority": 70
+          },
+          {
+            "name": "Track / Distance Specialist",
+            "group": "Track_Distance",
+            "negative": false,
+            "priority": 60
+          },
+          {
+            "name": "Track Specialist",
+            "group": "Track",
+            "negative": false,
+            "priority": 20
+          }
+        ],
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "COWRA",
+        "meta": null,
+        "flucs": [],
+        "scr_time": "2026-11-14T21:12:56Z",
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [],
+          "open": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          },
+          "high": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          },
+          "low": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          },
+          "nine_am": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          }
+        }
+      },
+      {
+        "entrant_id": "139391a4-eed0-413c-b459-919a976d93ff",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "My Rupee",
+        "is_scratched": false,
+        "gear": "",
+        "best_time": "18.51",
+        "odds": {
+          "fixed_win": 12,
+          "fixed_place": 2.6
+        },
+        "scratch_time": 0,
+        "barrier": 2,
+        "runner_number": 2,
+        "prize_money": "20515",
+        "age": 3,
+        "sex": "D",
+        "colour": "BLU/BDL",
+        "silk_colours": "",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "Rodney Bates",
+        "country": "AUS",
+        "trainer_name": "Rodney Bates",
+        "last_twenty_starts": "3231354416",
+        "sire": "ASTON RUPEE (AUS)",
+        "dam": "MY SAPPHIRE (AUS)",
+        "breeding": "d ASTON RUPEE (AUS)-MY SAPPHIRE (AUS)",
+        "weight": {
+          "allocated": "",
+          "total": ""
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {
+          "settling_lengths": 9,
+          "entrant_id": "139391a4-eed0-413c-b459-919a976d93ff",
+          "label": "Leader"
+        },
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "DIRNASEER",
+        "meta": null,
+        "flucs": [
+          13,
+          12,
+          13,
+          12,
+          13,
+          12
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2026-11-15T02:46:52.444182627Z",
+              "fluc": 13
+            },
+            {
+              "timestamp": "2026-11-15T02:48:10.140784741Z",
+              "fluc": 12
+            },
+            {
+              "timestamp": "2026-11-15T02:50:45.539063453Z",
+              "fluc": 13
+            },
+            {
+              "timestamp": "2026-11-15T02:52:03.942811165Z",
+              "fluc": 12
+            },
+            {
+              "timestamp": "2026-11-15T02:54:39.340135951Z",
+              "fluc": 13
+            },
+            {
+              "timestamp": "2026-11-15T02:55:57.738764015Z",
+              "fluc": 12
+            }
+          ],
+          "open": {
+            "timestamp": "2026-11-14T22:03:09.150594395Z",
+            "fluc": 12
+          },
+          "high": {
+            "timestamp": "2026-11-15T02:46:52.444182627Z",
+            "fluc": 13
+          },
+          "low": {
+            "timestamp": "2026-11-14T22:03:09.150594395Z",
+            "fluc": 12
+          },
+          "nine_am": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          }
+        }
+      },
+      {
+        "entrant_id": "32e32e17-f85c-4f58-ba77-655661e619af",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Vacant Box",
+        "is_scratched": true,
+        "gear": "",
+        "best_time": "",
+        "odds": {
+          "fixed_win": 0,
+          "fixed_place": 0
+        },
+        "scratch_time": 1794448848,
+        "barrier": 3,
+        "runner_number": 3,
+        "prize_money": "",
+        "age": 0,
+        "sex": "",
+        "colour": "",
+        "silk_colours": "",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "",
+        "country": "",
+        "trainer_name": "No Trainer",
+        "last_twenty_starts": "",
+        "sire": "",
+        "dam": "",
+        "breeding": " -",
+        "weight": {
+          "allocated": "",
+          "total": ""
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {},
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "",
+        "meta": null,
+        "flucs": [],
+        "scr_time": "2026-11-12T02:00:48Z",
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [],
+          "open": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          },
+          "high": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          },
+          "low": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          },
+          "nine_am": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          }
+        }
+      },
+      {
+        "entrant_id": "b8b10ff9-fb18-4884-b880-d9e6b48b33a7",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Polka Dot Pink",
+        "is_scratched": false,
+        "gear": "",
+        "best_time": "18.62",
+        "odds": {
+          "fixed_win": 26,
+          "fixed_place": 4.4
+        },
+        "scratch_time": 0,
+        "barrier": 4,
+        "runner_number": 4,
+        "prize_money": "19805",
+        "age": 3,
+        "sex": "B",
+        "colour": "BL",
+        "silk_colours": "",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "Matthew Keenan",
+        "country": "AUS",
+        "trainer_name": "William Schwencke",
+        "last_twenty_starts": "6267x14651",
+        "sire": "FERNANDO BALE (AUS)",
+        "dam": "PINK LEMONADE (AUS)",
+        "breeding": "b FERNANDO BALE (AUS)-PINK LEMONADE (AUS)",
+        "weight": {
+          "allocated": "",
+          "total": ""
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {
+          "settling_lengths": 9,
+          "entrant_id": "b8b10ff9-fb18-4884-b880-d9e6b48b33a7",
+          "label": "Leader"
+        },
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "TEMORA",
+        "meta": null,
+        "flucs": [
+          23,
+          26,
+          23,
+          26,
+          23,
+          26
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2026-11-15T02:45:34.738404522Z",
+              "fluc": 23
+            },
+            {
+              "timestamp": "2026-11-15T02:46:52.444198346Z",
+              "fluc": 26
+            },
+            {
+              "timestamp": "2026-11-15T02:49:27.842652566Z",
+              "fluc": 23
+            },
+            {
+              "timestamp": "2026-11-15T02:50:45.539054443Z",
+              "fluc": 26
+            },
+            {
+              "timestamp": "2026-11-15T02:53:21.644332464Z",
+              "fluc": 23
+            },
+            {
+              "timestamp": "2026-11-15T02:54:39.340142893Z",
+              "fluc": 26
+            }
+          ],
+          "open": {
+            "timestamp": "2026-11-14T22:03:09.150593831Z",
+            "fluc": 26
+          },
+          "high": {
+            "timestamp": "2026-11-15T02:46:52.444198346Z",
+            "fluc": 26
+          },
+          "low": {
+            "timestamp": "2026-11-15T02:45:34.738404522Z",
+            "fluc": 23
+          },
+          "nine_am": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          }
+        }
+      },
+      {
+        "entrant_id": "92158500-3261-4c53-ae37-ed5dee87a2c1",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Ledger's Desire",
+        "is_scratched": false,
+        "gear": "",
+        "best_time": "18.35",
+        "odds": {
+          "fixed_win": 1.12,
+          "fixed_place": 1.02
+        },
+        "scratch_time": 0,
+        "barrier": 5,
+        "runner_number": 5,
+        "prize_money": "41800",
+        "age": 2,
+        "sex": "D",
+        "colour": "RED/FWN",
+        "silk_colours": "",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "Thelma O'Keefe",
+        "country": "AUS",
+        "trainer_name": "Terry O'keefe",
+        "last_twenty_starts": "x132111111",
+        "sire": "FERAL FRANKY (AUS)",
+        "dam": "EVERY CHANCE (AUS)",
+        "breeding": "d FERAL FRANKY (AUS)-EVERY CHANCE (AUS)",
+        "weight": {
+          "allocated": "",
+          "total": ""
+        },
+        "favourite": true,
+        "mover": false,
+        "speedmap": {
+          "settling_lengths": 9,
+          "entrant_id": "92158500-3261-4c53-ae37-ed5dee87a2c1",
+          "label": "Leader"
+        },
+        "form_indicators": [
+          {
+            "name": "Picket Fence",
+            "group": "Last_Start_Winner",
+            "negative": false,
+            "priority": 220
+          },
+          {
+            "name": "Box Specialist",
+            "group": "Box_History",
+            "negative": false,
+            "priority": 70
+          },
+          {
+            "name": "Unbeaten from the Box",
+            "group": "Track",
+            "negative": false,
+            "priority": 65
+          },
+          {
+            "name": "Track / Distance Specialist",
+            "group": "Track_Distance",
+            "negative": false,
+            "priority": 60
+          },
+          {
+            "name": "Track Specialist",
+            "group": "Track",
+            "negative": false,
+            "priority": 20
+          }
+        ],
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "COOTAMUNDRA",
+        "meta": null,
+        "flucs": [
+          1.12
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2026-11-14T22:03:09.150603293Z",
+              "fluc": 1.12
+            }
+          ],
+          "open": {
+            "timestamp": "2026-11-14T22:03:09.150603293Z",
+            "fluc": 1.12
+          },
+          "high": {
+            "timestamp": "2026-11-14T22:03:09.150603293Z",
+            "fluc": 1.12
+          },
+          "low": {
+            "timestamp": "2026-11-14T22:03:09.150603293Z",
+            "fluc": 1.12
+          },
+          "nine_am": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          }
+        }
+      },
+      {
+        "entrant_id": "18f5a914-d010-41af-9044-a15fd87e4884",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Vacant Box",
+        "is_scratched": true,
+        "gear": "",
+        "best_time": "",
+        "odds": {
+          "fixed_win": 0,
+          "fixed_place": 0
+        },
+        "scratch_time": 1794448848,
+        "barrier": 6,
+        "runner_number": 6,
+        "prize_money": "",
+        "age": 0,
+        "sex": "",
+        "colour": "",
+        "silk_colours": "",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "",
+        "country": "",
+        "trainer_name": "No Trainer",
+        "last_twenty_starts": "",
+        "sire": "",
+        "dam": "",
+        "breeding": " -",
+        "weight": {
+          "allocated": "",
+          "total": ""
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {},
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "",
+        "meta": null,
+        "flucs": [],
+        "scr_time": "2026-11-12T02:00:48Z",
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [],
+          "open": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          },
+          "high": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          },
+          "low": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          },
+          "nine_am": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          }
+        }
+      },
+      {
+        "entrant_id": "6924f078-b280-4b0c-b52f-85b50cfbd125",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Paw Hart",
+        "is_scratched": false,
+        "gear": "",
+        "best_time": "18.72",
+        "odds": {
+          "fixed_win": 7,
+          "fixed_place": 1.9
+        },
+        "scratch_time": 0,
+        "barrier": 7,
+        "runner_number": 7,
+        "prize_money": "16980",
+        "age": 2,
+        "sex": "D",
+        "colour": " ",
+        "silk_colours": "",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "Brendan Wheeler",
+        "country": "AUS",
+        "trainer_name": "Ike Mccorkindale",
+        "last_twenty_starts": "3142648171",
+        "sire": "FERAL FRANKY (AUS)",
+        "dam": "MAELYNN BALE (AUS)",
+        "breeding": "d FERAL FRANKY (AUS)-MAELYNN BALE (AUS)",
+        "weight": {
+          "allocated": "",
+          "total": ""
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {
+          "settling_lengths": 9,
+          "entrant_id": "6924f078-b280-4b0c-b52f-85b50cfbd125",
+          "label": "Leader"
+        },
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "YOUNG",
+        "meta": null,
+        "flucs": [
+          7,
+          6.5,
+          7
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2026-11-14T22:03:09.15059771Z",
+              "fluc": 7
+            },
+            {
+              "timestamp": "2026-11-14T22:04:51.340511074Z",
+              "fluc": 6.5
+            },
+            {
+              "timestamp": "2026-11-14T22:06:31.442960611Z",
+              "fluc": 7
+            }
+          ],
+          "open": {
+            "timestamp": "2026-11-14T22:03:09.15059771Z",
+            "fluc": 7
+          },
+          "high": {
+            "timestamp": "2026-11-14T22:03:09.15059771Z",
+            "fluc": 7
+          },
+          "low": {
+            "timestamp": "2026-11-14T22:04:51.340511074Z",
+            "fluc": 6.5
+          },
+          "nine_am": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          }
+        }
+      },
+      {
+        "entrant_id": "35bad957-b58b-4c10-a295-bae06e5fd03d",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Dark Panther",
+        "is_scratched": false,
+        "gear": "",
+        "best_time": "18.55",
+        "odds": {
+          "fixed_win": 7,
+          "fixed_place": 1.9
+        },
+        "scratch_time": 0,
+        "barrier": 8,
+        "runner_number": 8,
+        "prize_money": "26780",
+        "age": 3,
+        "sex": "D",
+        "colour": "BL",
+        "silk_colours": "",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "Colin Bradley",
+        "country": "AUS",
+        "trainer_name": "Colin Bradley",
+        "last_twenty_starts": "1451414523",
+        "sire": "ASTON RUPEE (AUS)",
+        "dam": "CHOICE CHANCE (AUS)",
+        "breeding": "d ASTON RUPEE (AUS)-CHOICE CHANCE (AUS)",
+        "weight": {
+          "allocated": "",
+          "total": ""
+        },
+        "favourite": false,
+        "mover": true,
+        "speedmap": {
+          "settling_lengths": 9,
+          "entrant_id": "35bad957-b58b-4c10-a295-bae06e5fd03d",
+          "label": "Leader"
+        },
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "TEMORA",
+        "meta": null,
+        "flucs": [
+          7.5,
+          7,
+          7.5,
+          7,
+          7.5,
+          7
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2026-11-15T02:45:34.738327422Z",
+              "fluc": 7.5
+            },
+            {
+              "timestamp": "2026-11-15T02:48:10.140781118Z",
+              "fluc": 7
+            },
+            {
+              "timestamp": "2026-11-15T02:49:27.84263655Z",
+              "fluc": 7.5
+            },
+            {
+              "timestamp": "2026-11-15T02:52:03.942800899Z",
+              "fluc": 7
+            },
+            {
+              "timestamp": "2026-11-15T02:53:21.644326351Z",
+              "fluc": 7.5
+            },
+            {
+              "timestamp": "2026-11-15T02:55:57.738774772Z",
+              "fluc": 7
+            }
+          ],
+          "open": {
+            "timestamp": "2026-11-14T22:03:09.150608691Z",
+            "fluc": 7.5
+          },
+          "high": {
+            "timestamp": "2026-11-15T02:45:34.738327422Z",
+            "fluc": 7.5
+          },
+          "low": {
+            "timestamp": "2026-11-15T02:44:17.039133847Z",
+            "fluc": 7
+          },
+          "nine_am": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          }
+        }
+      }
+    ],
+    "derivatives": null,
+    "mover": {
+      "entrant_id": "35bad957-b58b-4c10-a295-bae06e5fd03d",
+      "market_name": "Final Field",
+      "primary_market": true,
+      "name": "Dark Panther",
+      "is_scratched": false,
+      "gear": "",
+      "best_time": "18.55",
+      "odds": {
+        "fixed_win": 7,
+        "fixed_place": 1.9
+      },
+      "scratch_time": 0,
+      "barrier": 8,
+      "runner_number": 8,
+      "prize_money": "26780",
+      "age": 3,
+      "sex": "D",
+      "colour": "BL",
+      "silk_colours": "",
+      "silk_url_64x64": "",
+      "silk_url_128x128": "",
+      "form_comment": null,
+      "class_level": "",
+      "jockey": "",
+      "apprentice_indicator": "",
+      "allowance_weight": "",
+      "owners": "Colin Bradley",
+      "country": "AUS",
+      "trainer_name": "Colin Bradley",
+      "last_twenty_starts": "1451414523",
+      "sire": "ASTON RUPEE (AUS)",
+      "dam": "CHOICE CHANCE (AUS)",
+      "breeding": "d ASTON RUPEE (AUS)-CHOICE CHANCE (AUS)",
+      "weight": {
+        "allocated": "",
+        "total": ""
+      },
+      "favourite": false,
+      "mover": true,
+      "speedmap": {
+        "settling_lengths": 9,
+        "entrant_id": "35bad957-b58b-4c10-a295-bae06e5fd03d"
+      },
+      "form_indicators": null,
+      "past_performances": null,
+      "jockey_past_performances": null,
+      "trainer_location": "TEMORA"
+    },
+    "big_bets": null,
+    "live_bets": null,
+    "biggest_bet": null,
+    "money_tracker": null,
+    "error": ""
+  }
+}
