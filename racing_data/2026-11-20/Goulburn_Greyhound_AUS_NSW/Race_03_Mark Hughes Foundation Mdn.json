@@ -1,0 +1,1387 @@
+{
+  "header": {
+    "title": "Event Details: e1cbb345-ea79-4d14-9a00-a324258eb646",
+    "generated_time": "2026-11-20T04:08:09.854721244Z",
+    "url": "/affiliates/v1/racing/events/e1cbb345-ea79-4d14-9a00-a324258eb646?enc=json&include_form=true&include_odds=true&include_flucs=true&include_speedmap=true&include_past_performances=true&include_form_indicators=true&include_jockey_stats=true&include_trainer_stats=true"
+  },
+  "params": {
+    "enc": "json",
+    "id": "e1cbb345-ea79-4d14-9a00-a324258eb646",
+    "present_overlay": false,
+    "with_big_bets": false,
+    "with_live_bets": false,
+    "with_money_tracker": false,
+    "with_biggest_bet": false,
+    "will_pays": false,
+    "with_tote_trends_data": false,
+    "bet_type_filter": "",
+    "bets_limit": 10
+  },
+  "data": {
+    "race": {
+      "event_id": "e1cbb345-ea79-4d14-9a00-a324258eb646",
+      "meeting_name": "Goulburn",
+      "display_meeting_name": "Goulburn",
+      "meeting_id": "b9b02c2b-ffc3-5e01-a820-8174fbf129c7",
+      "status": "Final",
+      "description": "Mark Hughes Foundation Mdn",
+      "advertised_start": 1795141920,
+      "actual_start": 1795141952,
+      "advertised_start_string": "2026-11-20 02:32:00 +0000 UTC",
+      "actual_start_string": "2026-11-20 02:32:32 +0000 UTC",
+      "race_number": 3,
+      "type": "G",
+      "start_type": "",
+      "country": "AUS",
+      "state": "NSW",
+      "distance": 440,
+      "weather": "overcast",
+      "form_guide": "",
+      "comment": "SINALOA CELINE (2) is on debut with a good inside draw a bonus. Can kick off with a winning run. CURRENCY BANDIT (4) is on debut and has a tricky draw to overcome. Likely to run well. ZIPPING WINKLER (1) jumps at a shorter trip and still warrants respect.",
+      "silk_base_url": "drr38safykj6s.cloudfront.net",
+      "track_condition": "Good",
+      "track_direction": "Right",
+      "silk_url": "https://www.ladbrokes.com.au/images/sprites/greyhound-silks-standard.png",
+      "entrant_count": 8,
+      "positions_paid": 2,
+      "video_channels": [
+        "Live1"
+      ],
+      "video_channels_meta": {
+        "Live1": {
+          "RaceNo": 3,
+          "RaceType": "G",
+          "SlotType": "",
+          "SlotTitle": "",
+          "VenueName": "Goulburn",
+          "CrossPoint": 141,
+          "RacePriority": "2",
+          "SlotDuration": "",
+          "SchedulerNote": "Country",
+          "CrossPointName": "Main - TBS 01",
+          "SlotDescription": "",
+          "UtcRaceStartTime": "2026-11-20T02:32:00Z",
+          "VenueCountryCode": "AU",
+          "VenueProviderName": "GRNSW",
+          "DisplayRaceStartTime": "2026-11-20T12:32:00",
+          "SchedulerNotePriority": "None"
+        }
+      },
+      "tips": [
+        "db324814-e3a1-4a7c-ab95-ecad852630fd",
+        "694e9e65-971a-45d3-9e25-207c3f14ec72",
+        "724ec534-5855-4e20-9d9f-77c3218a3b8e"
+      ],
+      "rail_position": "",
+      "group": "",
+      "prize_monies": {
+        "1st": 1300,
+        "2nd": 475,
+        "3rd": 375,
+        "4th": 150,
+        "total_value": 2300
+      },
+      "track_home_straight": 0
+    },
+    "results": [
+      {
+        "position": 1,
+        "name": "Knack",
+        "barrier": 6,
+        "runner_number": 6,
+        "margin_length": 4.25,
+        "entrant_id": "5f0897c0-e16e-40b2-a332-12be439a1dac"
+      },
+      {
+        "position": 2,
+        "name": "Sinaloa Celine",
+        "barrier": 2,
+        "runner_number": 2,
+        "margin_length": 4.25,
+        "entrant_id": "db324814-e3a1-4a7c-ab95-ecad852630fd"
+      },
+      {
+        "position": 3,
+        "name": "Galba Dancer",
+        "barrier": 3,
+        "runner_number": 3,
+        "margin_length": 4.75,
+        "entrant_id": "c6f29baa-efa2-4897-8032-7107417c404e"
+      },
+      {
+        "position": 4,
+        "name": "Jacobite Martin",
+        "barrier": 7,
+        "runner_number": 7,
+        "margin_length": 5.25,
+        "entrant_id": "be02c1b6-1dca-4878-b285-80cbe201deca"
+      },
+      {
+        "position": 5,
+        "name": "Currency Bandit",
+        "barrier": 4,
+        "runner_number": 4,
+        "margin_length": 6,
+        "entrant_id": "694e9e65-971a-45d3-9e25-207c3f14ec72"
+      },
+      {
+        "position": 6,
+        "name": "Zipping Winkler",
+        "barrier": 1,
+        "runner_number": 1,
+        "margin_length": 6.25,
+        "entrant_id": "724ec534-5855-4e20-9d9f-77c3218a3b8e"
+      }
+    ],
+    "dividends": [
+      {
+        "id": "80ffd712-8c43-5ea9-be9f-d0d1716db94c",
+        "tote": "QLD",
+        "product_name": "First Four",
+        "status": "Final",
+        "dividend": 184.1,
+        "pool_size": 2371,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          },
+          {
+            "runner_number": 2,
+            "position": 2
+          },
+          {
+            "runner_number": 3,
+            "position": 3
+          },
+          {
+            "runner_number": 7,
+            "position": 4
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "e404c0c8-4636-5174-8b5d-734f7f0f5c27",
+        "tote": "NSW",
+        "product_name": "Trifecta",
+        "status": "Final",
+        "dividend": 41.6,
+        "pool_size": 2214,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          },
+          {
+            "runner_number": 2,
+            "position": 2
+          },
+          {
+            "runner_number": 3,
+            "position": 3
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "3ce99a30-420c-599b-9e0f-d534de5a6616",
+        "tote": "QLD",
+        "product_name": "Trifecta",
+        "status": "Final",
+        "dividend": 41.6,
+        "pool_size": 2214,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          },
+          {
+            "runner_number": 2,
+            "position": 2
+          },
+          {
+            "runner_number": 3,
+            "position": 3
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "5f0e1510-306c-5ad0-b89c-3c1b7ade2877",
+        "tote": "NSW",
+        "product_name": "Exacta",
+        "status": "Final",
+        "dividend": 10.2,
+        "pool_size": 632,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          },
+          {
+            "runner_number": 2,
+            "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "bdfc4803-28f4-5c4d-88a5-83049eced246",
+        "tote": "QLD",
+        "product_name": "Tote Place",
+        "status": "Final",
+        "dividend": 1.6,
+        "pool_size": 794,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "e8607dba-6df8-55c3-b6e3-d8a923ce40aa",
+        "tote": "NSW",
+        "product_name": "Tote Win",
+        "status": "Final",
+        "dividend": 3.4,
+        "pool_size": 3432,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "e41639d8-28f3-5ea6-9989-86b96050e9b7",
+        "tote": "QLD",
+        "product_name": "Tote Win",
+        "status": "Final",
+        "dividend": 3.4,
+        "pool_size": 3432,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "018e16a0-ac06-5b99-849f-dac36b7baaa9",
+        "tote": "VIC",
+        "product_name": "Tote Place",
+        "status": "Final",
+        "dividend": 1.8,
+        "pool_size": 794,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "3d52bf6b-3058-5361-bcec-23ba38716ef4",
+        "tote": "NSW",
+        "product_name": "Tote Place",
+        "status": "Final",
+        "dividend": 1.6,
+        "pool_size": 794,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "d24bd63f-d234-57d2-87f1-01dd5b497e3f",
+        "tote": "QLD",
+        "product_name": "Quinella",
+        "status": "Final",
+        "dividend": 4.6,
+        "pool_size": 1193,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          },
+          {
+            "runner_number": 2,
+            "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "70a42ab4-5e9b-5628-a3ef-d898822fbff1",
+        "tote": "VIC",
+        "product_name": "First Four",
+        "status": "Final",
+        "dividend": 184.1,
+        "pool_size": 2371,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          },
+          {
+            "runner_number": 2,
+            "position": 2
+          },
+          {
+            "runner_number": 3,
+            "position": 3
+          },
+          {
+            "runner_number": 7,
+            "position": 4
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "8f5638ee-d2ee-5710-8b8a-16366dad3b8d",
+        "tote": "VIC",
+        "product_name": "Tote Place",
+        "status": "Final",
+        "dividend": 1.6,
+        "pool_size": 794,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 2,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "c1f6a2d4-2786-5014-92c2-c17a9b7c5a9c",
+        "tote": "VIC",
+        "product_name": "Exacta",
+        "status": "Final",
+        "dividend": 10.2,
+        "pool_size": 632,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          },
+          {
+            "runner_number": 2,
+            "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "fc61c6ab-6133-5f6a-a558-8bb65c11702c",
+        "tote": "VIC",
+        "product_name": "Running Double",
+        "status": "Final",
+        "dividend": 0,
+        "pool_size": 5,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "a31e8d14-0946-54b1-aaff-023f84991c75",
+        "tote": "QLD",
+        "product_name": "Exacta",
+        "status": "Final",
+        "dividend": 10.2,
+        "pool_size": 632,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          },
+          {
+            "runner_number": 2,
+            "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "1ca8680e-31b4-5e29-9c6c-579cb902e435",
+        "tote": "QLD",
+        "product_name": "Tote Place",
+        "status": "Final",
+        "dividend": 1.8,
+        "pool_size": 794,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "43e0d214-ac08-514e-9513-977a1a7b222d",
+        "tote": "NSW",
+        "product_name": "First Four",
+        "status": "Final",
+        "dividend": 184.1,
+        "pool_size": 2371,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          },
+          {
+            "runner_number": 2,
+            "position": 2
+          },
+          {
+            "runner_number": 3,
+            "position": 3
+          },
+          {
+            "runner_number": 7,
+            "position": 4
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "b919d9aa-dcd0-519a-8631-338c5510fa6b",
+        "tote": "VIC",
+        "product_name": "Quinella",
+        "status": "Final",
+        "dividend": 4.6,
+        "pool_size": 1193,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          },
+          {
+            "runner_number": 2,
+            "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "327c6127-4c2b-583a-9988-559a06e1a9c5",
+        "tote": "VIC",
+        "product_name": "Trifecta",
+        "status": "Final",
+        "dividend": 41.6,
+        "pool_size": 2214,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          },
+          {
+            "runner_number": 2,
+            "position": 2
+          },
+          {
+            "runner_number": 3,
+            "position": 3
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "33ab1626-3273-5932-9b43-f72b7d90a2fb",
+        "tote": "NSW",
+        "product_name": "Tote Place",
+        "status": "Final",
+        "dividend": 1.8,
+        "pool_size": 794,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "c24e74e1-01dd-5d0c-8851-8576e46213c7",
+        "tote": "NSW",
+        "product_name": "Quinella",
+        "status": "Final",
+        "dividend": 4.6,
+        "pool_size": 1193,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          },
+          {
+            "runner_number": 2,
+            "position": 2
+          }
+        ],
+        "description": ""
+      },
+      {
+        "id": "29885d74-df7e-53e8-b724-879fb8539dfe",
+        "tote": "VIC",
+        "product_name": "Tote Win",
+        "status": "Final",
+        "dividend": 3.4,
+        "pool_size": 3432,
+        "jackpot_size": 0,
+        "positions": [
+          {
+            "runner_number": 6,
+            "position": 1
+          }
+        ],
+        "description": ""
+      }
+    ],
+    "substitutions": [
+      {
+        "entrant_id": "db324814-e3a1-4a7c-ab95-ecad852630fd",
+        "tote": "QLD",
+        "product_name": "Tote Win"
+      },
+      {
+        "entrant_id": "db324814-e3a1-4a7c-ab95-ecad852630fd",
+        "tote": "VIC",
+        "product_name": "Tote Win"
+      },
+      {
+        "entrant_id": "db324814-e3a1-4a7c-ab95-ecad852630fd",
+        "tote": "NSW",
+        "product_name": "Tote Win"
+      }
+    ],
+    "favourite": {
+      "entrant_id": "db324814-e3a1-4a7c-ab95-ecad852630fd",
+      "market_name": "Final Field",
+      "primary_market": true,
+      "name": "Sinaloa Celine",
+      "is_scratched": false,
+      "gear": "",
+      "best_time": "NBT",
+      "odds": {
+        "fixed_win": 2.15,
+        "fixed_place": 1.35
+      },
+      "scratch_time": 0,
+      "barrier": 2,
+      "runner_number": 2,
+      "prize_money": "0",
+      "age": 1,
+      "sex": "B",
+      "colour": "BL",
+      "silk_colours": "",
+      "silk_url_64x64": "",
+      "silk_url_128x128": "",
+      "form_comment": null,
+      "class_level": "",
+      "jockey": "",
+      "apprentice_indicator": "",
+      "allowance_weight": "",
+      "owners": "Grace Lord",
+      "country": "AUS",
+      "trainer_name": "Jodie Lord",
+      "last_twenty_starts": "",
+      "sire": "BERNARDO (AUS)",
+      "dam": "MORTIFIED (AUS)",
+      "breeding": "b BERNARDO (AUS)-MORTIFIED (AUS)",
+      "weight": {
+        "allocated": "",
+        "total": ""
+      },
+      "favourite": false,
+      "mover": false,
+      "speedmap": {},
+      "form_indicators": null,
+      "past_performances": null,
+      "jockey_past_performances": null,
+      "trainer_location": "GUNNING"
+    },
+    "runners": [
+      {
+        "entrant_id": "724ec534-5855-4e20-9d9f-77c3218a3b8e",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Zipping Winkler",
+        "is_scratched": false,
+        "gear": "",
+        "best_time": "NBT",
+        "odds": {
+          "fixed_win": 21,
+          "fixed_place": 4.8
+        },
+        "scratch_time": 0,
+        "barrier": 1,
+        "runner_number": 1,
+        "prize_money": "1515",
+        "age": 2,
+        "sex": "D",
+        "colour": "BL/BDL",
+        "silk_colours": "",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "Rodney Morley",
+        "country": "AUS",
+        "trainer_name": "Rodney Morley",
+        "last_twenty_starts": "77x3x545f2",
+        "sire": "SUPERIOR PANAMA (AUS)",
+        "dam": "ZIPPING LUCILLE (AUS)",
+        "breeding": "d SUPERIOR PANAMA (AUS)-ZIPPING LUCILLE (AUS)",
+        "weight": {
+          "allocated": "",
+          "total": ""
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {
+          "settling_lengths": 5,
+          "entrant_id": "724ec534-5855-4e20-9d9f-77c3218a3b8e",
+          "label": "Midfield"
+        },
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "KARABAR",
+        "meta": null,
+        "flucs": [
+          12,
+          35,
+          17,
+          21
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2026-11-19T22:06:55.756055987Z",
+              "fluc": 12
+            },
+            {
+              "timestamp": "2026-11-20T02:24:13.608325442Z",
+              "fluc": 35
+            },
+            {
+              "timestamp": "2026-11-20T02:29:58.009081646Z",
+              "fluc": 17
+            },
+            {
+              "timestamp": "2026-11-20T02:32:25.600881265Z",
+              "fluc": 21
+            }
+          ],
+          "open": {
+            "timestamp": "2026-11-19T22:06:55.756055987Z",
+            "fluc": 12
+          },
+          "high": {
+            "timestamp": "2026-11-20T02:24:13.608325442Z",
+            "fluc": 35
+          },
+          "low": {
+            "timestamp": "2026-11-19T22:06:55.756055987Z",
+            "fluc": 12
+          },
+          "nine_am": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          }
+        }
+      },
+      {
+        "entrant_id": "db324814-e3a1-4a7c-ab95-ecad852630fd",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Sinaloa Celine",
+        "is_scratched": false,
+        "gear": "",
+        "best_time": "NBT",
+        "odds": {
+          "fixed_win": 2.15,
+          "fixed_place": 1.35
+        },
+        "scratch_time": 0,
+        "barrier": 2,
+        "runner_number": 2,
+        "prize_money": "0",
+        "age": 1,
+        "sex": "B",
+        "colour": "BL",
+        "silk_colours": "",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "Grace Lord",
+        "country": "AUS",
+        "trainer_name": "Jodie Lord",
+        "last_twenty_starts": "",
+        "sire": "BERNARDO (AUS)",
+        "dam": "MORTIFIED (AUS)",
+        "breeding": "b BERNARDO (AUS)-MORTIFIED (AUS)",
+        "weight": {
+          "allocated": "",
+          "total": ""
+        },
+        "favourite": true,
+        "mover": true,
+        "speedmap": {},
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "GUNNING",
+        "meta": null,
+        "flucs": [
+          3.2,
+          2.45,
+          2.15
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2026-11-19T22:06:55.756069045Z",
+              "fluc": 3.2
+            },
+            {
+              "timestamp": "2026-11-20T02:27:40.354942149Z",
+              "fluc": 2.45
+            },
+            {
+              "timestamp": "2026-11-20T02:32:10.856983697Z",
+              "fluc": 2.15
+            }
+          ],
+          "open": {
+            "timestamp": "2026-11-19T22:06:55.756069045Z",
+            "fluc": 3.2
+          },
+          "high": {
+            "timestamp": "2026-11-19T22:06:55.756069045Z",
+            "fluc": 3.2
+          },
+          "low": {
+            "timestamp": "2026-11-20T02:32:10.856983697Z",
+            "fluc": 2.15
+          },
+          "nine_am": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          }
+        }
+      },
+      {
+        "entrant_id": "c6f29baa-efa2-4897-8032-7107417c404e",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Galba Dancer",
+        "is_scratched": false,
+        "gear": "",
+        "best_time": "NBT",
+        "odds": {
+          "fixed_win": 11,
+          "fixed_place": 3.3
+        },
+        "scratch_time": 0,
+        "barrier": 3,
+        "runner_number": 3,
+        "prize_money": "1180",
+        "age": 2,
+        "sex": "B",
+        "colour": "DK BDL",
+        "silk_colours": "",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "David Allen",
+        "country": "AUS",
+        "trainer_name": "Neil Staines",
+        "last_twenty_starts": "23723",
+        "sire": "WOW (AUS)",
+        "dam": "RAINBOW DANCER (AUS)",
+        "breeding": "b WOW (AUS)-RAINBOW DANCER (AUS)",
+        "weight": {
+          "allocated": "",
+          "total": ""
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {
+          "settling_lengths": 4,
+          "entrant_id": "c6f29baa-efa2-4897-8032-7107417c404e",
+          "label": "Midfield"
+        },
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "YASS",
+        "meta": null,
+        "flucs": [
+          4,
+          7,
+          11
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2026-11-19T22:06:55.756047371Z",
+              "fluc": 4
+            },
+            {
+              "timestamp": "2026-11-20T02:03:07.262856334Z",
+              "fluc": 7
+            },
+            {
+              "timestamp": "2026-11-20T02:31:30.609192582Z",
+              "fluc": 11
+            }
+          ],
+          "open": {
+            "timestamp": "2026-11-19T22:06:55.756047371Z",
+            "fluc": 4
+          },
+          "high": {
+            "timestamp": "2026-11-20T02:31:30.609192582Z",
+            "fluc": 11
+          },
+          "low": {
+            "timestamp": "2026-11-19T22:06:55.756047371Z",
+            "fluc": 4
+          },
+          "nine_am": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          }
+        }
+      },
+      {
+        "entrant_id": "694e9e65-971a-45d3-9e25-207c3f14ec72",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Currency Bandit",
+        "is_scratched": false,
+        "gear": "",
+        "best_time": "NBT",
+        "odds": {
+          "fixed_win": 3.6,
+          "fixed_place": 1.7
+        },
+        "scratch_time": 0,
+        "barrier": 4,
+        "runner_number": 4,
+        "prize_money": "0",
+        "age": 1,
+        "sex": "B",
+        "colour": "BLU",
+        "silk_colours": "",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "Jodie Lord",
+        "country": "AUS",
+        "trainer_name": "Jodie Lord",
+        "last_twenty_starts": "",
+        "sire": "TOMMY SHELBY (AUS)",
+        "dam": "COIN MODEL (AUS)",
+        "breeding": "b TOMMY SHELBY (AUS)-COIN MODEL (AUS)",
+        "weight": {
+          "allocated": "",
+          "total": ""
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {},
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "GUNNING",
+        "meta": null,
+        "flucs": [
+          2.3,
+          1.9,
+          3.6
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2026-11-19T22:06:55.756075305Z",
+              "fluc": 2.3
+            },
+            {
+              "timestamp": "2026-11-20T02:04:27.056335375Z",
+              "fluc": 1.9
+            },
+            {
+              "timestamp": "2026-11-20T02:32:25.600873275Z",
+              "fluc": 3.6
+            }
+          ],
+          "open": {
+            "timestamp": "2026-11-19T22:06:55.756075305Z",
+            "fluc": 2.3
+          },
+          "high": {
+            "timestamp": "2026-11-20T02:32:25.600873275Z",
+            "fluc": 3.6
+          },
+          "low": {
+            "timestamp": "2026-11-20T02:04:27.056335375Z",
+            "fluc": 1.9
+          },
+          "nine_am": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          }
+        }
+      },
+      {
+        "entrant_id": "64c92fc6-ffb5-4a19-845d-f67117f0e5af",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Affable",
+        "is_scratched": true,
+        "gear": "",
+        "best_time": "NBT",
+        "odds": {
+          "fixed_win": 0,
+          "fixed_place": 0
+        },
+        "scratch_time": 1795038921,
+        "barrier": 5,
+        "runner_number": 5,
+        "prize_money": "0",
+        "age": 1,
+        "sex": "B",
+        "colour": "RED/FWN",
+        "silk_colours": "",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "Subawa Ngurah",
+        "country": "AUS",
+        "trainer_name": "Subawa Ngurah",
+        "last_twenty_starts": "",
+        "sire": "BERNARDO (AUS)",
+        "dam": "ORO ROJO (AUS)",
+        "breeding": "b BERNARDO (AUS)-ORO ROJO (AUS)",
+        "weight": {
+          "allocated": "",
+          "total": ""
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {},
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "TALLONG",
+        "meta": null,
+        "flucs": [],
+        "scr_time": "2026-11-18T21:55:21Z",
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [],
+          "open": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          },
+          "high": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          },
+          "low": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          },
+          "nine_am": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          }
+        }
+      },
+      {
+        "entrant_id": "5f0897c0-e16e-40b2-a332-12be439a1dac",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Knack",
+        "is_scratched": false,
+        "gear": "",
+        "best_time": "NBT",
+        "odds": {
+          "fixed_win": 3.1,
+          "fixed_place": 1.6
+        },
+        "scratch_time": 0,
+        "barrier": 6,
+        "runner_number": 6,
+        "prize_money": "0",
+        "age": 1,
+        "sex": "D",
+        "colour": "RED/FWN",
+        "silk_colours": "",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "Subawa Ngurah",
+        "country": "AUS",
+        "trainer_name": "Subawa Ngurah",
+        "last_twenty_starts": "",
+        "sire": "BERNARDO (AUS)",
+        "dam": "ORO ROJO (AUS)",
+        "breeding": "d BERNARDO (AUS)-ORO ROJO (AUS)",
+        "weight": {
+          "allocated": "",
+          "total": ""
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {},
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "TALLONG",
+        "meta": null,
+        "flucs": [
+          4.8,
+          4.6,
+          3.1
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2026-11-19T22:06:55.756063755Z",
+              "fluc": 4.8
+            },
+            {
+              "timestamp": "2026-11-20T02:27:30.356863465Z",
+              "fluc": 4.6
+            },
+            {
+              "timestamp": "2026-11-20T02:32:20.60356197Z",
+              "fluc": 3.1
+            }
+          ],
+          "open": {
+            "timestamp": "2026-11-19T22:06:55.756063755Z",
+            "fluc": 4.8
+          },
+          "high": {
+            "timestamp": "2026-11-19T22:06:55.756063755Z",
+            "fluc": 4.8
+          },
+          "low": {
+            "timestamp": "2026-11-20T02:32:20.60356197Z",
+            "fluc": 3.1
+          },
+          "nine_am": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          }
+        }
+      },
+      {
+        "entrant_id": "be02c1b6-1dca-4878-b285-80cbe201deca",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Jacobite Martin",
+        "is_scratched": false,
+        "gear": "",
+        "best_time": "25.30",
+        "odds": {
+          "fixed_win": 46,
+          "fixed_place": 8
+        },
+        "scratch_time": 0,
+        "barrier": 7,
+        "runner_number": 7,
+        "prize_money": "2300",
+        "age": 2,
+        "sex": "D",
+        "colour": "BLU",
+        "silk_colours": "",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "Joanne Kerr",
+        "country": "AUS",
+        "trainer_name": "Joanne Kerr",
+        "last_twenty_starts": "4485624434",
+        "sire": "SWIFT FANCY (AUS)",
+        "dam": "JACOBITE SWAN (AUS)",
+        "breeding": "d SWIFT FANCY (AUS)-JACOBITE SWAN (AUS)",
+        "weight": {
+          "allocated": "",
+          "total": ""
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {
+          "settling_lengths": 1,
+          "entrant_id": "be02c1b6-1dca-4878-b285-80cbe201deca",
+          "label": "Backmarker"
+        },
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "FOREST REEFS",
+        "meta": null,
+        "flucs": [
+          41,
+          101,
+          46
+        ],
+        "scr_time": null,
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [
+            {
+              "timestamp": "2026-11-19T22:06:55.75604533Z",
+              "fluc": 41
+            },
+            {
+              "timestamp": "2026-11-20T02:23:05.350789153Z",
+              "fluc": 101
+            },
+            {
+              "timestamp": "2026-11-20T02:32:20.603576035Z",
+              "fluc": 46
+            }
+          ],
+          "open": {
+            "timestamp": "2026-11-19T22:06:55.75604533Z",
+            "fluc": 41
+          },
+          "high": {
+            "timestamp": "2026-11-20T02:23:05.350789153Z",
+            "fluc": 101
+          },
+          "low": {
+            "timestamp": "2026-11-19T22:06:55.75604533Z",
+            "fluc": 41
+          },
+          "nine_am": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          }
+        }
+      },
+      {
+        "entrant_id": "301c4585-05c5-4c9e-8178-1e29f221dddc",
+        "market_name": "Final Field",
+        "primary_market": true,
+        "name": "Mellcat Herbert",
+        "is_scratched": true,
+        "gear": "",
+        "best_time": "NBT",
+        "odds": {
+          "fixed_win": 0,
+          "fixed_place": 0
+        },
+        "scratch_time": 1795125148,
+        "barrier": 8,
+        "runner_number": 8,
+        "prize_money": "0",
+        "age": 3,
+        "sex": "D",
+        "colour": "BL",
+        "silk_colours": "",
+        "silk_url_64x64": "",
+        "silk_url_128x128": "",
+        "form_comment": null,
+        "class_level": "",
+        "jockey": "",
+        "apprentice_indicator": "",
+        "allowance_weight": "",
+        "owners": "J Mellon & C Mellon",
+        "country": "AUS",
+        "trainer_name": "John Mellon",
+        "last_twenty_starts": "",
+        "sire": "WOW (AUS)",
+        "dam": "SAINT SOFIA (AUS)",
+        "breeding": "d WOW (AUS)-SAINT SOFIA (AUS)",
+        "weight": {
+          "allocated": "",
+          "total": ""
+        },
+        "favourite": false,
+        "mover": false,
+        "speedmap": {},
+        "form_indicators": null,
+        "past_performances": null,
+        "jockey_past_performances": null,
+        "trainer_location": "WINGELLO",
+        "meta": null,
+        "flucs": [],
+        "scr_time": "2026-11-19T21:52:28Z",
+        "competitor_id": "",
+        "ride_guide_exists": false,
+        "ride_guide_thumbnail": "",
+        "ride_guide_file": "",
+        "flucs_with_timestamp": {
+          "last_six": [],
+          "open": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          },
+          "high": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          },
+          "low": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          },
+          "nine_am": {
+            "timestamp": "0001-01-01T00:00:00Z",
+            "fluc": 0
+          }
+        }
+      }
+    ],
+    "derivatives": null,
+    "mover": {
+      "entrant_id": "db324814-e3a1-4a7c-ab95-ecad852630fd",
+      "market_name": "Final Field",
+      "primary_market": true,
+      "name": "Sinaloa Celine",
+      "is_scratched": false,
+      "gear": "",
+      "best_time": "NBT",
+      "odds": {
+        "fixed_win": 2.15,
+        "fixed_place": 1.35
+      },
+      "scratch_time": 0,
+      "barrier": 2,
+      "runner_number": 2,
+      "prize_money": "0",
+      "age": 1,
+      "sex": "B",
+      "colour": "BL",
+      "silk_colours": "",
+      "silk_url_64x64": "",
+      "silk_url_128x128": "",
+      "form_comment": null,
+      "class_level": "",
+      "jockey": "",
+      "apprentice_indicator": "",
+      "allowance_weight": "",
+      "owners": "Grace Lord",
+      "country": "AUS",
+      "trainer_name": "Jodie Lord",
+      "last_twenty_starts": "",
+      "sire": "BERNARDO (AUS)",
+      "dam": "MORTIFIED (AUS)",
+      "breeding": "b BERNARDO (AUS)-MORTIFIED (AUS)",
+      "weight": {
+        "allocated": "",
+        "total": ""
+      },
+      "favourite": false,
+      "mover": true,
+      "speedmap": {},
+      "form_indicators": null,
+      "past_performances": null,
+      "jockey_past_performances": null,
+      "trainer_location": "GUNNING"
+    },
+    "big_bets": null,
+    "live_bets": null,
+    "biggest_bet": null,
+    "money_tracker": null,
+    "error": ""
+  }
+}
